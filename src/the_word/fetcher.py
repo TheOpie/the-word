@@ -6,7 +6,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-AGENTCDN_BASE = "https://yellow-resonance-7c40.workers.dev/agent"
+AGENTCDN_BASE = "https://yellow-resonance-7c40.opieworks-ai.workers.dev/agent"
 
 
 async def fetch_agentcdn(client: httpx.AsyncClient, url: str) -> str | None:
