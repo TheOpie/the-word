@@ -19,13 +19,14 @@ def cmd_scrape(args):
     from .fetcher import fetch_all_sources
     from .structurer import structure_events
     from .processor import process_events
+    from .images import enrich_images
     from .writer import write_events
     from .publisher import publish
 
     print("=== TheWord Pipeline ===")
 
     # 1. Fetch
-    print("\n[1/5] Fetching sources...")
+    print("\n[1/6] Fetching sources...")
     sources_yaml = CONFIG_DIR / "sources.yaml"
     raw_content = asyncio.run(fetch_all_sources(sources_yaml))
     if not raw_content:
@@ -33,31 +34,35 @@ def cmd_scrape(args):
         sys.exit(1)
 
     # 2. Structure
-    print(f"\n[2/5] Structuring events from {len(raw_content)} sources...")
+    print("\n[2/6] Structuring events from {} sources...".format(len(raw_content)))
     raw_events = asyncio.run(structure_events(raw_content))
-    print(f"  Extracted {len(raw_events)} raw events")
+    print("  Extracted {} raw events".format(len(raw_events)))
 
     # 3. Process
-    print("\n[3/5] Processing (dedup, tagging, consolidation)...")
+    print("\n[3/6] Processing (dedup, tagging, consolidation)...")
     venues_yaml = CONFIG_DIR / "venues.yaml"
     processed = process_events(raw_events, venues_yaml)
-    print(f"  {len(processed)} events after processing")
+    print("  {} events after processing".format(len(processed)))
 
-    # 4. Write
-    print("\n[4/5] Writing events.json...")
+    # 4. Enrich images
+    print("\n[4/6] Enriching event images...")
+    processed = asyncio.run(enrich_images(processed, raw_content))
+
+    # 5. Write
+    print("\n[5/6] Writing events.json...")
     events_json = DOCS_DIR / "events.json"
     written = write_events(processed, events_json)
     if not written:
         print("  Kept previous events.json (below minimum threshold)")
     else:
-        print(f"  Wrote {len(processed)} events to {events_json}")
+        print("  Wrote {} events to {}".format(len(processed), events_json))
 
-    # 5. Publish
+    # 6. Publish
     if not args.no_push:
-        print("\n[5/5] Publishing to GitHub...")
+        print("\n[6/6] Publishing to GitHub...")
         publish(ROOT, events_json, len(processed), len(raw_content))
     else:
-        print("\n[5/5] Skipping push (--no-push)")
+        print("\n[6/6] Skipping push (--no-push)")
 
     print("\n=== Done ===")
 

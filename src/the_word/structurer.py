@@ -24,6 +24,7 @@ Output a JSON array of event objects with these fields:
   "address": "Street address if available, otherwise omit",
   "description": "1-2 sentence description from the listing. Do not copy more than 2 sentences.",
   "sourceUrl": "Direct link to the event listing if available",
+  "imageUrl": "Direct URL to an event image/flyer/artist photo if visible in the content, otherwise null",
   "tags": []
 }
 
