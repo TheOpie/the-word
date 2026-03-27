@@ -1,11 +1,12 @@
 # TheWord — Scraping Sources
 # method: agentcdn (default) or browser (for JS-heavy sites)
 # Each source is fetched once per pipeline run.
+# Browser sources run sequentially; agentcdn sources run in parallel.
 
 sources:
   - name: Minneapolis.org Events
-    url: https://www.minneapolis.org/calendar/events/
-    method: agentcdn
+    url: https://www.minneapolis.org/calendar/
+    method: browser  # JS-rendered calendar widget
 
   - name: Minneapolis Events
     url: https://minneapolis.events
@@ -15,29 +16,29 @@ sources:
     url: https://twincitiesfamily.com/events/
     method: agentcdn
 
-  - name: Minneapolis Theater
-    url: https://www.minneapolis-theater.com/theaters/minneapolis/events.php
-    method: agentcdn
+  - name: Hennepin Theatre Trust
+    url: https://hennepintheatretrust.org/events/
+    method: agentcdn  # Replaced minneapolis-theater.com (404)
 
   - name: Songkick Minneapolis
     url: https://www.songkick.com/metro-areas/29313-us-minneapolis/events
     method: agentcdn
 
   - name: 331 Club
-    url: https://www.331club.com/#checks-calendar
-    method: browser
+    url: https://www.331club.com
+    method: browser  # JS-rendered calendar
 
   - name: Bandsintown Minneapolis
     url: https://www.bandsintown.com/c/minneapolis-mn
     method: agentcdn
 
-  - name: Uptown VFW
-    url: https://uptownvfw.org/events/
-    method: agentcdn
+  - name: First Avenue
+    url: https://first-avenue.com/calendar/
+    method: agentcdn  # Replaced Uptown VFW (no upcoming events)
 
   - name: Nobool Presents
     url: https://noboolpresents.com/events
-    method: agentcdn
+    method: browser  # Timeout on agentcdn, likely JS-heavy
 
   - name: The Current Events
     url: https://www.thecurrent.org/events
