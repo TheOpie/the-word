@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheWord — Minneapolis Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title graffiti-font divine-text-glow">THE WORD</h1>
+        <p class="site-subtitle">MINNEAPOLIS / ST. PAUL EVENTS</p>
+    </header>
+
+    <main>
+        <section class="filters">
+            <div class="date-filters">
+                <button class="filter-pill date-pill active" data-date="all">ALL</button>
+                <button class="filter-pill date-pill" data-date="today">TODAY</button>
+                <button class="filter-pill date-pill" data-date="tomorrow">TOMORROW</button>
+                <button class="filter-pill date-pill" data-date="weekend">WEEKEND</button>
+            </div>
+            <div class="tag-filters" id="tag-filters">
+                <!-- Populated by app.js -->
+            </div>
+        </section>
+
+        <div class="event-count" id="event-count"></div>
+        <div class="events-grid" id="events-grid">
+            <!-- Populated by app.js -->
+        </div>
+        <div class="no-events" id="no-events" style="display:none;">
+            <p class="graffiti-font">NO EVENTS MATCH YOUR FILTERS</p>
+            <p>Try a different combination or check back later.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p class="last-updated" id="last-updated"></p>
+        <p class="footer-text">CURATED BY <a href="https://theopie.com" target="_blank" rel="noopener">THEOPIE</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

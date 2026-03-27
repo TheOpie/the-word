@@ -1,0 +1,343 @@
+/* TheWord — 90s Street Art / Gospel Aesthetic */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+:root {
+    --gold: #FFD700;
+    --purple: #7B2D8E;
+    --dark-purple: #4A1259;
+    --black: #0D0D0D;
+    --cream: #FFF8E7;
+    --magenta: #E066FF;
+    --card-bg: #1a1a1a;
+    --card-border: rgba(123, 45, 142, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'Bebas Neue', sans-serif;
+    min-height: 100vh;
+    letter-spacing: 0.5px;
+}
+
+.graffiti-font {
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2.5rem 1rem 1rem;
+}
+
+.site-title {
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: var(--gold);
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+.site-subtitle {
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    color: var(--purple);
+    letter-spacing: 4px;
+}
+
+/* Glow effects */
+.divine-glow {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4), 0 0 60px rgba(123, 45, 142, 0.2);
+}
+
+.divine-text-glow {
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 40px rgba(255, 215, 0, 0.3);
+}
+
+/* Filters */
+.filters {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1rem 0;
+}
+
+.date-filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.tag-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.filter-pill {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--purple);
+    border-radius: 9999px;
+    background: transparent;
+    color: var(--cream);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.filter-pill:hover {
+    background: var(--dark-purple);
+    color: var(--cream);
+}
+
+.filter-pill.active {
+    background: var(--gold);
+    color: var(--black);
+    border-color: var(--gold);
+    font-weight: bold;
+}
+
+/* Event count */
+.event-count {
+    max-width: 1200px;
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+    font-size: 0.85rem;
+    color: rgba(255, 248, 231, 0.5);
+    letter-spacing: 1px;
+}
+
+/* Events grid */
+.events-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+@media (max-width: 900px) {
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Event card */
+.event-card {
+    background: linear-gradient(135deg, var(--card-bg), var(--black));
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.5), 0 0 80px rgba(123, 45, 142, 0.3);
+}
+
+.card-image {
+    position: relative;
+    aspect-ratio: 16/9;
+    background: var(--card-bg);
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.card-date-badge {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.date-badge {
+    background: var(--gold);
+    color: var(--black);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.tag-pill {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 9999px;
+    background: rgba(123, 45, 142, 0.4);
+    color: var(--magenta);
+    border: 1px solid rgba(123, 45, 142, 0.6);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.card-description {
+    color: #b0b0b0;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, sans-serif;
+    letter-spacing: 0;
+}
+
+.card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem;
+}
+
+.card-meta svg {
+    width: 1rem;
+    height: 1rem;
+    color: var(--purple);
+    flex-shrink: 0;
+}
+
+.card-meta span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--purple);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin-top: 0.75rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-link:hover {
+    background: #9B3DAE;
+}
+
+.card-link svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Date range badge for consolidated shows */
+.date-range-badge {
+    background: var(--dark-purple);
+    color: var(--cream);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* No events message */
+.no-events {
+    text-align: center;
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.no-events .graffiti-font {
+    font-size: 1.5rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+}
+
+.no-events p:last-child {
+    color: #888;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(123, 45, 142, 0.2);
+}
+
+.last-updated {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    color: var(--purple);
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.footer-text a {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
