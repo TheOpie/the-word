@@ -1,9 +1,13 @@
 """Event structurer — Claude API extraction from markdown content."""
 
+import asyncio
 import json
 import os
 
 import anthropic
+
+API_RETRIES = 1
+API_RETRY_DELAY = 5  # seconds
 
 REQUIRED_FIELDS = {"name", "dateTime", "venue"}
 
@@ -60,46 +64,64 @@ async def structure_events(source_content: dict[str, str]) -> list[dict]:
             truncated = content[:15_000]
             user_content += f"\n\n--- SOURCE: {name} ---\n{truncated}"
 
-        try:
-            response = client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=8192,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": user_content}],
-            )
-            text = response.content[0].text.strip()
+        for attempt in range(1 + API_RETRIES):
+            try:
+                response = client.messages.create(
+                    model="claude-sonnet-4-20250514",
+                    max_tokens=8192,
+                    system=SYSTEM_PROMPT,
+                    messages=[{"role": "user", "content": user_content}],
+                )
+                text = response.content[0].text.strip()
 
-            # Handle markdown-wrapped JSON
-            if text.startswith("```"):
-                text = text.split("\n", 1)[1]
-                if text.endswith("```"):
-                    text = text[:-3]
-                text = text.strip()
+                # Handle markdown-wrapped JSON
+                if text.startswith("```"):
+                    text = text.split("\n", 1)[1]
+                    if text.endswith("```"):
+                        text = text[:-3]
+                    text = text.strip()
 
-            events = json.loads(text)
-            if not isinstance(events, list):
-                print(f"  WARN: Batch {i} returned non-list, skipping")
-                continue
+                events = json.loads(text)
+                if not isinstance(events, list):
+                    print(f"  WARN: Batch {i} returned non-list, skipping")
+                    break
 
-            # Validate required fields
-            valid = []
-            dropped = 0
-            for event in events:
-                if all(event.get(f) for f in REQUIRED_FIELDS):
-                    valid.append(event)
+                # Validate required fields
+                valid = []
+                dropped = 0
+                for event in events:
+                    if all(event.get(f) for f in REQUIRED_FIELDS):
+                        valid.append(event)
+                    else:
+                        dropped += 1
+
+                if dropped:
+                    print(f"  Dropped {dropped} event(s): missing required fields")
+
+                all_events.extend(valid)
+                print(f"  Batch {i}: {len(valid)} valid events")
+                break  # success — don't retry
+
+            except json.JSONDecodeError as e:
+                print(f"  WARN: Batch {i} returned invalid JSON: {e}")
+                break  # retrying won't help
+            except anthropic.RateLimitError as e:
+                if attempt < API_RETRIES:
+                    wait = API_RETRY_DELAY * (attempt + 1)
+                    print(f"  WARN: Rate limited on batch {i}, retrying in {wait}s...")
+                    await asyncio.sleep(wait)
                 else:
-                    dropped += 1
-
-            if dropped:
-                print(f"  Dropped {dropped} event(s): missing required fields")
-
-            all_events.extend(valid)
-            print(f"  Batch {i}: {len(valid)} valid events")
-
-        except json.JSONDecodeError as e:
-            print(f"  WARN: Batch {i} returned invalid JSON: {e}")
-        except Exception as e:
-            print(f"  WARN: Batch {i} API call failed: {e}")
+                    print(f"  WARN: Batch {i} rate limited, giving up: {e}")
+            except (anthropic.APIConnectionError, anthropic.InternalServerError) as e:
+                if attempt < API_RETRIES:
+                    wait = API_RETRY_DELAY * (attempt + 1)
+                    print(f"  WARN: Transient API error on batch {i}, retrying in {wait}s...")
+                    await asyncio.sleep(wait)
+                else:
+                    print(f"  WARN: Batch {i} API call failed after retry: {e}")
+            except Exception as e:
+                print(f"  WARN: Batch {i} API call failed: {e}")
+                break  # unknown error, don't retry
 
     return all_events
 

@@ -60,7 +60,10 @@ def cmd_scrape(args):
     # 6. Publish
     if not args.no_push:
         print("\n[6/6] Publishing to GitHub...")
-        publish(ROOT, events_json, len(processed), len(raw_content))
+        pushed = publish(ROOT, events_json, len(processed), len(raw_content))
+        if not pushed:
+            print("\n=== Done (scrape OK, publish failed — commit saved locally) ===")
+            sys.exit(2)
     else:
         print("\n[6/6] Skipping push (--no-push)")
 

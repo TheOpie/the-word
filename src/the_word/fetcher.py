@@ -7,21 +7,38 @@ import httpx
 import yaml
 
 AGENTCDN_BASE = "https://yellow-resonance-7c40.opieworks-ai.workers.dev/agent"
+FETCH_RETRIES = 1
+RETRY_DELAY = 3  # seconds
 
 
 async def fetch_agentcdn(client: httpx.AsyncClient, url: str) -> str | None:
-    """Fetch URL content via agentcdn markdown proxy."""
-    try:
-        resp = await client.get(
-            f"{AGENTCDN_BASE}/{url}",
-            params={"refresh": "true"},
-            timeout=30.0,
-        )
-        resp.raise_for_status()
-        return resp.text
-    except Exception as e:
-        print(f"  WARN: agentcdn failed for {url}: {e}")
-        return None
+    """Fetch URL content via agentcdn markdown proxy. Retries once on transient errors."""
+    last_err = None
+    for attempt in range(1 + FETCH_RETRIES):
+        try:
+            resp = await client.get(
+                f"{AGENTCDN_BASE}/{url}",
+                params={"refresh": "true"},
+                timeout=30.0,
+            )
+            resp.raise_for_status()
+            return resp.text
+        except (httpx.TimeoutException, httpx.ConnectError, httpx.RemoteProtocolError) as e:
+            last_err = e
+            if attempt < FETCH_RETRIES:
+                await asyncio.sleep(RETRY_DELAY)
+        except httpx.HTTPStatusError as e:
+            if e.response.status_code in (502, 503, 429) and attempt < FETCH_RETRIES:
+                last_err = e
+                await asyncio.sleep(RETRY_DELAY)
+            else:
+                print(f"  WARN: agentcdn failed for {url}: {e}")
+                return None
+        except Exception as e:
+            print(f"  WARN: agentcdn failed for {url}: {e}")
+            return None
+    print(f"  WARN: agentcdn failed for {url} after retry: {last_err}")
+    return None
 
 
 async def fetch_browser(url: str) -> str | None:
@@ -94,10 +111,21 @@ async def fetch_all_sources(sources_yaml: Path) -> dict[str, str]:
     agentcdn sources run in parallel. Browser sources run sequentially
     (they share one headless browser instance).
     """
-    with open(sources_yaml) as f:
-        config = yaml.safe_load(f)
+    if not sources_yaml.exists():
+        print("  ERROR: Sources config not found: {}".format(sources_yaml))
+        return {}
+
+    try:
+        with open(sources_yaml) as f:
+            config = yaml.safe_load(f)
+    except Exception as e:
+        print("  ERROR: Failed to parse sources config: {}".format(e))
+        return {}
 
     sources = config.get("sources", [])
+    if not sources:
+        print("  ERROR: No sources defined in config")
+        return {}
     results = {}
 
     # Split by method
