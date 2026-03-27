@@ -35,7 +35,9 @@ def publish(repo_root: Path, events_json: Path, event_count: int, source_count: 
 
         # Commit
         today = datetime.now().strftime("%Y-%m-%d")
-        msg = f"Events update: {today} ({event_count} events from {source_count} sources)"
+        msg = "Events update: {} ({} events from {} sources)".format(
+            today, event_count, source_count
+        )
         subprocess.run(
             ["git", "commit", "-m", msg],
             cwd=repo_root,
@@ -48,7 +50,7 @@ def publish(repo_root: Path, events_json: Path, event_count: int, source_count: 
             cwd=repo_root,
             check=True,
         )
-        print(f"  Pushed: {msg}")
+        print("  Pushed: " + msg)
 
     except subprocess.CalledProcessError as e:
         print(f"  ERROR: Git operation failed: {e}")
