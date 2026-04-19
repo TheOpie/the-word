@@ -19,6 +19,7 @@ The pipeline runs unattended in cron; the reliability machinery assumes a site a
 - **Retry-on-empty** — If a historically-productive source returns 0 events at temp=0, the structurer retries once with a small temperature nudge.
 - **Graceful fallback** — If a source still returns empty (or fails), the orchestrator uses its last-known-good events. The 7-day window filter removes expired ones automatically.
 - **Strict validation** — `validation.py` drops events with unparseable `dateTime`, malformed URLs, or missing required fields before they enter the pipeline.
+- **Publish-time quality gates** — `quality_gate.py` compares the new snapshot to the previously-committed `events.json` before writing. Blocks the write when any of these fire: below absolute minimums (count, unique venues), coverage drops >50% vs the prior snapshot, any single venue holds >60% of events, or `sourceUrl` density falls below 40% or drops >30 points. Operators can bypass with `python -m the_word scrape --force` for intentional curations; forced runs are flagged in the health report.
 - **Health reporting** — Every run writes `state/last_run.json` and prints a summary. Overall status is `healthy | degraded | critical`. Exit codes: `0` healthy, `2` degraded, `1` critical.
 - **Write guard** — `writer.py` refuses to overwrite `events.json` if the processed set is below the minimum threshold.
 

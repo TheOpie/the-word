@@ -17,6 +17,7 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .quality_gate import GateReport
 from .state import PipelineState
 from .structurer import SourceResult
 
@@ -37,6 +38,14 @@ class SourceHealth:
 
 
 @dataclass
+class GateSummary:
+    passed: bool
+    forced: bool
+    violations: list[dict] = field(default_factory=list)
+    stats: dict = field(default_factory=dict)
+
+
+@dataclass
 class RunHealth:
     run_at: str
     total_sources: int
@@ -50,6 +59,7 @@ class RunHealth:
     published: bool | None
     overall_status: str   # healthy | degraded | critical
     sources: list[SourceHealth] = field(default_factory=list)
+    gates: GateSummary | None = None
 
 
 def build_health_report(
@@ -59,6 +69,7 @@ def build_health_report(
     fallback_used_for: set[str],
     wrote_events_json: bool,
     published: bool | None,
+    gate_report: GateReport | None = None,
 ) -> RunHealth:
     """Compile per-source health and overall run verdict."""
     by_name = {r.name: r for r in source_results}
@@ -88,8 +99,30 @@ def build_health_report(
     failed = sum(1 for h in source_healths if h.status == "failed")
     fallback = sum(1 for h in source_healths if h.status == "fallback")
 
+    gate_summary: GateSummary | None = None
+    if gate_report is not None:
+        gate_summary = GateSummary(
+            passed=gate_report.passed,
+            forced=gate_report.forced,
+            violations=[
+                {"rule": v.rule, "detail": v.detail} for v in gate_report.violations
+            ],
+            stats=gate_report.stats,
+        )
+
+    # A gate failure that blocked the write is critical; a forced override is degraded.
+    gate_blocked_write = (
+        gate_summary is not None
+        and not gate_summary.passed
+        and not gate_summary.forced
+    )
+
     if not wrote_events_json:
         overall = "critical"
+    elif gate_blocked_write:
+        overall = "critical"
+    elif gate_summary is not None and gate_summary.forced:
+        overall = "degraded"
     elif failed > 0 or fallback > 0 or empty > succeeded:
         overall = "degraded"
     else:
@@ -108,6 +141,7 @@ def build_health_report(
         published=published,
         overall_status=overall,
         sources=sorted(source_healths, key=lambda h: h.name),
+        gates=gate_summary,
     )
 
 
@@ -126,6 +160,17 @@ def print_summary(report: RunHealth) -> None:
         f"{report.fallback_used} fallback"
     )
     print(f"Events: {report.fresh_events} fresh → {report.final_events} final")
+    if report.gates is not None:
+        if report.gates.passed:
+            print("Gates: passed")
+        elif report.gates.forced:
+            print(
+                f"Gates: FORCED past {len(report.gates.violations)} violation(s)"
+            )
+        else:
+            print(
+                f"Gates: BLOCKED ({len(report.gates.violations)} violation(s))"
+            )
     print(f"Wrote events.json: {report.wrote_events_json}")
     if report.published is not None:
         print(f"Published: {report.published}")

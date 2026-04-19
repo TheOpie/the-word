@@ -28,6 +28,7 @@ def cmd_scrape(args):
     from .writer import write_events
     from .publisher import publish
     from .state import PipelineState
+    from .quality_gate import evaluate as evaluate_gates, load_previous, GateThresholds
     from .health import build_health_report, write_health_report, print_summary
 
     print("=== TheWord Pipeline ===")
@@ -101,14 +102,30 @@ def cmd_scrape(args):
     print("\n[4/6] Enriching event images...")
     processed = asyncio.run(enrich_images(processed, raw_content))
 
-    # [5/6] Write
-    print("\n[5/6] Writing events.json...")
+    # [5/6] Quality gates + write
+    print("\n[5/6] Running quality gates...")
     events_json = DOCS_DIR / "events.json"
-    wrote = write_events(processed, events_json)
-    if not wrote:
-        print("  Kept previous events.json (below minimum threshold)")
+    previous = load_previous(events_json)
+    gate_report = evaluate_gates(processed, previous, GateThresholds())
+    _print_gate_summary(gate_report)
+
+    if gate_report.passed:
+        wrote = write_events(processed, events_json)
+        if wrote:
+            print(f"  Wrote {len(processed)} events to {events_json}")
+        else:
+            print("  Kept previous events.json (below minimum threshold)")
+    elif args.force:
+        print("  --force: overriding gate failures, writing anyway.")
+        gate_report.forced = True
+        wrote = write_events(processed, events_json)
+        if wrote:
+            print(f"  Wrote {len(processed)} events to {events_json} (forced)")
+        else:
+            print("  Kept previous events.json (below minimum threshold)")
     else:
-        print(f"  Wrote {len(processed)} events to {events_json}")
+        print("  Kept previous events.json (gate failure; re-run with --force to override)")
+        wrote = False
 
     # Update state: record runs + refresh caches
     for result in results:
@@ -144,6 +161,7 @@ def cmd_scrape(args):
         fallback_used_for=fallback_used_for,
         wrote_events_json=wrote,
         published=published,
+        gate_report=gate_report,
     )
     write_health_report(report, HEALTH_FILE)
     print_summary(report)
@@ -160,6 +178,26 @@ def cmd_scrape(args):
 def _event_key(event: dict) -> str:
     """Stable key for tracing an event back to its source (approximate)."""
     return f"{event.get('name','')}|{event.get('venue','')}|{event.get('dateTime','')}"
+
+
+def _print_gate_summary(report) -> None:
+    new = report.stats.get("new", {})
+    prev = report.stats.get("previous")
+    print(
+        f"  New: {new.get('count',0)} events, {new.get('unique_venues',0)} venues, "
+        f"sourceUrl {int(round(new.get('source_url_density',0.0)*100))}%"
+    )
+    if prev:
+        print(
+            f"  Previous: {prev.get('count',0)} events, {prev.get('unique_venues',0)} venues, "
+            f"sourceUrl {int(round(prev.get('source_url_density',0.0)*100))}%"
+        )
+    if report.passed:
+        print("  Gates: PASSED")
+    else:
+        print(f"  Gates: FAILED ({len(report.violations)} violation(s))")
+        for line in report.format_lines():
+            print(line)
 
 
 def _emit_critical_report(state, sources, reason):
@@ -230,6 +268,11 @@ def main():
 
     scrape_p = sub.add_parser("scrape", help="Full pipeline: fetch → structure → process → write → push")
     scrape_p.add_argument("--no-push", action="store_true", help="Skip git push")
+    scrape_p.add_argument(
+        "--force",
+        action="store_true",
+        help="Override publish quality gates (use for intentional curations or debugging).",
+    )
     scrape_p.set_defaults(func=cmd_scrape)
 
     fetch_p = sub.add_parser("fetch", help="Fetch sources only (debug)")
