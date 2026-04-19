@@ -2,7 +2,9 @@
 
 import argparse
 import asyncio
+import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -12,62 +14,172 @@ load_dotenv()
 ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = ROOT / "docs"
 CONFIG_DIR = ROOT / "config"
+STATE_DIR = ROOT / "state"
+STATE_FILE = STATE_DIR / "source_state.json"
+HEALTH_FILE = STATE_DIR / "last_run.json"
 
 
 def cmd_scrape(args):
-    """Full pipeline: fetch → structure → process → write → push."""
+    """Full pipeline: fetch → structure → fallback → process → write → push."""
     from .fetcher import fetch_all_sources
-    from .structurer import structure_events
+    from .structurer import structure_events_per_source, SourceResult
     from .processor import process_events
     from .images import enrich_images
     from .writer import write_events
     from .publisher import publish
+    from .state import PipelineState
+    from .health import build_health_report, write_health_report, print_summary
 
     print("=== TheWord Pipeline ===")
 
-    # 1. Fetch
+    # Load per-source state for fallback decisions
+    state = PipelineState.load(STATE_FILE)
+
+    # [1/6] Fetch
     print("\n[1/6] Fetching sources...")
     sources_yaml = CONFIG_DIR / "sources.yaml"
     raw_content = asyncio.run(fetch_all_sources(sources_yaml))
     if not raw_content:
         print("ERROR: No sources returned content. Aborting.")
+        _emit_critical_report(state, sources=[], reason="no sources fetched")
         sys.exit(1)
 
-    # 2. Structure
+    # [2/6] Structure (per-source, deterministic, with retry on empty)
     print("\n[2/6] Structuring events from {} sources...".format(len(raw_content)))
-    raw_events = asyncio.run(structure_events(raw_content))
-    print("  Extracted {} raw events".format(len(raw_events)))
+    productive = {
+        name: state.get(name).is_historically_productive()
+        for name in raw_content
+    }
+    results: list[SourceResult] = asyncio.run(
+        structure_events_per_source(raw_content, historically_productive=productive)
+    )
 
-    # 3. Process
+    # [2b] Fallback: for each source that came back empty/failed, use
+    # last-known-good events if we have any. The window filter runs later,
+    # so stale-but-valid-date events are kept and expired ones drop out.
+    fallback_used_for: set[str] = set()
+    merged_events: list[dict] = []
+    per_source_source: dict[str, str] = {}  # event.name → source name (for final counts)
+
+    for result in results:
+        src_state = state.get(result.name)
+        if result.status == "ok" and result.events:
+            merged_events.extend(result.events)
+            for ev in result.events:
+                per_source_source.setdefault(_event_key(ev), result.name)
+        else:
+            cached = src_state.last_known_good_events
+            if cached:
+                age = src_state.last_known_good_at or "unknown"
+                print(
+                    f"  FALLBACK: {result.name} → using {len(cached)} cached events "
+                    f"from {age}"
+                )
+                merged_events.extend(cached)
+                fallback_used_for.add(result.name)
+                for ev in cached:
+                    per_source_source.setdefault(_event_key(ev), result.name)
+            else:
+                print(f"  {result.name}: no cache available, source contributes 0 events")
+
+    print(f"  Total after fallback: {len(merged_events)} raw events")
+
+    # [3/6] Process (tag, dedup, 7-day window, consolidate)
     print("\n[3/6] Processing (dedup, tagging, consolidation)...")
     venues_yaml = CONFIG_DIR / "venues.yaml"
-    processed = process_events(raw_events, venues_yaml)
+    processed = process_events(merged_events, venues_yaml)
     print("  {} events after processing".format(len(processed)))
 
-    # 4. Enrich images
+    # Compute final per-source contribution
+    final_counts: dict[str, int] = {name: 0 for name in raw_content}
+    for ev in processed:
+        src = per_source_source.get(_event_key(ev))
+        if src and src in final_counts:
+            final_counts[src] += 1
+
+    # [4/6] Enrich images
     print("\n[4/6] Enriching event images...")
     processed = asyncio.run(enrich_images(processed, raw_content))
 
-    # 5. Write
+    # [5/6] Write
     print("\n[5/6] Writing events.json...")
     events_json = DOCS_DIR / "events.json"
-    written = write_events(processed, events_json)
-    if not written:
+    wrote = write_events(processed, events_json)
+    if not wrote:
         print("  Kept previous events.json (below minimum threshold)")
     else:
-        print("  Wrote {} events to {}".format(len(processed), events_json))
+        print(f"  Wrote {len(processed)} events to {events_json}")
 
-    # 6. Publish
+    # Update state: record runs + refresh caches
+    for result in results:
+        src_state = state.get(result.name)
+        if result.status == "ok" and result.events:
+            src_state.record_run(len(result.events), "ok")
+            src_state.update_cache(result.events)
+        elif result.name in fallback_used_for:
+            src_state.record_run(0, "fallback")
+        elif result.status == "empty":
+            src_state.record_run(0, "empty")
+        else:
+            src_state.record_run(0, "failed")
+
+    state.save()
+
+    # [6/6] Publish
+    published: bool | None = None
     if not args.no_push:
         print("\n[6/6] Publishing to GitHub...")
-        pushed = publish(ROOT, events_json, len(processed), len(raw_content))
-        if not pushed:
+        published = publish(ROOT, events_json, len(processed), len(raw_content))
+        if not published:
             print("\n=== Done (scrape OK, publish failed — commit saved locally) ===")
-            sys.exit(2)
     else:
         print("\n[6/6] Skipping push (--no-push)")
 
+    # Health report
+    from .health import build_health_report  # re-import for type
+    report = build_health_report(
+        source_results=results,
+        state=state,
+        final_counts=final_counts,
+        fallback_used_for=fallback_used_for,
+        wrote_events_json=wrote,
+        published=published,
+    )
+    write_health_report(report, HEALTH_FILE)
+    print_summary(report)
+
+    # Exit code reflects overall health
+    if report.overall_status == "critical":
+        sys.exit(1)
+    if report.overall_status == "degraded" or (not args.no_push and published is False):
+        sys.exit(2)
+
     print("\n=== Done ===")
+
+
+def _event_key(event: dict) -> str:
+    """Stable key for tracing an event back to its source (approximate)."""
+    return f"{event.get('name','')}|{event.get('venue','')}|{event.get('dateTime','')}"
+
+
+def _emit_critical_report(state, sources, reason):
+    from .health import RunHealth, write_health_report
+    report = RunHealth(
+        run_at=datetime.now(timezone.utc).replace(microsecond=0, tzinfo=None).isoformat() + "Z",
+        total_sources=len(sources),
+        succeeded=0,
+        empty=0,
+        failed=len(sources),
+        fallback_used=0,
+        fresh_events=0,
+        final_events=0,
+        wrote_events_json=False,
+        published=None,
+        overall_status="critical",
+        sources=[],
+    )
+    write_health_report(report, HEALTH_FILE)
+    print(f"\n=== CRITICAL: {reason} ===")
 
 
 def cmd_fetch(args):
@@ -103,6 +215,15 @@ def cmd_validate(args):
         sys.exit(1)
 
 
+def cmd_health(args):
+    """Print last-run health report."""
+    if not HEALTH_FILE.exists():
+        print(f"No health report found at {HEALTH_FILE}. Run 'scrape' first.")
+        sys.exit(1)
+    data = json.loads(HEALTH_FILE.read_text())
+    print(json.dumps(data, indent=2))
+
+
 def main():
     parser = argparse.ArgumentParser(prog="the_word", description="TheWord events pipeline")
     sub = parser.add_subparsers(dest="command")
@@ -116,6 +237,9 @@ def main():
 
     validate_p = sub.add_parser("validate", help="Validate existing events.json")
     validate_p.set_defaults(func=cmd_validate)
+
+    health_p = sub.add_parser("health", help="Print last-run health report")
+    health_p.set_defaults(func=cmd_health)
 
     args = parser.parse_args()
     if not args.command:
