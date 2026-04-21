@@ -5,8 +5,8 @@
 
 sources:
   - name: Minneapolis.org Events
-    url: https://www.minneapolis.org/calendar/
-    method: browser  # JS-rendered calendar widget
+    url: https://www.minneapolis.org/calendar/top-things-to-do-this-month/
+    method: agentcdn  # /calendar/ hub has no inline event details; this curated list does
 
   - name: Minneapolis Events
     url: https://minneapolis.events
@@ -17,12 +17,12 @@ sources:
     method: agentcdn
 
   - name: Hennepin Theatre Trust
-    url: https://hennepintheatretrust.org/events/
-    method: agentcdn  # Replaced minneapolis-theater.com (404)
+    url: https://hennepintheatretrust.org/whats-on/event-calendar
+    method: browser  # Page is JS-rendered; agentcdn got only the 1.3KB shell
 
   - name: Songkick Minneapolis
-    url: https://www.songkick.com/metro-areas/29313-us-minneapolis/events
-    method: agentcdn
+    url: https://www.songkick.com/metro-areas/35130-us-twin-cities/events
+    method: agentcdn  # Songkick retired ID 29313 (now Cork, Ireland); Twin Cities is 35130
 
   - name: 331 Club
     url: https://www.331club.com

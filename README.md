@@ -7,11 +7,11 @@ No database. No server. No framework. Just a scraping pipeline that writes a JSO
 ## How It Works
 
 ```
-10 sources → Python scraper → Claude API (structuring) → events.json → GitHub Pages
+10 sources → Python scraper → Ollama (structuring) → events.json → GitHub Pages
 ```
 
 1. **Fetch** — pulls event listings from 10 Minneapolis sources (venues, aggregators, local media) using [AgentCDN](https://github.com/TheOpie/agentcdn) for static pages and headless browser for JS-heavy sites.
-2. **Structure** — sends raw HTML/markdown to Claude API to extract structured event data (title, date, time, venue, tags, description).
+2. **Structure** — sends raw markdown to a local Ollama endpoint (default model `minimax-m2.7:cloud`) to extract structured event data (title, date, time, venue, tags, description).
 3. **Process** — deduplicates, validates, applies venue/keyword tagging from curated mappings (26 venues, 46 keywords), drops events older than today.
 4. **Write** — outputs `docs/events.json`. Requires minimum 5 events or the previous file is preserved.
 5. **Publish** — commits and pushes to GitHub. GitHub Pages serves `docs/` at the custom domain.
@@ -35,11 +35,13 @@ The site (`docs/index.html`) is vanilla HTML/CSS/JS that fetches `events.json` o
 
 ## Setup
 
-Requires Python 3.11+ and API keys in `.env`:
+Requires Python 3.11+, a running Ollama server, and a GitHub token in `.env`:
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
 GITHUB_TOKEN=ghp_...
+# Optional overrides — defaults shown
+# OLLAMA_BASE_URL=http://127.0.0.1:11434/v1
+# THE_WORD_MODEL=minimax-m2.7:cloud
 ```
 
 ```bash
@@ -91,7 +93,7 @@ the-word/
 ├── src/the_word/
 │   ├── __main__.py        # CLI entrypoint
 │   ├── fetcher.py         # Source fetching (agentcdn + browser)
-│   ├── structurer.py      # Claude API event extraction
+│   ├── structurer.py      # Ollama event extraction
 │   ├── processor.py       # Dedup, validation, tagging
 │   ├── writer.py          # JSON output with safety checks
 │   └── publisher.py       # Git commit + push

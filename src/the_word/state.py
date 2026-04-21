@@ -79,7 +79,14 @@ class SourceState:
         return int(statistics.median(productive))
 
     def is_historically_productive(self) -> bool:
-        """True if the source has produced events in recent history."""
+        """True if the source has produced events in recent history.
+
+        Also True for sources with no run history yet — new/newly-configured
+        sources get the benefit of the retry on first failure so one flaky
+        deterministic call doesn't condemn them as "always empty."
+        """
+        if not self.runs:
+            return True
         return self.baseline_count() > 0
 
     def to_dict(self) -> dict:

@@ -10,6 +10,7 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Literal
@@ -26,6 +27,37 @@ OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434/v1")
 OLLAMA_MODEL = os.environ.get("THE_WORD_MODEL", "minimax-m2.7:cloud")
 
 SOURCE_CHAR_CAP = 15_000
+
+# Matches date headers like "Tuesday 21 April 2026" or "April 22, 2026" — used
+# to skip past preambles on sources (e.g. Songkick) that list artists/venues
+# without dates before the actual date-grouped calendar.
+_DATE_ANCHOR_RE = re.compile(
+    r"\b(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day\s+\d{1,2}\s+"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}\b"
+    r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+20\d{2}\b"
+)
+
+
+def _fit_to_cap(content: str, cap: int) -> str:
+    """Return up to `cap` chars, biased toward date-grouped sections.
+
+    If a date anchor exists and shifting to it would expose more dated content
+    than the default head window, slide the window to start shortly before the
+    first anchor. This avoids wasting the cap on dateless preambles (e.g.
+    Songkick's "Popular artists" section before the calendar).
+    """
+    if len(content) <= cap:
+        return content
+    match = _DATE_ANCHOR_RE.search(content)
+    if match is None:
+        return content[:cap]
+    anchor = match.start()
+    if anchor < 1000:
+        # Anchor is near the top; default head already covers the calendar.
+        return content[:cap]
+    start = max(0, anchor - 500)
+    end = min(len(content), start + cap)
+    return content[start:end]
 
 # Empty-response retry: if a source historically produced events but the
 # deterministic call returns [], we retry once with a small temperature nudge
@@ -90,7 +122,7 @@ async def structure_events_per_source(
     async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT) as client:
         total = len(source_content)
         for i, (name, content) in enumerate(source_content.items(), 1):
-            truncated = content[:SOURCE_CHAR_CAP]
+            truncated = _fit_to_cap(content, SOURCE_CHAR_CAP)
             print(f"  Structuring {i}/{total}: {name} ({len(truncated)} chars)...")
             result = await _extract_one(
                 client, name, truncated, historically_productive.get(name, False)
