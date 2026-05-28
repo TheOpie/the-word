@@ -1,5 +1,6 @@
 """Git publisher — commit and push events.json updates."""
 
+import shutil
 import subprocess
 import time
 from datetime import datetime
@@ -49,8 +50,20 @@ def publish(repo_root: Path, events_json: Path, event_count: int, source_count: 
             print("  ERROR: No git remote configured — cannot push.")
             return False
 
+        # --- Copy state files into docs/ so GH Pages serves them ---
+        docs_dir = events_json.parent
+        for state_file in ["source_state.json", "last_run.json"]:
+            src = repo_root / "state" / state_file
+            if src.exists():
+                shutil.copy2(src, docs_dir / state_file)
+
         # --- Stage ---
-        result = _git(["add", str(events_json)], cwd=repo_root)
+        to_stage = [str(events_json)]
+        for state_file in ["source_state.json", "last_run.json"]:
+            p = docs_dir / state_file
+            if p.exists():
+                to_stage.append(str(p))
+        result = _git(["add"] + to_stage, cwd=repo_root)
         if result.returncode != 0:
             print("  ERROR: git add failed: {}".format(result.stderr.strip()))
             return False
