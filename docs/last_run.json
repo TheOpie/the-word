@@ -1,25 +1,25 @@
 {
-  "run_at": "2026-06-01T11:07:49Z",
+  "run_at": "2026-06-01T11:10:46Z",
   "total_sources": 9,
-  "succeeded": 9,
+  "succeeded": 8,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 0,
-  "fresh_events": 247,
-  "final_events": 80,
+  "fallback_used": 1,
+  "fresh_events": 217,
+  "final_events": 79,
   "wrote_events_json": true,
   "published": true,
-  "overall_status": "healthy",
+  "overall_status": "degraded",
   "sources": [
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 112,
-      "final_count": 13,
+      "fresh_count": 100,
+      "final_count": 12,
       "baseline": 133,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 88.53,
+      "duration_s": 42.46,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -31,8 +31,8 @@
       "final_count": 1,
       "baseline": 14,
       "used_fallback": false,
-      "attempts": 2,
-      "duration_s": 57.01,
+      "attempts": 1,
+      "duration_s": 99.34,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -45,21 +45,21 @@
       "baseline": 26,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 32.89,
+      "duration_s": 9.22,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Hennepin Theatre Trust",
-      "status": "ok",
-      "fresh_count": 19,
+      "status": "fallback",
+      "fresh_count": 0,
       "final_count": 0,
-      "baseline": 16,
-      "used_fallback": false,
+      "baseline": 15,
+      "used_fallback": true,
       "attempts": 2,
-      "duration_s": 103.71,
-      "consecutive_empty": 0,
+      "duration_s": 35.37,
+      "consecutive_empty": 1,
       "error": null,
       "dropped_count": 0
     },
@@ -71,7 +71,7 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 20.88,
+      "duration_s": 56.47,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 16,
+      "fresh_count": 17,
       "final_count": 6,
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 37.35,
+      "duration_s": 63.28,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -97,7 +97,7 @@
       "baseline": 12,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 56.64,
+      "duration_s": 51.07,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -109,8 +109,8 @@
       "final_count": 23,
       "baseline": 24,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 18.24,
+      "attempts": 2,
+      "duration_s": 49.53,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -123,7 +123,7 @@
       "baseline": 1,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 20.89,
+      "duration_s": 64.12,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,18 +135,18 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 79,
+        "unique_venues": 43,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1518987341772152,
+        "source_url_density": 0.8481012658227848
+      },
+      "previous": {
         "count": 80,
         "unique_venues": 43,
         "top_venue": "331 Club",
         "top_venue_share": 0.1625,
         "source_url_density": 0.8375
-      },
-      "previous": {
-        "count": 58,
-        "unique_venues": 38,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.22413793103448276,
-        "source_url_density": 0.7758620689655172
       }
     }
   }
