@@ -1,38 +1,38 @@
 {
-  "run_at": "2026-06-03T11:23:33Z",
+  "run_at": "2026-06-04T11:11:09Z",
   "total_sources": 9,
-  "succeeded": 8,
+  "succeeded": 7,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 1,
-  "fresh_events": 221,
-  "final_events": 94,
+  "fallback_used": 2,
+  "fresh_events": 133,
+  "final_events": 79,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
   "sources": [
     {
       "name": "331 Club",
-      "status": "ok",
-      "fresh_count": 109,
+      "status": "fallback",
+      "fresh_count": 0,
       "final_count": 13,
-      "baseline": 102,
-      "used_fallback": false,
+      "baseline": 100,
+      "used_fallback": true,
       "attempts": 1,
-      "duration_s": 438.46,
-      "consecutive_empty": 0,
+      "duration_s": 169.71,
+      "consecutive_empty": 1,
       "error": null,
-      "dropped_count": 0
+      "dropped_count": 124
     },
     {
       "name": "Bandsintown Minneapolis",
       "status": "ok",
-      "fresh_count": 16,
-      "final_count": 8,
-      "baseline": 16,
+      "fresh_count": 30,
+      "final_count": 0,
+      "baseline": 20,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 24.78,
+      "attempts": 2,
+      "duration_s": 54.63,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -40,12 +40,12 @@
     {
       "name": "First Avenue",
       "status": "ok",
-      "fresh_count": 17,
-      "final_count": 13,
-      "baseline": 22,
+      "fresh_count": 18,
+      "final_count": 10,
+      "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 28.08,
+      "duration_s": 44.0,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -53,12 +53,12 @@
     {
       "name": "Hennepin Theatre Trust",
       "status": "ok",
-      "fresh_count": 6,
-      "final_count": 0,
+      "fresh_count": 15,
+      "final_count": 1,
       "baseline": 16,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 19.91,
+      "duration_s": 16.53,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -67,11 +67,11 @@
       "name": "Minneapolis Events",
       "status": "ok",
       "fresh_count": 20,
-      "final_count": 18,
+      "final_count": 16,
       "baseline": 20,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 61.34,
+      "attempts": 2,
+      "duration_s": 95.11,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 19,
-      "final_count": 5,
+      "fresh_count": 17,
+      "final_count": 4,
       "baseline": 18,
       "used_fallback": false,
-      "attempts": 2,
-      "duration_s": 94.79,
+      "attempts": 1,
+      "duration_s": 59.39,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -92,12 +92,12 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 11,
+      "fresh_count": 10,
       "final_count": 5,
-      "baseline": 12,
+      "baseline": 11,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 21.5,
+      "duration_s": 25.22,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -106,11 +106,11 @@
       "name": "Songkick Minneapolis",
       "status": "ok",
       "fresh_count": 23,
-      "final_count": 22,
+      "final_count": 21,
       "baseline": 23,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 24.15,
+      "attempts": 2,
+      "duration_s": 111.51,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -119,14 +119,14 @@
       "name": "The Current Events",
       "status": "fallback",
       "fresh_count": 0,
-      "final_count": 10,
-      "baseline": 1,
+      "final_count": 9,
+      "baseline": 2,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 43.12,
-      "consecutive_empty": 1,
+      "duration_s": 56.63,
+      "consecutive_empty": 2,
       "error": null,
-      "dropped_count": 10
+      "dropped_count": 6
     }
   ],
   "gates": {
@@ -135,18 +135,18 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 79,
+        "unique_venues": 48,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.16455696202531644,
+        "source_url_density": 0.8354430379746836
+      },
+      "previous": {
         "count": 94,
         "unique_venues": 49,
         "top_venue": "331 Club",
         "top_venue_share": 0.13829787234042554,
         "source_url_density": 0.8617021276595744
-      },
-      "previous": {
-        "count": 80,
-        "unique_venues": 47,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.0875,
-        "source_url_density": 0.9125
       }
     }
   }
