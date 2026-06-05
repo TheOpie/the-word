@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-06-04T11:19:18Z",
+  "run_at": "2026-06-04T11:20:21Z",
   "total_sources": 9,
-  "succeeded": 6,
+  "succeeded": 7,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 3,
-  "fresh_events": 96,
-  "final_events": 76,
+  "fallback_used": 2,
+  "fresh_events": 133,
+  "final_events": 80,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -19,20 +19,20 @@
       "baseline": 100,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 146.64,
+      "duration_s": 122.25,
       "consecutive_empty": 1,
       "error": null,
-      "dropped_count": 146
+      "dropped_count": 128
     },
     {
       "name": "Bandsintown Minneapolis",
       "status": "ok",
-      "fresh_count": 15,
-      "final_count": 1,
-      "baseline": 16,
+      "fresh_count": 29,
+      "final_count": 0,
+      "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 37.16,
+      "duration_s": 55.26,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -41,11 +41,11 @@
       "name": "First Avenue",
       "status": "ok",
       "fresh_count": 18,
-      "final_count": 12,
+      "final_count": 10,
       "baseline": 19,
       "used_fallback": false,
-      "attempts": 2,
-      "duration_s": 57.37,
+      "attempts": 1,
+      "duration_s": 41.34,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 16,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 25.08,
+      "duration_s": 18.58,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -70,8 +70,8 @@
       "final_count": 16,
       "baseline": 20,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 77.16,
+      "attempts": 2,
+      "duration_s": 91.72,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 18,
+      "fresh_count": 17,
       "final_count": 4,
       "baseline": 18,
       "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 45.82,
+      "attempts": 2,
+      "duration_s": 66.91,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -97,21 +97,21 @@
       "baseline": 11,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 68.65,
+      "duration_s": 50.97,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Songkick Minneapolis",
-      "status": "fallback",
-      "fresh_count": 0,
-      "final_count": 15,
+      "status": "ok",
+      "fresh_count": 24,
+      "final_count": 22,
       "baseline": 23,
-      "used_fallback": true,
-      "attempts": 2,
-      "duration_s": 47.61,
-      "consecutive_empty": 1,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 67.62,
+      "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
@@ -123,10 +123,10 @@
       "baseline": 2,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 50.77,
+      "duration_s": 49.41,
       "consecutive_empty": 2,
       "error": null,
-      "dropped_count": 10
+      "dropped_count": 6
     }
   ],
   "gates": {
@@ -135,18 +135,18 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 80,
+        "unique_venues": 47,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1625,
+        "source_url_density": 0.825
+      },
+      "previous": {
         "count": 76,
         "unique_venues": 42,
         "top_venue": "331 Club",
         "top_venue_share": 0.17105263157894737,
         "source_url_density": 0.8289473684210527
-      },
-      "previous": {
-        "count": 82,
-        "unique_venues": 48,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.15853658536585366,
-        "source_url_density": 0.8414634146341463
       }
     }
   }
