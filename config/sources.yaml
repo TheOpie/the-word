@@ -14,11 +14,11 @@ sources:
 
   - name: Twin Cities Family
     url: https://twincitiesfamily.com/events/
-    method: agentcdn
+    method: browser  # agentcdn proxy gets 403 from this site; browser bypasses
 
   - name: Hennepin Theatre Trust
     url: https://hennepintheatretrust.org/whats-on/event-calendar
-    method: browser  # Page is JS-rendered; agentcdn got only the 1.3KB shell
+    method: agentcdn  # switched from browser — agentcdn returns 200 with content; browser daemon times out
 
   - name: Songkick Minneapolis
     url: https://www.songkick.com/metro-areas/35130-us-twin-cities/events
@@ -26,7 +26,7 @@ sources:
 
   - name: 331 Club
     url: https://www.331club.com
-    method: browser  # JS-rendered calendar
+    method: agentcdn  # switched from browser — agentcdn returns 200; browser daemon times out
 
   - name: Bandsintown Minneapolis
     url: https://www.bandsintown.com/c/minneapolis-mn
@@ -38,7 +38,7 @@ sources:
 
   - name: Nobool Presents
     url: https://noboolpresents.com/events
-    method: browser  # Timeout on agentcdn, likely JS-heavy
+    method: agentcdn  # switched from browser — agentcdn returns 200; original browser timeout was intermittent
 
   - name: The Current Events
     url: https://www.thecurrent.org/events
