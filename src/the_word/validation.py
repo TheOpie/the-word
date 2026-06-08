@@ -49,14 +49,6 @@ def _validate_event(event: dict) -> str | None:
     except ValueError as e:
         return f"invalid dateTime '{dt_raw}': {e}"
 
-    # Optional URL fields must be http(s) if present
-    for url_field in ("sourceUrl", "imageUrl"):
-        url = event.get(url_field)
-        if url is None:
-            continue
-        if not isinstance(url, str) or not _is_valid_url(url):
-            return f"invalid {url_field}: {url!r}"
-
     # tags must be a list of strings if present
     tags = event.get("tags")
     if tags is not None and (
@@ -88,10 +80,15 @@ def _sanitize(event: dict) -> dict:
     except ValueError:
         pass  # Shouldn't happen — validate runs first
 
-    # Drop empty-string optionals
-    for k in ("address", "description", "sourceUrl", "imageUrl"):
+    # Drop empty-string optionals and invalid URLs (strip rather than fail)
+    for k in ("address", "description"):
         if k in event and (event[k] is None or event[k] == ""):
             del event[k]
+    for k in ("sourceUrl", "imageUrl"):
+        if k in event:
+            v = event[k]
+            if not isinstance(v, str) or not v.strip() or not _is_valid_url(v):
+                del event[k]
 
     # Ensure tags is a list (not missing)
     if "tags" not in event or event["tags"] is None:

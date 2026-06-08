@@ -24,9 +24,9 @@ API_RETRY_DELAY = 5  # seconds
 REQUEST_TIMEOUT = 300.0
 
 OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434/v1")
-OLLAMA_MODEL = os.environ.get("THE_WORD_MODEL", "minimax-m2.7:cloud")
+OLLAMA_MODEL = os.environ.get("THE_WORD_MODEL", "minimax-m3:cloud")
 
-SOURCE_CHAR_CAP = 15_000
+SOURCE_CHAR_CAP = 12_000
 
 # Matches date headers like "Tuesday 21 April 2026" or "April 22, 2026" — used
 # to skip past preambles on sources (e.g. Songkick) that list artists/venues
@@ -94,7 +94,7 @@ Output a JSON array of event objects with these fields:
   "venue": "Venue Name",
   "address": "Street address if available, otherwise omit",
   "description": "1-2 sentence description from the listing. Do not copy more than 2 sentences.",
-  "sourceUrl": "Direct link to the event listing if available",
+  "sourceUrl": "Full absolute URL (https://...) to the event listing. Never use relative paths.",
   "imageUrl": "Direct URL to an event image/flyer/artist photo if visible in the content, otherwise null",
   "tags": []
 }
@@ -111,26 +111,29 @@ async def structure_events_per_source(
     source_content: dict[str, str],
     historically_productive: dict[str, bool] | None = None,
 ) -> list[SourceResult]:
-    """Extract events for each source independently.
+    """Extract events for each source independently, all sources in parallel.
 
     historically_productive maps source name → bool; True triggers one
     retry when the deterministic call returns empty.
     """
     historically_productive = historically_productive or {}
-    results: list[SourceResult] = []
+    names = list(source_content.keys())
+    total = len(names)
+
+    async def _run_one(client: httpx.AsyncClient, i: int, name: str) -> SourceResult:
+        truncated = _fit_to_cap(source_content[name], SOURCE_CHAR_CAP)
+        print(f"  Structuring {i}/{total}: {name} ({len(truncated)} chars)...")
+        result = await _extract_one(
+            client, name, truncated, historically_productive.get(name, False)
+        )
+        _log_result(result)
+        return result
 
     async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT) as client:
-        total = len(source_content)
-        for i, (name, content) in enumerate(source_content.items(), 1):
-            truncated = _fit_to_cap(content, SOURCE_CHAR_CAP)
-            print(f"  Structuring {i}/{total}: {name} ({len(truncated)} chars)...")
-            result = await _extract_one(
-                client, name, truncated, historically_productive.get(name, False)
-            )
-            _log_result(result)
-            results.append(result)
+        tasks = [_run_one(client, i, name) for i, name in enumerate(names, 1)]
+        results = await asyncio.gather(*tasks)
 
-    return results
+    return list(results)
 
 
 async def _extract_one(
@@ -170,6 +173,25 @@ async def _extract_one(
 
     result.duration_s = round(time.monotonic() - started, 2)
     return result
+
+
+def _recover_truncated_json(text: str) -> list[dict] | None:
+    """Salvage complete event objects from a mid-array truncated JSON response."""
+    start = text.find("[")
+    if start == -1:
+        return None
+    # Walk backwards from the end to find the last complete object boundary
+    for marker in ("}\n]", "},\n", "},", "}"):
+        pos = text.rfind(marker)
+        if pos != -1:
+            candidate = text[start : pos + 1] + "]"
+            try:
+                parsed = json.loads(candidate)
+                if isinstance(parsed, list) and parsed:
+                    return parsed
+            except json.JSONDecodeError:
+                continue
+    return None
 
 
 async def _call_model(
@@ -213,8 +235,14 @@ async def _call_model(
 
             try:
                 parsed = json.loads(text)
-            except json.JSONDecodeError as e:
-                return [], f"invalid JSON from model: {e}"
+            except json.JSONDecodeError:
+                # Response may be truncated mid-array (output token limit).
+                # Salvage all complete objects before the cutoff.
+                recovered = _recover_truncated_json(text)
+                if recovered:
+                    print(f"    {label}: recovered {len(recovered)} events from truncated JSON")
+                    return recovered, None
+                return [], f"invalid JSON from model (unrecoverable)"
 
             if not isinstance(parsed, list):
                 return [], "model returned non-list"

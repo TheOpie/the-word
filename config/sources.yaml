@@ -12,17 +12,13 @@ sources:
     url: https://minneapolis.events
     method: agentcdn
 
-  - name: Twin Cities Family
-    url: https://twincitiesfamily.com/events/
-    method: browser  # agentcdn proxy gets 403 from this site; browser bypasses
-
-  - name: Hennepin Theatre Trust
-    url: https://hennepintheatretrust.org/whats-on/event-calendar
-    method: agentcdn  # switched from browser — agentcdn returns 200 with content; browser daemon times out
+  - name: Hennepin Arts
+    url: https://hennepinarts.org/whats-on/event-calendar
+    method: playwright  # JS-rendered SPA (Tessitura CMS); agentcdn gets 185-char shell
 
   - name: Songkick Minneapolis
     url: https://www.songkick.com/metro-areas/35130-us-twin-cities/events
-    method: agentcdn  # Songkick retired ID 29313 (now Cork, Ireland); Twin Cities is 35130
+    method: playwright  # JS-rendered; static HTML has artist/venue but no dates
 
   - name: 331 Club
     url: https://www.331club.com
