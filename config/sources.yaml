@@ -26,7 +26,7 @@ sources:
 
   - name: Bandsintown Minneapolis
     url: https://www.bandsintown.com/c/minneapolis-mn
-    method: agentcdn
+    method: playwright  # Cloudflare blocks agentcdn (403); real browser UA bypasses it
 
   - name: First Avenue
     url: https://first-avenue.com/calendar/
