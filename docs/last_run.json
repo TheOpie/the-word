@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-06-23T11:04:19Z",
-  "total_sources": 9,
-  "succeeded": 9,
+  "run_at": "2026-06-24T11:03:33Z",
+  "total_sources": 7,
+  "succeeded": 7,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 221,
-  "final_events": 71,
+  "fresh_events": 190,
+  "final_events": 51,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 74,
-      "final_count": 12,
-      "baseline": 77,
+      "fresh_count": 88,
+      "final_count": 17,
+      "baseline": 78,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 161.42,
+      "duration_s": 104.62,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -27,12 +27,12 @@
     {
       "name": "Bandsintown Minneapolis",
       "status": "ok",
-      "fresh_count": 28,
-      "final_count": 8,
+      "fresh_count": 17,
+      "final_count": 13,
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 72.62,
+      "duration_s": 31.2,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -45,7 +45,7 @@
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 70.6,
+      "duration_s": 50.04,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 21,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 23.57,
+      "duration_s": 24.59,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -67,11 +67,11 @@
       "name": "Minneapolis Events",
       "status": "ok",
       "fresh_count": 17,
-      "final_count": 17,
+      "final_count": 16,
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 91.03,
+      "duration_s": 22.4,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,15 +79,15 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 15,
-      "final_count": 0,
+      "fresh_count": 18,
+      "final_count": 4,
       "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 42.9,
+      "duration_s": 66.98,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 3
+      "dropped_count": 0
     },
     {
       "name": "Nobool Presents",
@@ -97,36 +97,10 @@
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 196.09,
+      "duration_s": 118.41,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 1
-    },
-    {
-      "name": "Songkick Minneapolis",
-      "status": "ok",
-      "fresh_count": 32,
-      "final_count": 28,
-      "baseline": 32,
-      "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 114.59,
-      "consecutive_empty": 0,
-      "error": null,
-      "dropped_count": 0
-    },
-    {
-      "name": "The Current Events",
-      "status": "ok",
-      "fresh_count": 5,
-      "final_count": 5,
-      "baseline": 4,
-      "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 34.12,
-      "consecutive_empty": 0,
-      "error": null,
-      "dropped_count": 5
+      "dropped_count": 2
     }
   ],
   "gates": {
@@ -135,17 +109,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 51,
+        "unique_venues": 26,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.3333333333333333,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 71,
         "unique_venues": 49,
         "top_venue": "331 Club",
         "top_venue_share": 0.16901408450704225,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 76,
-        "unique_venues": 44,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.17105263157894737,
         "source_url_density": 1.0
       }
     }
