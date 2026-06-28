@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-06-26T11:10:10Z",
-  "total_sources": 8,
-  "succeeded": 8,
+  "run_at": "2026-06-27T11:02:46Z",
+  "total_sources": 9,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 187,
-  "final_events": 36,
+  "fresh_events": 223,
+  "final_events": 55,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 76,
+      "fresh_count": 79,
       "final_count": 12,
       "baseline": 77,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 107.94,
+      "duration_s": 113.47,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,7 +32,7 @@
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 55.26,
+      "duration_s": 32.17,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -45,7 +45,7 @@
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 78.33,
+      "duration_s": 29.86,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -53,12 +53,12 @@
     {
       "name": "Hennepin Arts",
       "status": "ok",
-      "fresh_count": 20,
+      "fresh_count": 21,
       "final_count": 1,
       "baseline": 21,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 25.15,
+      "duration_s": 75.19,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -66,12 +66,12 @@
     {
       "name": "Minneapolis Events",
       "status": "ok",
-      "fresh_count": 15,
+      "fresh_count": 17,
       "final_count": 13,
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 24.36,
+      "duration_s": 56.08,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 15,
+      "fresh_count": 16,
       "final_count": 1,
-      "baseline": 16,
+      "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 24.75,
+      "duration_s": 48.92,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 3
@@ -92,12 +92,25 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 9,
+      "fresh_count": 12,
       "final_count": 0,
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 520.28,
+      "duration_s": 20.11,
+      "consecutive_empty": 0,
+      "error": null,
+      "dropped_count": 0
+    },
+    {
+      "name": "Songkick Minneapolis",
+      "status": "ok",
+      "fresh_count": 26,
+      "final_count": 20,
+      "baseline": 31,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 83.19,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -106,14 +119,14 @@
       "name": "The Current Events",
       "status": "ok",
       "fresh_count": 5,
-      "final_count": 5,
+      "final_count": 4,
       "baseline": 5,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 36.03,
+      "duration_s": 53.4,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 0
+      "dropped_count": 6
     }
   ],
   "gates": {
@@ -122,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 55,
+        "unique_venues": 36,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.21818181818181817,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 36,
         "unique_venues": 21,
         "top_venue": "331 Club",
         "top_venue_share": 0.3333333333333333,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 71,
-        "unique_venues": 44,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.16901408450704225,
         "source_url_density": 1.0
       }
     }
