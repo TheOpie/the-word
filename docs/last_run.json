@@ -1,25 +1,25 @@
 {
-  "run_at": "2026-06-29T11:02:43Z",
-  "total_sources": 8,
-  "succeeded": 8,
+  "run_at": "2026-06-30T17:51:12Z",
+  "total_sources": 9,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 197,
-  "final_events": 29,
-  "wrote_events_json": false,
+  "fresh_events": 227,
+  "final_events": 63,
+  "wrote_events_json": true,
   "published": true,
-  "overall_status": "critical",
+  "overall_status": "healthy",
   "sources": [
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 80,
-      "final_count": 11,
+      "fresh_count": 78,
+      "final_count": 12,
       "baseline": 78,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 61.21,
+      "duration_s": 54.89,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,7 +32,7 @@
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 58.37,
+      "duration_s": 36.98,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -45,7 +45,7 @@
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 21.39,
+      "duration_s": 66.78,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -53,12 +53,12 @@
     {
       "name": "Hennepin Arts",
       "status": "ok",
-      "fresh_count": 20,
+      "fresh_count": 21,
       "final_count": 0,
       "baseline": 21,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 48.48,
+      "duration_s": 30.56,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -66,25 +66,25 @@
     {
       "name": "Minneapolis Events",
       "status": "ok",
-      "fresh_count": 17,
-      "final_count": 14,
+      "fresh_count": 16,
+      "final_count": 13,
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 22.04,
+      "duration_s": 16.36,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 0
+      "dropped_count": 1
     },
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 18,
-      "final_count": 1,
+      "fresh_count": 19,
+      "final_count": 3,
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 35.53,
+      "duration_s": 55.81,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -92,12 +92,25 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 12,
+      "fresh_count": 11,
       "final_count": 0,
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 18.55,
+      "duration_s": 28.24,
+      "consecutive_empty": 0,
+      "error": null,
+      "dropped_count": 0
+    },
+    {
+      "name": "Songkick Minneapolis",
+      "status": "ok",
+      "fresh_count": 32,
+      "final_count": 32,
+      "baseline": 31,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 49.76,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -107,30 +120,25 @@
       "status": "ok",
       "fresh_count": 3,
       "final_count": 2,
-      "baseline": 5,
+      "baseline": 4,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 30.59,
+      "duration_s": 47.64,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     }
   ],
   "gates": {
-    "passed": false,
+    "passed": true,
     "forced": false,
-    "violations": [
-      {
-        "rule": "coverage_drop",
-        "detail": "29 events is a 58% drop from previous 69 (allowed drop 50%)"
-      }
-    ],
+    "violations": [],
     "stats": {
       "new": {
-        "count": 29,
-        "unique_venues": 15,
+        "count": 63,
+        "unique_venues": 42,
         "top_venue": "331 Club",
-        "top_venue_share": 0.3793103448275862,
+        "top_venue_share": 0.19047619047619047,
         "source_url_density": 1.0
       },
       "previous": {
