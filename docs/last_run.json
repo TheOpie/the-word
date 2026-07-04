@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-07-02T11:02:41Z",
-  "total_sources": 8,
-  "succeeded": 8,
+  "run_at": "2026-07-03T11:03:02Z",
+  "total_sources": 9,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 214,
-  "final_events": 42,
+  "fresh_events": 251,
+  "final_events": 74,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 80,
+      "fresh_count": 81,
       "final_count": 12,
-      "baseline": 78,
+      "baseline": 79,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 67.41,
+      "duration_s": 150.81,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,7 +32,7 @@
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 41.31,
+      "duration_s": 61.72,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -40,12 +40,12 @@
     {
       "name": "First Avenue",
       "status": "ok",
-      "fresh_count": 13,
-      "final_count": 8,
+      "fresh_count": 14,
+      "final_count": 9,
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 14.93,
+      "duration_s": 47.54,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 21,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 42.32,
+      "duration_s": 52.33,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -66,12 +66,12 @@
     {
       "name": "Minneapolis Events",
       "status": "ok",
-      "fresh_count": 17,
+      "fresh_count": 16,
       "final_count": 12,
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 14.31,
+      "duration_s": 26.13,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,28 +79,41 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 18,
+      "fresh_count": 17,
       "final_count": 4,
-      "baseline": 18,
+      "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 34.02,
+      "duration_s": 25.06,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 1
+      "dropped_count": 0
     },
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 7,
-      "final_count": 0,
+      "fresh_count": 13,
+      "final_count": 2,
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 59.41,
+      "duration_s": 20.35,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 6
+      "dropped_count": 0
+    },
+    {
+      "name": "Songkick Minneapolis",
+      "status": "ok",
+      "fresh_count": 31,
+      "final_count": 29,
+      "baseline": 31,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 38.81,
+      "consecutive_empty": 0,
+      "error": null,
+      "dropped_count": 0
     },
     {
       "name": "The Current Events",
@@ -110,7 +123,7 @@
       "baseline": 5,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 53.92,
+      "duration_s": 62.28,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -122,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 74,
+        "unique_venues": 45,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.16216216216216217,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 42,
         "unique_venues": 23,
         "top_venue": "331 Club",
         "top_venue_share": 0.2857142857142857,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 77,
-        "unique_venues": 46,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.15584415584415584,
         "source_url_density": 1.0
       }
     }
