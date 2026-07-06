@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-07-04T11:03:20Z",
-  "total_sources": 8,
-  "succeeded": 8,
+  "run_at": "2026-07-05T11:02:57Z",
+  "total_sources": 9,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 223,
-  "final_events": 49,
+  "fresh_events": 234,
+  "final_events": 78,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 82,
-      "final_count": 12,
+      "fresh_count": 72,
+      "final_count": 14,
       "baseline": 79,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 76.73,
+      "duration_s": 90.81,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -27,12 +27,12 @@
     {
       "name": "Bandsintown Minneapolis",
       "status": "ok",
-      "fresh_count": 27,
-      "final_count": 2,
+      "fresh_count": 28,
+      "final_count": 3,
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 41.38,
+      "duration_s": 69.28,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -42,10 +42,10 @@
       "status": "ok",
       "fresh_count": 15,
       "final_count": 10,
-      "baseline": 19,
+      "baseline": 18,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 18.01,
+      "duration_s": 60.9,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -54,11 +54,11 @@
       "name": "Hennepin Arts",
       "status": "ok",
       "fresh_count": 48,
-      "final_count": 4,
+      "final_count": 5,
       "baseline": 21,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 67.42,
+      "duration_s": 46.73,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -67,11 +67,11 @@
       "name": "Minneapolis Events",
       "status": "ok",
       "fresh_count": 16,
-      "final_count": 13,
-      "baseline": 17,
+      "final_count": 15,
+      "baseline": 16,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 20.43,
+      "duration_s": 18.23,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 19,
-      "final_count": 3,
+      "fresh_count": 16,
+      "final_count": 1,
       "baseline": 18,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 29.55,
+      "duration_s": 37.28,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -92,12 +92,25 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 13,
-      "final_count": 2,
+      "fresh_count": 7,
+      "final_count": 0,
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 78.94,
+      "duration_s": 61.4,
+      "consecutive_empty": 0,
+      "error": null,
+      "dropped_count": 6
+    },
+    {
+      "name": "Songkick Minneapolis",
+      "status": "ok",
+      "fresh_count": 29,
+      "final_count": 27,
+      "baseline": 31,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 45.03,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -110,10 +123,10 @@
       "baseline": 5,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 51.27,
+      "duration_s": 14.39,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 7
+      "dropped_count": 0
     }
   ],
   "gates": {
@@ -122,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 78,
+        "unique_venues": 42,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1794871794871795,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 49,
         "unique_venues": 28,
         "top_venue": "331 Club",
         "top_venue_share": 0.24489795918367346,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 74,
-        "unique_venues": 45,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.16216216216216217,
         "source_url_density": 1.0
       }
     }
