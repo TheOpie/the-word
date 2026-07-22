@@ -1,51 +1,51 @@
 {
-  "run_at": "2026-07-20T11:03:13Z",
+  "run_at": "2026-07-21T11:01:39Z",
   "total_sources": 9,
-  "succeeded": 8,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 1,
-  "fresh_events": 201,
-  "final_events": 69,
+  "fallback_used": 0,
+  "fresh_events": 241,
+  "final_events": 75,
   "wrote_events_json": true,
   "published": true,
-  "overall_status": "degraded",
+  "overall_status": "healthy",
   "sources": [
     {
       "name": "331 Club",
       "status": "ok",
       "fresh_count": 56,
-      "final_count": 13,
-      "baseline": 63,
+      "final_count": 12,
+      "baseline": 62,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 60.17,
+      "duration_s": 30.98,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Bandsintown Minneapolis",
-      "status": "fallback",
-      "fresh_count": 0,
+      "status": "ok",
+      "fresh_count": 28,
       "final_count": 0,
       "baseline": 28,
-      "used_fallback": true,
-      "attempts": 2,
-      "duration_s": 35.89,
-      "consecutive_empty": 1,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 46.54,
+      "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "First Avenue",
       "status": "ok",
-      "fresh_count": 20,
+      "fresh_count": 19,
       "final_count": 0,
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 20.27,
+      "duration_s": 17.08,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 49,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 53.14,
+      "duration_s": 40.49,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -71,7 +71,7 @@
       "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 34.02,
+      "duration_s": 36.18,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -84,7 +84,7 @@
       "baseline": 18,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 32.77,
+      "duration_s": 63.94,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 1
@@ -92,25 +92,25 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 9,
+      "fresh_count": 14,
       "final_count": 3,
-      "baseline": 8,
+      "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 132.09,
+      "duration_s": 17.08,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 5
+      "dropped_count": 0
     },
     {
       "name": "Songkick Minneapolis",
       "status": "ok",
       "fresh_count": 32,
       "final_count": 31,
-      "baseline": 28,
+      "baseline": 29,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 21.66,
+      "duration_s": 70.71,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -118,12 +118,12 @@
     {
       "name": "The Current Events",
       "status": "ok",
-      "fresh_count": 2,
-      "final_count": 2,
+      "fresh_count": 10,
+      "final_count": 9,
       "baseline": 4,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 34.35,
+      "duration_s": 48.93,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 75,
+        "unique_venues": 41,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.16,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 69,
         "unique_venues": 40,
         "top_venue": "331 Club",
         "top_venue_share": 0.18840579710144928,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 77,
-        "unique_venues": 44,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.18181818181818182,
         "source_url_density": 1.0
       }
     }
