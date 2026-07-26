@@ -1,11 +1,11 @@
 {
-  "run_at": "2026-07-24T11:01:56Z",
-  "total_sources": 8,
-  "succeeded": 8,
+  "run_at": "2026-07-25T11:02:06Z",
+  "total_sources": 9,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 229,
+  "fresh_events": 227,
   "final_events": 68,
   "wrote_events_json": true,
   "published": true,
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 55,
-      "final_count": 14,
-      "baseline": 61,
+      "fresh_count": 56,
+      "final_count": 13,
+      "baseline": 60,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 63.56,
+      "duration_s": 52.71,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -28,11 +28,11 @@
       "name": "Bandsintown Minneapolis",
       "status": "ok",
       "fresh_count": 28,
-      "final_count": 2,
+      "final_count": 5,
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 25.3,
+      "duration_s": 60.83,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -45,7 +45,7 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 19.83,
+      "duration_s": 64.69,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 49,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 77.95,
+      "duration_s": 62.94,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -67,11 +67,11 @@
       "name": "Minneapolis Events",
       "status": "ok",
       "fresh_count": 15,
-      "final_count": 12,
+      "final_count": 14,
       "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 40.31,
+      "duration_s": 19.67,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,25 +79,25 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 19,
-      "final_count": 5,
+      "fresh_count": 18,
+      "final_count": 4,
       "baseline": 18,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 23.26,
+      "duration_s": 29.55,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 0
+      "dropped_count": 1
     },
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 14,
-      "final_count": 3,
-      "baseline": 12,
+      "fresh_count": 9,
+      "final_count": 2,
+      "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 25.46,
+      "duration_s": 34.0,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -106,14 +106,27 @@
       "name": "Songkick Minneapolis",
       "status": "ok",
       "fresh_count": 29,
-      "final_count": 29,
+      "final_count": 24,
       "baseline": 30,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 47.3,
+      "duration_s": 23.4,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
+    },
+    {
+      "name": "The Current Events",
+      "status": "ok",
+      "fresh_count": 3,
+      "final_count": 3,
+      "baseline": 4,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 38.19,
+      "consecutive_empty": 0,
+      "error": null,
+      "dropped_count": 7
     }
   ],
   "gates": {
@@ -123,16 +136,16 @@
     "stats": {
       "new": {
         "count": 68,
-        "unique_venues": 43,
+        "unique_venues": 45,
         "top_venue": "331 Club",
-        "top_venue_share": 0.20588235294117646,
+        "top_venue_share": 0.19117647058823528,
         "source_url_density": 1.0
       },
       "previous": {
-        "count": 69,
-        "unique_venues": 41,
+        "count": 68,
+        "unique_venues": 43,
         "top_venue": "331 Club",
-        "top_venue_share": 0.18840579710144928,
+        "top_venue_share": 0.20588235294117646,
         "source_url_density": 1.0
       }
     }
