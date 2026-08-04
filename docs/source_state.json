@@ -1,14 +1,9 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T11:02:12Z",
+  "updated_at": "2026-08-04T19:25:18Z",
   "sources": {
     "Minneapolis Events": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 16,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 15,
@@ -73,158 +68,132 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 15,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 15,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "3M Open - Sunday",
-            "dateTime": "2026-07-26T08:00:00",
-            "venue": "TPC Twin Cities",
-            "address": "11444 Tournament Players Parkway, Minneapolis, MN 55449",
-            "description": "Professional (PGA) weekend event at TPC Twin Cities in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/3m-open-sunday-minneapolis-sunday-july-26-2026-800-am/",
+            "name": "St. Paul Saints vs. Louisville Bats",
+            "dateTime": "2026-08-04T19:07:00",
+            "venue": "CHS Field",
+            "address": "300 E 5th St, Saint Paul, MN 55101",
+            "description": "Minor League Baseball (AAA) game between the St. Paul Saints and the Louisville Bats at CHS Field.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/st-paul-saints-vs-louisville-bats-saint-paul-tuesday-august-4-2026-707-pm/",
             "tags": [
-              "Golf",
-              "PGA",
+              "Baseball",
+              "Minors (AAA)",
               "Sports"
+            ]
+          },
+          {
+            "name": "Leagues Cup: Phase One - Minnesota United FC vs. FC Juarez",
+            "dateTime": "2026-08-04T19:30:00",
+            "venue": "Allianz Field",
+            "address": "St. Anthony Ave, Saint Paul, MN 55104",
+            "description": "Leagues Cup Phase One soccer match between Minnesota United FC and FC Juarez at Allianz Field.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/leagues-cup-phase-one-minnesota-united-fc-vs-fc-juarez-saint-paul-tuesday-august-4-2026-730-pm/",
+            "tags": [
+              "Soccer",
+              "Sports",
+              "Tournament"
             ],
-            "imageUrl": "https://api.minneapolis.events/media/pga-tour.jpg"
+            "imageUrl": "https://api.minneapolis.events/media/minnesota-united-fc.jpg"
+          },
+          {
+            "name": "Will Swinton",
+            "dateTime": "2026-08-04T19:30:00",
+            "venue": "7th Street Entry",
+            "address": "701 First Avenue North, Minneapolis, MN 55403",
+            "description": "Pop/Rock concert by Will Swinton at 7th Street Entry, a 250-seat live entertainment venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/will-swinton-minneapolis-tuesday-august-4-2026-730-pm/",
+            "tags": [
+              "Concert",
+              "Local Bands",
+              "Music",
+              "Pop",
+              "Rock"
+            ]
           },
           {
             "name": "Wicked",
-            "dateTime": "2026-07-26T13:00:00",
+            "dateTime": "2026-08-04T19:30:00",
             "venue": "Orpheum Theatre - Minneapolis",
             "address": "910 Hennepin Ave, Minneapolis, MN 55402",
-            "description": "The Broadway musical Wicked performs at the Orpheum Theatre in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/wicked-minneapolis-sunday-july-26-2026-100-pm/",
+            "description": "The musical Wicked performed at the Orpheum Theatre in Minneapolis, a 2,579-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/wicked-minneapolis-tuesday-august-4-2026-730-pm/",
             "tags": [
               "Musical",
+              "Theater",
+              "Theatre"
+            ]
+          },
+          {
+            "name": "Come From Away",
+            "dateTime": "2026-08-04T19:30:00",
+            "venue": "Mcguire Proscenium Stage - Guthrie Theater",
+            "address": "818 South 2nd Street, Minneapolis, MN 55415",
+            "description": "The musical Come From Away performed at the Mcguire Proscenium Stage at the Guthrie Theater, a 700-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/come-from-away-minneapolis-tuesday-august-4-2026-730-pm/",
+            "tags": [
+              "Musical",
+              "Theater",
+              "Theatre"
+            ]
+          },
+          {
+            "name": "Minnesota Vikings Training Camp",
+            "dateTime": "2026-08-05T12:00:00",
+            "venue": "Twin Cities Orthopedics Performance Center",
+            "address": "2600 Vikings Pkwy, Saint Paul, MN 55121",
+            "description": "Minnesota Vikings NFL training camp at the Twin Cities Orthopedics Performance Center.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/minnesota-vikings-training-camp-saint-paul-wednesday-august-5-2026-1200-pm/",
+            "tags": [
+              "Football",
+              "NFL",
+              "Sports"
+            ]
+          },
+          {
+            "name": "Private Lives",
+            "dateTime": "2026-08-05T13:00:00",
+            "venue": "Wurtele Thrust Stage - Guthrie Theater",
+            "address": "818 South Second Street, Minneapolis, MN 55415",
+            "description": "The play Private Lives performed at the Wurtele Thrust Stage at the Guthrie Theater, a 1,100-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/private-lives-minneapolis-wednesday-august-5-2026-100-pm/",
+            "tags": [
               "Play",
               "Theater",
               "Theatre"
             ],
-            "imageUrl": "https://api.minneapolis.events/media/wicked.jpg"
+            "imageUrl": "https://api.minneapolis.events/media/private-lives.jpg"
           },
           {
-            "name": "Minnesota Twins vs. Athletics",
-            "dateTime": "2026-07-26T13:10:00",
-            "venue": "Target Field",
-            "address": "1 Twins Way, Minneapolis, MN 55403",
-            "description": "MLB game between the Minnesota Twins and the Oakland Athletics at Target Field.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/minnesota-twins-vs-athletics-minneapolis-sunday-july-26-2026-110-pm/",
-            "tags": [
-              "Baseball",
-              "MLB",
-              "Sports"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/minnesota-twins.jpg"
-          },
-          {
-            "name": "Minnesota Orchestra: Sarah Hicks - A Night In The Tropics",
-            "dateTime": "2026-07-26T14:00:00",
-            "venue": "Orchestra Hall - MN",
-            "address": "1111 Nicollet Mall, Minneapolis, MN 55403",
-            "description": "Classical performance by the Minnesota Orchestra conducted by Sarah Hicks, featuring A Night In The Tropics.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/minnesota-orchestra-sarah-hicks-a-night-in-the-tropics-minneapolis-sunday-july-26-2026-200-pm/",
-            "tags": [
-              "Classical",
-              "Concert",
-              "Music",
-              "Orchestra"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/minnesota-orchestra.jpg"
-          },
-          {
-            "name": "St. Paul Saints vs. Columbus Clippers",
-            "dateTime": "2026-07-26T14:07:00",
+            "name": "St. Paul Saints vs. Louisville Bats",
+            "dateTime": "2026-08-05T13:07:00",
             "venue": "CHS Field",
             "address": "300 E 5th St, Saint Paul, MN 55101",
-            "description": "AAA minor league baseball game between the St. Paul Saints and the Columbus Clippers at CHS Field.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/st-paul-saints-vs-columbus-clippers-saint-paul-sunday-july-26-2026-207-pm/",
+            "description": "Minor League Baseball (AAA) game between the St. Paul Saints and the Louisville Bats at CHS Field.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/st-paul-saints-vs-louisville-bats-saint-paul-wednesday-august-5-2026-107-pm/",
             "tags": [
-              "AAA",
               "Baseball",
+              "Minors (AAA)",
               "Sports"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/columbus-clippers.jpg"
-          },
-          {
-            "name": "The Jury Experience: An Immersive Courtroom Case",
-            "dateTime": "2026-07-26T16:30:00",
-            "venue": "Granada Theater - Minneapolis",
-            "address": "3022 Hennepin Avenue, Minneapolis, MN 55403",
-            "description": "An immersive courtroom experience at the Granada Theater in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/the-jury-experience-an-immersive-courtroom-case-minneapolis-sunday-july-26-2026-430-pm/",
-            "tags": [
-              "Immersive Experience",
-              "Other"
             ]
           },
           {
-            "name": "Dude Perfect: Squad Games Tour",
-            "dateTime": "2026-07-26T18:00:00",
-            "venue": "Target Center",
-            "address": "600 1st Avenue North, Minneapolis, MN 55403",
-            "description": "Dude Perfect brings their Squad Games Tour to Target Center in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/dude-perfect-squad-games-tour-minneapolis-sunday-july-26-2026-600-pm/",
-            "tags": [
-              "Family",
-              "Live Show",
-              "Sports",
-              "Taped Program"
-            ]
-          },
-          {
-            "name": "Wicked - Sensory Friendly Performance",
-            "dateTime": "2026-07-26T18:30:00",
-            "venue": "Orpheum Theatre - Minneapolis",
-            "address": "910 Hennepin Ave, Minneapolis, MN 55402",
-            "description": "Sensory friendly performance of the Broadway musical Wicked at the Orpheum Theatre.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/wicked-sensory-friendly-performance-minneapolis-sunday-july-26-2026-630-pm/",
-            "tags": [
-              "Musical",
-              "Play",
-              "Sensory Friendly",
-              "Theater",
-              "Theatre"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/wicked.jpg"
-          },
-          {
-            "name": "The Jury Experience: An Immersive Courtroom Case",
-            "dateTime": "2026-07-26T19:00:00",
-            "venue": "Granada Theater - Minneapolis",
-            "address": "3022 Hennepin Avenue, Minneapolis, MN 55403",
-            "description": "An immersive courtroom experience at the Granada Theater in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/the-jury-experience-an-immersive-courtroom-case-minneapolis-sunday-july-26-2026-700-pm/",
-            "tags": [
-              "Immersive Experience",
-              "Other"
-            ]
-          },
-          {
-            "name": "Boiled In Lead",
-            "dateTime": "2026-07-26T19:30:00",
-            "venue": "The Belvedere at Crooners",
-            "address": "Minneapolis, MN",
-            "description": "Country/folk concert featuring Boiled In Lead at The Belvedere at Crooners.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/boiled-in-lead-minneapolis-sunday-july-26-2026-730-pm/",
-            "tags": [
-              "Concert",
-              "Country",
-              "Folk"
-            ]
-          },
-          {
-            "name": "Nonpoint",
-            "dateTime": "2026-07-26T19:30:00",
-            "venue": "Cabooze",
-            "address": "917 Cedar Ave S, Minneapolis, MN 55404",
-            "description": "Hard rock/metal concert featuring Nonpoint at Cabooze in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/nonpoint-minneapolis-sunday-july-26-2026-730-pm/",
+            "name": "Of Virtue & Savage Hands",
+            "dateTime": "2026-08-05T18:00:00",
+            "venue": "Amsterdam Bar and Hall",
+            "address": "6th & Wabasha, Saint Paul, MN 55102",
+            "description": "Hard rock/metal concert featuring Of Virtue and Savage Hands at Amsterdam Bar and Hall.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/of-virtue-and-savage-hands-saint-paul-wednesday-august-5-2026-600-pm/",
             "tags": [
               "Concert",
               "Hard Rock",
@@ -232,61 +201,84 @@
             ]
           },
           {
-            "name": "Rx Bandits",
-            "dateTime": "2026-07-26T20:00:00",
-            "venue": "Varsity Theater - MN",
-            "address": "1308 SE 4th Street, Minneapolis, MN 55414",
-            "description": "Alternative rock concert featuring Rx Bandits at Varsity Theater in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/rx-bandits-minneapolis-sunday-july-26-2026-800-pm/",
+            "name": "Noah Kahan",
+            "dateTime": "2026-08-05T18:30:00",
+            "venue": "Target Field",
+            "address": "1 Twins Way, Minneapolis, MN 55403",
+            "description": "Pop/Rock concert by Noah Kahan at Target Field, a 38,885-seat venue with VIP packages available.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/noah-kahan-minneapolis-wednesday-august-5-2026-630-pm/",
             "tags": [
-              "Alternative",
               "Concert",
-              "Rock"
+              "Pop",
+              "Rock",
+              "Sports"
             ],
-            "imageUrl": "https://api.minneapolis.events/media/rx-bandits.jpg"
+            "imageUrl": "https://api.minneapolis.events/media/noah-kahan.jpg"
           },
           {
-            "name": "Toast - The Best of Bread",
-            "dateTime": "2026-07-27T19:00:00",
-            "venue": "Masquerade Dance Theater at Ames Center",
-            "address": "12600 Nicollet Avenue, Burnsville, MN 55337",
-            "description": "Tribute concert featuring Toast - The Best of Bread at the Masquerade Dance Theater at Ames Center in Burnsville.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/toast-the-best-of-bread-burnsville-monday-july-27-2026-700-pm/",
+            "name": "Come From Away",
+            "dateTime": "2026-08-05T19:30:00",
+            "venue": "Mcguire Proscenium Stage - Guthrie Theater",
+            "address": "818 South 2nd Street, Minneapolis, MN 55415",
+            "description": "The musical Come From Away performed at the Mcguire Proscenium Stage at the Guthrie Theater, a 700-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/come-from-away-minneapolis-wednesday-august-5-2026-730-pm/",
             "tags": [
-              "Concert",
-              "Music",
+              "Musical",
               "Theater",
-              "Tribute"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/toast-the-ultimate-bread-experience.jpg"
+              "Theatre"
+            ]
           },
           {
-            "name": "Audrey Hobert",
-            "dateTime": "2026-07-27T19:30:00",
+            "name": "Wicked",
+            "dateTime": "2026-08-05T19:30:00",
+            "venue": "Orpheum Theatre - Minneapolis",
+            "address": "910 Hennepin Ave, Minneapolis, MN 55402",
+            "description": "The musical Wicked performed at the Orpheum Theatre in Minneapolis, a 2,579-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/wicked-minneapolis-wednesday-august-5-2026-730-pm/",
+            "tags": [
+              "Musical",
+              "Theater",
+              "Theatre"
+            ]
+          },
+          {
+            "name": "Private Lives",
+            "dateTime": "2026-08-05T19:30:00",
+            "venue": "Wurtele Thrust Stage - Guthrie Theater",
+            "address": "818 South Second Street, Minneapolis, MN 55415",
+            "description": "The play Private Lives performed at the Wurtele Thrust Stage at the Guthrie Theater, a 1,100-seat venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/private-lives-minneapolis-wednesday-august-5-2026-730-pm/",
+            "tags": [
+              "Play",
+              "Theater",
+              "Theatre"
+            ]
+          },
+          {
+            "name": "Maddie Wiener",
+            "dateTime": "2026-08-05T20:00:00",
+            "venue": "Acme Comedy Company",
+            "address": "708 North 1st Street, Minneapolis, MN 55401",
+            "description": "Comedy show featuring Maddie Wiener at Acme Comedy Company.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/maddie-wiener-minneapolis-wednesday-august-5-2026-800-pm/",
+            "tags": [
+              "Comedy"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/maddie-wiener.jpg"
+          },
+          {
+            "name": "Tomahawk",
+            "dateTime": "2026-08-05T20:00:00",
             "venue": "First Avenue",
             "address": "701 First Avenue North, Minneapolis, MN 55403",
-            "description": "Pop/rock concert featuring Audrey Hobert at First Avenue in Minneapolis.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/audrey-hobert-minneapolis-monday-july-27-2026-730-pm/",
+            "description": "Pop/Rock concert by Tomahawk at First Avenue, a 250-seat live entertainment venue.",
+            "sourceUrl": "https://www.minneapolisevents.com/tickets/tomahawk-minneapolis-wednesday-august-5-2026-800-pm/",
             "tags": [
               "Concert",
               "Music",
               "Pop",
               "Rock"
             ]
-          },
-          {
-            "name": "Minnesota Twins vs. Kansas City Royals",
-            "dateTime": "2026-07-28T18:40:00",
-            "venue": "Target Field",
-            "address": "1 Twins Way, Minneapolis, MN 55403",
-            "description": "MLB game between the Minnesota Twins and the Kansas City Royals at Target Field.",
-            "sourceUrl": "https://www.minneapolisevents.com/tickets/minnesota-twins-vs-kansas-city-royals-minneapolis-tuesday-july-28-2026-640-pm/",
-            "tags": [
-              "Baseball",
-              "MLB",
-              "Sports"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/kansas-city-royals.jpg"
           }
         ]
       }
@@ -621,11 +613,6 @@
     "Songkick Minneapolis": {
       "runs": [
         {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 32,
-          "status": "ok"
-        },
-        {
           "at": "2026-07-14T11:04:00Z",
           "count": 31,
           "status": "ok"
@@ -689,328 +676,335 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 32,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 32,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "Nonpoint and Spineshank",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Cabooze",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43227062-nonpoint-at-cabooze",
+            "name": "Blackberry Smoke",
+            "dateTime": "2026-08-04T00:00:00",
+            "venue": "Ch Mayo Presentation Hall at Mayo Civic Center",
+            "address": "Rochester, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43184205-blackberry-smoke-at-ch-mayo-presentation-hall-at-mayo-civic-center",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/75208/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/568895/huge_avatar"
           },
           {
-            "name": "RX Bandits and Catbite",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Varsity Theater",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43051884-rx-bandits-at-varsity-theater",
+            "name": "Will Swinton",
+            "dateTime": "2026-08-04T00:00:00",
+            "venue": "7th St. Entry",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43290289-will-swinton-at-7th-st-entry",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/559147/huge_avatar"
-          },
-          {
-            "name": "Dessa",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "The Historic Auditorium",
-            "address": "Saint Croix Falls, WI, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43136777-dessa-at-historic-auditorium",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/447283/huge_avatar"
-          },
-          {
-            "name": "TRHÄ, Saidan, Barbelith, and Eudaemon (US)",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Zhora Darling",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43222256-trha-at-zhora-darling",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10395432/huge_avatar"
-          },
-          {
-            "name": "Lord Buffalo",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Cloudland Theater",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43177648-lord-buffalo-at-cloudland-theater",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/4788668/huge_avatar"
-          },
-          {
-            "name": "Clint Niosi",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "The White Squirrel",
-            "address": "St. Paul, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43042380-clint-niosi-at-white-squirrel",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/1080469/huge_avatar"
-          },
-          {
-            "name": "Keiko Matsui",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Dakota",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43181391-keiko-matsui-at-dakota",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/457004/huge_avatar"
-          },
-          {
-            "name": "Minnesota Orchestra",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Orchestra Hall",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43193349-minnesota-orchestra-at-orchestra-hall",
-            "tags": [
-              "Music"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/57161/huge_avatar"
-          },
-          {
-            "name": "Of The Orchard",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Underground Music Venue - Cafe",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43206439-of-the-orchard-at-underground-music-venue-cafe",
-            "tags": [
-              "Music"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9779529/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10256798/huge_avatar"
           },
           {
             "name": "Wicked (Tour)",
-            "dateTime": "2026-07-26T00:00:00",
+            "dateTime": "2026-08-04T00:00:00",
             "venue": "Orpheum Theatre",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43311302-wicked-tour-at-orpheum-theatre",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43311315-wicked-tour-at-orpheum-theatre",
             "tags": [
               "Theater"
             ]
           },
           {
-            "name": "Avenged Sevenfold and Good Charlotte",
-            "dateTime": "2026-07-27T00:00:00",
+            "name": "Larry Mcdonough",
+            "dateTime": "2026-08-04T00:00:00",
+            "venue": "Dakota",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43338235-larry-mcdonough-at-dakota",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/495655/huge_avatar"
+          },
+          {
+            "name": "Goo Goo Dolls - Summer 2026 with The Goo Goo Dolls and Neon Trees",
+            "dateTime": "2026-08-04T00:00:00",
             "venue": "Mystic Lake Amphitheater",
-            "address": "Shakopee, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/42935099-avenged-sevenfold-at-mystic-lake-amphitheater",
+            "address": "Shakopee, MN",
+            "sourceUrl": "https://www.songkick.com/festivals/3761623-goo-goo-dolls-summer/id/42935097-goo-goo-dolls--summer-2026",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/425252/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/events/42935097/huge_avatar?series_id=3761623"
           },
           {
-            "name": "LSD and the Search for God",
-            "dateTime": "2026-07-27T00:00:00",
-            "venue": "7th St. Entry",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43149715-lsd-and-the-search-for-god-at-7th-st-entry",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/17727/huge_avatar"
+            "name": "Noah Kahan with Gigi Perez",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Target Field",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43023021-noah-kahan-at-target-field",
+            "tags": [
+              "Sports"
+            ]
           },
           {
-            "name": "Audrey Hobert",
-            "dateTime": "2026-07-27T00:00:00",
+            "name": "Ne-Yo and Akon",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Mystic Lake Amphitheater",
+            "address": "Shakopee, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43014895-neyo-at-mystic-lake-amphitheater",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/491256/huge_avatar"
+          },
+          {
+            "name": "Tomahawk and Melvins",
+            "dateTime": "2026-08-05T00:00:00",
             "venue": "First Avenue",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/42993533-audrey-hobert-at-first-avenue",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43064740-tomahawk-at-first-avenue",
             "tags": [
-              "Music"
-            ]
+              "Music",
+              "metal"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/205292/huge_avatar"
           },
           {
-            "name": "Toast",
-            "dateTime": "2026-07-27T00:00:00",
-            "venue": "Ames Center",
-            "address": "Burnsville, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43169146-toast-at-ames-center",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/237228/huge_avatar"
-          },
-          {
-            "name": "Argo and the Violet Queens",
-            "dateTime": "2026-07-27T00:00:00",
-            "venue": "Zhora Darling",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43232048-argo-and-the-violet-queens-at-zhora-darling",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10285103/huge_avatar"
-          },
-          {
-            "name": "Omar Abdulkarim",
-            "dateTime": "2026-07-27T00:00:00",
+            "name": "Soul Asylum with Ivan Neville",
+            "dateTime": "2026-08-05T00:00:00",
             "venue": "Dakota",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43285880-omar-abdulkarim-at-dakota",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43274333-soul-asylum-at-dakota",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10097596/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/511629/huge_avatar"
           },
           {
-            "name": "The Black Crowes, Whiskey Myers, and Southall",
-            "dateTime": "2026-07-28T00:00:00",
-            "venue": "Mystic Lake Amphitheater",
-            "address": "Shakopee, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43016034-black-crowes-at-mystic-lake-amphitheater",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/87388/huge_avatar"
+            "name": "John Doe and Exene Cervenka",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "The Parkway Theater",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43083229-john-doe-at-parkway-theater",
+            "tags": []
           },
           {
-            "name": "Jukebox the Ghost",
-            "dateTime": "2026-07-28T00:00:00",
-            "venue": "Fine Line",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43133056-jukebox-the-ghost-at-fine-line",
+            "name": "Savage Hands, Of Virtue, and Kingdom Collapse",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Amsterdam Bar & Hall",
+            "address": "St. Paul, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43215100-savage-hands-at-amsterdam-bar-and-hall",
             "tags": [
               "Music"
             ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/578861/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9542139/huge_avatar"
           },
           {
-            "name": "Allen Stone",
-            "dateTime": "2026-07-28T00:00:00",
-            "venue": "Dakota",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43181392-allen-stone-at-dakota",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/1896080/huge_avatar"
+            "name": "Daniel Villarreal",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Cedar Cultural Center",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43217668-daniel-villarreal-at-cedar-cultural-center",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8880804/huge_avatar"
           },
           {
-            "name": "Good Boy Daisy",
-            "dateTime": "2026-07-28T00:00:00",
-            "venue": "7th St. Entry",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43172528-good-boy-daisy-at-7th-st-entry",
+            "name": "Sorry X",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "The Amsterdam",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43253799-sorry-x-at-amsterdam",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8713578/huge_avatar"
-          },
-          {
-            "name": "Toast",
-            "dateTime": "2026-07-28T00:00:00",
-            "venue": "DECC Symphony Hall",
-            "address": "Duluth, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43089080-toast-at-decc-symphony-hall",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/237228/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10091998/huge_avatar"
           },
           {
             "name": "Wicked (Tour)",
-            "dateTime": "2026-07-28T00:00:00",
+            "dateTime": "2026-08-05T00:00:00",
             "venue": "Orpheum Theatre",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43311303-wicked-tour-at-orpheum-theatre",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43311316-wicked-tour-at-orpheum-theatre",
             "tags": [
               "Theater"
             ]
           },
           {
-            "name": "Chris Stapleton and Allen Stone",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Mystic Lake Amphitheater",
-            "address": "Shakopee, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/42977892-chris-stapleton-at-mystic-lake-amphitheater",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/793839/huge_avatar"
+            "name": "Mike Brody with Velahsa",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Gambit Brewing Co.",
+            "address": "St. Paul, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43337637-mike-brody-at-gambit-brewing-co",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2390472/huge_avatar"
           },
           {
-            "name": "OLIVIA DEAN and Baby Rose",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Target Center",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/42890862-olivia-dean-at-target-center",
+            "name": "Young the Giant, Cold War Kids, and KennyHoopla with Little Image",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Surly Brewing Festival Field",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43053207-young-the-giant-at-surly-brewing-festival-field",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2905251/huge_avatar"
+          },
+          {
+            "name": "Kehlani, DURAND BERNARR, Isaia Huron, TheArti$t, and WASEEL",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "The Armory",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43239258-kehlani-at-armory",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8371568/huge_avatar"
+          },
+          {
+            "name": "John Doe and Exene Cervenka",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "The Parkway Theater",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43095824-john-doe-at-parkway-theater",
+            "tags": []
+          },
+          {
+            "name": "Jane Monheit",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Dakota",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43242235-jane-monheit-at-dakota",
+            "tags": [
+              "jazz"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/65080/huge_avatar"
+          },
+          {
+            "name": "Noeline Hofmann",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "7th St. Entry",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/42693563-noeline-hofmann-at-7th-st-entry",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10322140/huge_avatar"
+          },
+          {
+            "name": "Bay Faction, NUFFER, and Lawnchair Dads",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Underground Music Venue - Cafe",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43261555-bay-faction-at-underground-music-venue-cafe",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8469833/huge_avatar"
+          },
+          {
+            "name": "Watershed",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Underground Music Venue",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43280754-watershed-at-underground-music-venue",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/110598/huge_avatar"
+          },
+          {
+            "name": "Wicked (Tour)",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Orpheum Theatre",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43311317-wicked-tour-at-orpheum-theatre",
+            "tags": [
+              "Theater"
+            ]
+          },
+          {
+            "name": "Ditch Pigeon",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Amsterdam Bar & Hall",
+            "address": "St. Paul, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43330071-ditch-pigeon-at-amsterdam-bar-and-hall",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10306657/huge_avatar"
+          },
+          {
+            "name": "Jack Harlow with James Savage",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "The Fillmore",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43221954-jack-harlow-at-fillmore",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8899609/huge_avatar"
+          },
+          {
+            "name": "SLANDER with William Black, Fairlane, FrostTop, and Redline",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "The Armory",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/42669739-slander-at-armory",
             "tags": [
               "Sports"
             ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9854184/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/485932/huge_avatar"
           },
           {
-            "name": "Dakha Brakha",
-            "dateTime": "2026-07-29T00:00:00",
+            "name": "Talib Kweli",
+            "dateTime": "2026-08-07T00:00:00",
             "venue": "Dakota",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43155987-dakha-brakha-at-dakota",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43300666-talib-kweli-at-dakota",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/4750548/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/362686/huge_avatar"
           },
           {
-            "name": "Space Monkey Mafia",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Turf Club",
-            "address": "St. Paul, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43238441-space-monkey-mafia-at-turf-club",
+            "name": "Theory of a Deadman",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "DECC Arena",
+            "address": "Duluth, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43175941-theory-of-a-deadman-at-decc-arena",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/209134/huge_avatar"
+          },
+          {
+            "name": "SLANDER, William Black, and Trivecta",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "The Armory",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43219906-slander-at-armory",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/485932/huge_avatar"
+          },
+          {
+            "name": "DJ Pauly D",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Uptown Theater",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43171223-dj-pauly-d-at-uptown-theater",
             "tags": [
-              "Local Bands",
-              "Music"
+              "DJ/Electronic"
             ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9503399/huge_avatar"
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2969591/huge_avatar"
           },
           {
-            "name": "Taiga",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Cedar Cultural Center",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43217916-taiga-at-cedar-cultural-center",
-            "tags": [
-              "Music"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/842603/huge_avatar"
+            "name": "Jerry Seinfeld",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "DECC Symphony Hall",
+            "address": "Duluth, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43245132-jerry-seinfeld-at-decc-symphony-hall",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/303547/huge_avatar"
           },
           {
-            "name": "Poolboy",
-            "dateTime": "2026-07-29T00:00:00",
+            "name": "Sophie Hiroko with Ava Levy, scrunchies, and Lana Leone",
+            "dateTime": "2026-08-07T00:00:00",
             "venue": "7th St. Entry",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43229251-poolboy-at-7th-st-entry",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.songkick.com/concerts/43202074-sophie-hiroko-at-7th-st-entry",
             "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/6767594/huge_avatar"
-          },
-          {
-            "name": "Curtis Grimes",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "YMCA Camp Northern Lights",
-            "address": "Babbitt, MN, US",
-            "description": "Outdoor concert.",
-            "sourceUrl": "https://www.songkick.com/concerts/43230324-curtis-grimes-at-ymca-camp-northern-lights",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/966641/huge_avatar"
-          },
-          {
-            "name": "The Dolly Show",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Ames Center",
-            "address": "Burnsville, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43237073-dolly-show-at-ames-center",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10200932/huge_avatar"
-          },
-          {
-            "name": "Frail Talk and Ross Thorn",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "1802 E 1st St",
-            "address": "Duluth, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43284110-frail-talk-at-1802-e-1st-st",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10164184/huge_avatar"
-          },
-          {
-            "name": "Wicked (Tour)",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Orpheum Theatre",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43311304-wicked-tour-at-orpheum-theatre",
-            "tags": [
-              "Theater"
-            ]
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10346963/huge_avatar"
           }
         ]
       }
     },
     "Bandsintown Minneapolis": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 27,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 28,
@@ -1075,28 +1069,42 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 28,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 28,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "WE Fest 2026",
-            "dateTime": "2026-08-05T00:00:00",
-            "venue": "Soo Pass Ranch",
-            "address": "Detroit Lakes, MN",
-            "sourceUrl": "https://www.bandsintown.com/f/199470?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "name": "Kehlani",
+            "dateTime": "2026-08-06T19:00:00",
+            "venue": "Armory",
+            "sourceUrl": "https://www.bandsintown.com/e/108421046-kehlani-at-armory",
+            "tags": [
+              "concert"
+            ]
+          },
+          {
+            "name": "Let's Gidi Fest 2026",
+            "dateTime": "2026-08-08T00:00:00",
+            "venue": "Gidi Lot",
+            "address": "Minneapolis, MN",
+            "sourceUrl": "https://www.bandsintown.com/f/228522",
             "tags": [
               "festival"
             ]
           },
           {
-            "name": "Maha Festival 2026",
-            "dateTime": "2026-08-08T00:00:00",
-            "venue": "Heartland of America Park at The RiverFront",
-            "address": "Omaha, NE",
-            "sourceUrl": "https://www.bandsintown.com/f/216080?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "name": "McHenry Music Festival 2026",
+            "dateTime": "2026-09-10T00:00:00",
+            "venue": "Petersen Park",
+            "address": "McHenry, IL",
+            "sourceUrl": "https://www.bandsintown.com/f/201069",
             "tags": [
               "Free",
               "festival"
@@ -1107,101 +1115,39 @@
             "dateTime": "2026-08-14T00:00:00",
             "venue": "Belknap Park",
             "address": "Grand Rapids, MI",
-            "sourceUrl": "https://www.bandsintown.com/f/203801?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/203801",
             "tags": [
               "Free",
               "festival"
             ]
           },
           {
-            "name": "Let's Gidi Fest 2026",
-            "dateTime": "2026-08-08T00:00:00",
-            "venue": "Gidi Lot",
-            "address": "Minneapolis, MN",
-            "sourceUrl": "https://www.bandsintown.com/f/228522?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "festival"
-            ]
-          },
-          {
-            "name": "McHenry Music Festival 2026",
-            "dateTime": "2026-09-10T00:00:00",
-            "venue": "Petersen Park",
-            "address": "McHenry, IL",
-            "sourceUrl": "https://www.bandsintown.com/f/201069?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival"
-            ]
-          },
-          {
-            "name": "Unity Christian Music Festival 2026",
+            "name": "WE Fest 2026",
             "dateTime": "2026-08-05T00:00:00",
-            "venue": "Heritage Landing",
-            "address": "Muskegon, MI",
-            "sourceUrl": "https://www.bandsintown.com/f/201201?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival"
-            ]
-          },
-          {
-            "name": "OneFest 2026",
-            "dateTime": "2026-07-31T00:00:00",
-            "venue": "Chippewa Valley Music Festival Grounds",
-            "address": "Cadott, WI",
-            "sourceUrl": "https://www.bandsintown.com/f/196982?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "venue": "Soo Pass Ranch",
+            "address": "Detroit Lakes, MN",
+            "sourceUrl": "https://www.bandsintown.com/f/199470",
             "tags": [
               "festival"
             ]
           },
           {
-            "name": "Riot Fest 2026",
-            "dateTime": "2026-09-18T00:00:00",
-            "venue": "Douglass Park",
-            "address": "Chicago, IL",
-            "sourceUrl": "https://www.bandsintown.com/f/222905?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "festival"
-            ]
-          },
-          {
-            "name": "Rock The Country Hastings 2026",
-            "dateTime": "2026-08-08T00:00:00",
-            "venue": "Barry Expo Center",
-            "address": "Hastings, MI",
-            "sourceUrl": "https://www.bandsintown.com/f/205864?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "festival"
-            ]
-          },
-          {
-            "name": "XRoads41 Rock Detour 2026",
-            "dateTime": "2026-08-09T00:00:00",
-            "venue": "Oshkosh Festivals Park",
-            "address": "Oshkosh, WI",
-            "sourceUrl": "https://www.bandsintown.com/f/217377?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "festival"
-            ]
-          },
-          {
-            "name": "North Coast Music Festival 2026",
+            "name": "ARC Music Festival 2026",
             "dateTime": "2026-09-04T00:00:00",
-            "venue": "SeatGeek Stadium",
-            "address": "Bridgeview, IL",
-            "sourceUrl": "https://www.bandsintown.com/f/207654?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "venue": "Union Park",
+            "address": "Chicago, IL",
+            "sourceUrl": "https://www.bandsintown.com/f/213093",
             "tags": [
               "Free",
               "festival"
             ]
           },
           {
-            "name": "Country Rising Festival Winnipeg 2026",
-            "dateTime": "2026-08-21T00:00:00",
+            "name": "Tacos and Tequila Festival Winnipeg 2026",
+            "dateTime": "2026-08-22T00:00:00",
             "venue": "Blue Cross Park",
             "address": "Winnipeg, MB",
-            "sourceUrl": "https://www.bandsintown.com/f/209148?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/213129",
             "tags": [
               "Free",
               "festival"
@@ -1212,52 +1158,50 @@
             "dateTime": "2026-08-06T00:00:00",
             "venue": "Oshkosh Festivals Park",
             "address": "Oshkosh, WI",
-            "sourceUrl": "https://www.bandsintown.com/f/200274?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/200274",
             "tags": [
               "festival"
             ]
           },
           {
-            "name": "Lollapalooza 2026",
-            "dateTime": "2026-07-30T00:00:00",
-            "venue": "Grant Park",
-            "address": "Chicago, IL",
-            "sourceUrl": "https://www.bandsintown.com/f/210191?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "name": "North Coast Music Festival 2026",
+            "dateTime": "2026-09-04T00:00:00",
+            "venue": "SeatGeek Stadium",
+            "address": "Bridgeview, IL",
+            "sourceUrl": "https://www.bandsintown.com/f/207654",
             "tags": [
+              "Free",
               "festival"
             ]
           },
           {
-            "name": "Tacos and Tequila Festival Winnipeg 2026",
-            "dateTime": "2026-08-22T00:00:00",
+            "name": "Country Rising Festival Winnipeg 2026",
+            "dateTime": "2026-08-21T00:00:00",
             "venue": "Blue Cross Park",
             "address": "Winnipeg, MB",
-            "sourceUrl": "https://www.bandsintown.com/f/213129?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival",
-              "food"
-            ]
-          },
-          {
-            "name": "Hinterland Music Festival 2026",
-            "dateTime": "2026-07-30T00:00:00",
-            "venue": "Hinterland Music Festival",
-            "address": "Saint Charles, IA",
-            "sourceUrl": "https://www.bandsintown.com/f/202838?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/209148",
             "tags": [
               "Free",
               "festival"
             ]
           },
           {
-            "name": "ARC Music Festival 2026",
-            "dateTime": "2026-09-04T00:00:00",
-            "venue": "Union Park",
-            "address": "Chicago, IL",
-            "sourceUrl": "https://www.bandsintown.com/f/213093?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "name": "XRoads41 Rock Detour 2026",
+            "dateTime": "2026-08-09T00:00:00",
+            "venue": "Oshkosh Festivals Park",
+            "address": "Oshkosh, WI",
+            "sourceUrl": "https://www.bandsintown.com/f/217377",
             "tags": [
-              "Free",
+              "festival"
+            ]
+          },
+          {
+            "name": "Keefy CannaFest 2026",
+            "dateTime": "2026-09-19T00:00:00",
+            "venue": "Sangamon County Fairgrounds",
+            "address": "New Berlin, IL",
+            "sourceUrl": "https://www.bandsintown.com/f/229751",
+            "tags": [
               "festival"
             ]
           },
@@ -1266,8 +1210,103 @@
             "dateTime": "2026-08-14T00:00:00",
             "venue": "St. Joseph County 4-H Fairgrounds",
             "address": "South Bend, IN",
-            "sourceUrl": "https://www.bandsintown.com/f/205809?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/205809",
             "tags": [
+              "festival"
+            ]
+          },
+          {
+            "name": "Maha Festival 2026",
+            "dateTime": "2026-08-08T00:00:00",
+            "venue": "Heartland of America Park at The RiverFront",
+            "address": "Omaha, NE",
+            "sourceUrl": "https://www.bandsintown.com/f/216080",
+            "tags": [
+              "Free",
+              "festival"
+            ]
+          },
+          {
+            "name": "Rock The Country Hastings 2026",
+            "dateTime": "2026-08-08T00:00:00",
+            "venue": "Barry Expo Center",
+            "address": "Hastings, MI",
+            "sourceUrl": "https://www.bandsintown.com/f/205864",
+            "tags": [
+              "festival"
+            ]
+          },
+          {
+            "name": "Rock The Plains Country Music Festival 2026",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Rock The Plains Festival Grounds",
+            "address": "Alma, KS",
+            "sourceUrl": "https://www.bandsintown.com/f/211039",
+            "tags": [
+              "Free",
+              "festival"
+            ]
+          },
+          {
+            "name": "Riot Fest 2026",
+            "dateTime": "2026-09-18T00:00:00",
+            "venue": "Douglass Park",
+            "address": "Chicago, IL",
+            "sourceUrl": "https://www.bandsintown.com/f/222905",
+            "tags": [
+              "festival"
+            ]
+          },
+          {
+            "name": "Unity Christian Music Festival 2026",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Heritage Landing",
+            "address": "Muskegon, MI",
+            "sourceUrl": "https://www.bandsintown.com/f/201201",
+            "tags": [
+              "Free",
+              "festival"
+            ]
+          },
+          {
+            "name": "Tacos and Tequila Festival St. Louis 2026",
+            "dateTime": "2026-09-12T00:00:00",
+            "venue": "Carshield Park",
+            "address": "O'Fallon, MO",
+            "sourceUrl": "https://www.bandsintown.com/f/213133",
+            "tags": [
+              "Free",
+              "festival"
+            ]
+          },
+          {
+            "name": "Folk Alliance Regional Midwest 2026",
+            "dateTime": "2026-10-22T00:00:00",
+            "venue": "The Royal Sonesta Minneapolis Downtown",
+            "address": "Minneapolis, Minnesota",
+            "sourceUrl": "https://www.bandsintown.com/f/232371",
+            "tags": [
+              "festival"
+            ]
+          },
+          {
+            "name": "Dogtoberfest at Insight Brewing 2026",
+            "dateTime": "2026-09-12T00:00:00",
+            "venue": "Insight Brewing & Taproom",
+            "address": "Minneapolis, Minnesota",
+            "sourceUrl": "https://www.bandsintown.com/f/228541",
+            "tags": [
+              "festival"
+            ]
+          },
+          {
+            "name": "The Irish Fair Music Festival 2026",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Lake Harriet Regional Park",
+            "address": "Minneapolis, Minnesota",
+            "sourceUrl": "https://www.bandsintown.com/f/229116",
+            "tags": [
+              "Free",
               "festival"
             ]
           },
@@ -1276,10 +1315,9 @@
             "dateTime": "2026-10-22T00:00:00",
             "venue": "The Royal Sonesta Minneapolis Downtown",
             "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/227486?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/227486",
             "tags": [
-              "festival",
-              "folk"
+              "festival"
             ]
           },
           {
@@ -1287,7 +1325,7 @@
             "dateTime": "2026-10-31T00:00:00",
             "venue": "The Hook and Ladder Theater & Lounge",
             "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/231849?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/231849",
             "tags": [
               "Free",
               "festival"
@@ -1298,7 +1336,7 @@
             "dateTime": "2026-08-27T00:00:00",
             "venue": "Minnesota State Fairgrounds",
             "address": "St Paul, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/215071?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/215071",
             "tags": [
               "festival"
             ]
@@ -1308,10 +1346,9 @@
             "dateTime": "2026-08-21T00:00:00",
             "venue": "Hyatt Regency Minneapolis",
             "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/226962?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/226962",
             "tags": [
               "Art",
-              "convention",
               "festival"
             ]
           },
@@ -1320,63 +1357,17 @@
             "dateTime": "2026-10-03T00:00:00",
             "venue": "Surly Brewing Co.",
             "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/230593?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "sourceUrl": "https://www.bandsintown.com/f/230593",
             "tags": [
-              "beer",
               "festival"
             ]
           },
           {
-            "name": "Lost 40 Music Festival 2026",
-            "dateTime": "2026-07-29T00:00:00",
-            "venue": "Golden Valley Country Club",
-            "address": "Golden Valley, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/219222?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival"
-            ]
-          },
-          {
-            "name": "MODE: The World's Photography Festival 2026",
-            "dateTime": "2026-09-18T00:00:00",
-            "venue": "Loring Park",
-            "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/227056?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival",
-              "photography"
-            ]
-          },
-          {
-            "name": "Star of the North 2026",
-            "dateTime": "2026-10-09T00:00:00",
-            "venue": "Tapestry Folkdance Center",
-            "address": "Minneapolis, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/205814?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "festival",
-              "folk"
-            ]
-          },
-          {
-            "name": "Lakeside Guitar Festival 2026",
-            "dateTime": "2026-08-14T00:00:00",
-            "venue": "Como Lakeside Pavilion",
-            "address": "Saint Paul, Minnesota",
-            "sourceUrl": "https://www.bandsintown.com/f/226720?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
-            "tags": [
-              "Free",
-              "festival"
-            ]
-          },
-          {
-            "name": "Loring Alley Live 2026",
-            "dateTime": "2026-08-14T00:00:00",
-            "venue": "Loring Park",
-            "address": "Minneapolis, MN",
-            "sourceUrl": "https://www.bandsintown.com/f/231131?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival",
+            "name": "Called | Walk By Faith, Not By Sight 2027",
+            "dateTime": "2027-03-05T00:00:00",
+            "venue": "Minneapolis Marriott Northwest Hotel & Conference Center",
+            "address": "Brooklyn Park, MN",
+            "sourceUrl": "https://www.bandsintown.com/f/232703",
             "tags": [
               "festival"
             ]
@@ -1386,11 +1377,6 @@
     },
     "First Avenue": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 20,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 20,
@@ -1455,51 +1441,44 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 20,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 17,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "TopOppGen",
-            "dateTime": "2026-07-01T00:00:00",
-            "venue": "Fine Line",
-            "description": "with Aziedoesntexist",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-topoppgen/",
-            "tags": [
-              "Music",
-              "music"
-            ]
-          },
-          {
-            "name": "Ken Pomeroy",
-            "dateTime": "2026-07-02T00:00:00",
-            "venue": "7th St Entry",
-            "description": "with Ramsey Thornton",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-ken-pomeroy/",
-            "tags": [
-              "music"
-            ]
-          },
-          {
-            "name": "Super Diamond ⏤ The Neil Diamond Tribute",
-            "dateTime": "2026-07-02T00:00:00",
+            "name": "GCW presents Rude Awakening",
+            "dateTime": "2026-08-01T00:00:00",
             "venue": "First Avenue",
-            "description": "An Evening with Super Diamond, The Neil Diamond Tribute.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-super-diamond-tribute/",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-gcw-rude-awakening/",
             "tags": [
+              "GCW",
               "Music",
-              "music",
-              "tribute"
+              "wrestling"
             ]
           },
           {
-            "name": "Cole Diamond",
-            "dateTime": "2026-07-03T00:00:00",
+            "name": "Faouzia",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "Fine Line",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-faouzia/",
+            "tags": [
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "Bronwyn Keith-Hynes",
+            "dateTime": "2026-08-01T00:00:00",
             "venue": "Turf Club",
-            "description": "Birthday Show and EP Release. ★ Local Show ★ with Cowboy Thoughts, Lone Rock Bride and Turn Turn Turn.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-cole-diamond/",
+            "description": "Bronwyn Keith-Hynes with The Foxgloves.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-bronwyn-keith-hynes/",
             "tags": [
               "Local Bands",
               "Music",
@@ -1508,191 +1487,178 @@
             ]
           },
           {
-            "name": "Terrapin Stallion",
-            "dateTime": "2026-07-03T00:00:00",
+            "name": "League Two",
+            "dateTime": "2026-08-01T00:00:00",
             "venue": "7th St Entry",
-            "description": "Primal Grateful Dead, Ween, & More! ★ Local Show ★",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-terrapin-stallion/",
+            "description": "Local show with Waking Hours and Eli Orion.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-league-two/",
             "tags": [
               "local",
-              "music",
-              "tribute"
+              "music"
             ]
           },
           {
-            "name": "Novulent",
-            "dateTime": "2026-07-07T00:00:00",
+            "name": "F1rst Wrestling presents WREMIX",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "First Avenue",
+            "description": "Local show with music from Cheap Bouquet, burlesque from Sweetpea, and drag from Lala Luzious.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-f1rst-wrestling-wremix/",
+            "tags": [
+              "Music",
+              "Sports",
+              "burlesque",
+              "drag",
+              "local",
+              "wrestling"
+            ]
+          },
+          {
+            "name": "GCW vs. F1rst Wrestling",
+            "dateTime": "2026-08-02T00:00:00",
+            "venue": "First Avenue",
+            "description": "Local wrestling showdown between GCW and F1rst Wrestling.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-gcw-vs-f1rst-wrestling/",
+            "tags": [
+              "Music",
+              "Sports",
+              "local",
+              "wrestling"
+            ]
+          },
+          {
+            "name": "Brotherkenzie",
+            "dateTime": "2026-08-02T00:00:00",
             "venue": "7th St Entry",
-            "description": "with Babyteeth",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-novulent/",
+            "description": "Local show with Dirt Buyer.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-brotherkenzie/",
             "tags": [
+              "local",
               "music"
             ]
           },
           {
-            "name": "The Church",
-            "dateTime": "2026-07-08T00:00:00",
-            "venue": "The Fitzgerald Theater",
-            "description": "The Singles: 1980-2025",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-the-church/",
-            "tags": [
-              "music"
-            ]
-          },
-          {
-            "name": "Anvil",
-            "dateTime": "2026-07-08T00:00:00",
-            "venue": "7th St Entry",
-            "description": "with Midnite Hellion",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-anvil/",
-            "tags": [
-              "music"
-            ]
-          },
-          {
-            "name": "Father John Misty",
-            "dateTime": "2026-07-08T00:00:00",
+            "name": "Suki Waterhouse",
+            "dateTime": "2026-08-03T00:00:00",
             "venue": "Palace Theatre",
-            "description": "with King Tuff",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-father-john-misty/",
+            "description": "The Loveland Tour with Charlotte Lawrence.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-suki-waterhouse/",
             "tags": [
-              "music"
+              "music",
+              "tour"
             ]
           },
           {
-            "name": "Daphne Jane",
-            "dateTime": "2026-07-09T00:00:00",
+            "name": "Cruz Beckham and The Breakers",
+            "dateTime": "2026-08-03T00:00:00",
             "venue": "7th St Entry",
-            "description": "★ Local Show ★ with Harlow, Lana Leone and Jojo Ventus Ninja.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-daphne-jane/",
+            "description": "For Your Love Tour with Moonsault.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-cruz-beckham-and-the-breakers/",
             "tags": [
-              "local",
-              "music"
+              "music",
+              "tour"
             ]
           },
           {
-            "name": "Benjamin Tod & Lost Dog Street Band",
-            "dateTime": "2026-07-09T00:00:00",
+            "name": "Will Swinton",
+            "dateTime": "2026-08-04T00:00:00",
+            "venue": "7th St Entry",
+            "description": "Will Swinton Live with Peech.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-will-swinton/",
+            "tags": [
+              "music"
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/06/WillSwinton-080426-1080x1669-1.jpg"
+          },
+          {
+            "name": "Tomahawk",
+            "dateTime": "2026-08-05T00:00:00",
             "venue": "First Avenue",
-            "description": "2026 Tour with Leon Majcen.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-benjamin-tod/",
+            "description": "Tomahawk with Melvins.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-tomahawk/",
             "tags": [
               "Music",
               "music"
             ]
           },
           {
-            "name": "Craig Finn and Patterson Hood",
-            "dateTime": "2026-07-09T00:00:00",
-            "venue": "The Fitzgerald Theater",
-            "description": "Craig Finn and Patterson Hood live at The Fitzgerald Theater.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-craig-finn-and-patterson-hood/",
+            "name": "Young the Giant",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Surly Brewing Festival Field",
+            "description": "Victory Garden Tour with Cold War Kids and little image.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-young-the-giant/",
             "tags": [
-              "music"
-            ]
+              "festival",
+              "music",
+              "tour"
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/02/YoungTheGiant-080626-1080x1669v1.jpg"
           },
           {
-            "name": "PRIVATE EVENT",
-            "dateTime": "2026-07-10T00:00:00",
+            "name": "Cinema Therapy LIVE!",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "The Cedar Cultural Center",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-cinema-therapy-live/",
+            "tags": [
+              "Music",
+              "comedy",
+              "film"
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/05/CinemaTherapy-080626-1080.jpg"
+          },
+          {
+            "name": "Noeline Hofmann",
+            "dateTime": "2026-08-06T00:00:00",
             "venue": "7th St Entry",
-            "description": "Private event at 7th St Entry.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-private-event-071026/",
-            "tags": [
-              "private"
-            ]
-          },
-          {
-            "name": "Death Cab for Cutie",
-            "dateTime": "2026-07-10T00:00:00",
-            "venue": "Armory",
-            "description": "I Built You A Tower World Tour with Jay Som.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-death-cab-for-cutie/",
+            "description": "Noeline Hofmann with Emmy Moyen.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-noeline-hofmann/",
             "tags": [
               "music"
-            ]
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2025/07/NoelineHofmann-080626-1080v1.jpg"
           },
           {
-            "name": "SKÁLD",
-            "dateTime": "2026-07-10T00:00:00",
+            "name": "Triple Threat Tribute Night",
+            "dateTime": "2026-08-06T00:00:00",
             "venue": "Turf Club",
-            "description": "with Áit Ait",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-skald/",
+            "description": "Local show featuring Monsters In Your Parasol (QOTSA Tribute), Pleezer (Weezer Tribute), and The Reckoning Crew (R.E.M. Tribute).",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-triple-threat-tribute-night/",
             "tags": [
               "Local Bands",
               "Music",
-              "music"
-            ]
-          },
-          {
-            "name": "DETROIT",
-            "dateTime": "2026-07-10T00:00:00",
-            "venue": "7th St Entry",
-            "description": "'Hugo's Ball' in Entirety in the Entry. ★ Local Show ★",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-detroit/",
-            "tags": [
               "local",
-              "music"
-            ]
-          },
-          {
-            "name": "Trader Joe's vs. Aldi Rave",
-            "dateTime": "2026-07-10T00:00:00",
-            "venue": "First Avenue",
-            "description": "with DJ Hampster Dance",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-trader-joes-vs-aldi-rave/",
-            "tags": [
-              "DJ/Electronic",
-              "Music",
-              "Theater",
-              "dance",
-              "music",
-              "rave"
-            ]
-          },
-          {
-            "name": "girl so in love ⏤ an Olivia Rodrigo night",
-            "dateTime": "2026-07-10T00:00:00",
-            "venue": "Fine Line",
-            "description": "An Olivia Rodrigo night at Fine Line.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-girl-so-in-love-an-olivia-rodrigo-night/",
-            "tags": [
-              "Music",
               "music",
               "tribute"
-            ]
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/07/TripleThreatTribute-080626-1080.jpg"
           },
           {
-            "name": "The Bouncing Souls",
-            "dateTime": "2026-07-11T00:00:00",
-            "venue": "First Avenue",
-            "description": "'Born To Be' Tour with The Suicide Machines, Death By Stereo and The Drowns.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-the-bouncing-souls/",
-            "tags": [
-              "Music",
-              "music"
-            ]
-          },
-          {
-            "name": "Pullstring",
-            "dateTime": "2026-07-11T00:00:00",
+            "name": "Sophie Hiroko",
+            "dateTime": "2026-08-07T00:00:00",
             "venue": "7th St Entry",
-            "description": "'Growing Pains' EP Release. ★ Local Show ★ with The Dalmatian Club, Call Me Fritz and Syncline.",
-            "sourceUrl": "https://first-avenue.com/event/2026-07-pullstring/",
+            "description": "Local show with Lana Leone, Scrunchies, and Ava Levy.",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-sophie-hiroko/",
             "tags": [
               "local",
               "music"
-            ]
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/05/SophieHiroko-081726-1080x1669v0.jpg"
+          },
+          {
+            "name": "Sapphic ONE-derland",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Fine Line",
+            "sourceUrl": "https://first-avenue.com/event/2026-08-sapphic-one-derland/",
+            "tags": [
+              "Music",
+              "music"
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2026/07/SapphicOne-080726-1080.jpg"
           }
         ]
       }
     },
     "The Current Events": {
       "runs": [
-        {
-          "at": "2026-07-12T11:01:46Z",
-          "count": 4,
-          "status": "ok"
-        },
         {
           "at": "2026-07-13T11:05:16Z",
           "count": 10,
@@ -1757,124 +1723,163 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 10,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 10,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "The Gig List for July 26: Obi Original & The Black Atlantics; Al Church; Rogue Valley",
-            "dateTime": "2026-07-26T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260726-the-gig-list-obi-original",
-            "imageUrl": "https://img.apmcdn.org/f83ae6f134983562d44a9fae4c460674077f5824/uncropped/100e6e-20250108-a-band-performing-at-a-jazz-club-01-600.jpg",
+            "name": "The Gig List for August 4: Goo Goo Dolls; Vittorio and the Bridges; Will Swinton",
+            "dateTime": "2026-08-04T12:00:00",
+            "venue": "The Current Events",
+            "description": "Check out upcoming events featured on The Gig List for August 4.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260804-the-gig-list-goo-goo-dolls",
+            "imageUrl": "https://img.apmcdn.org/447e061c335a44fc96bbbd48dc4895daba15bd41/uncropped/63ae96-goo-goo-dolls-2025-john-medina-getty-images-600.jpg",
             "tags": [
-              "gig list",
-              "music roundup"
+              "Goo Goo Dolls",
+              "Vittorio and the Bridges",
+              "Will Swinton",
+              "music"
             ]
           },
           {
-            "name": "The Gig List for July 27: L.A. Buckner; Kavyesh Kaviraj and Omar Abdulkarim; Audrey Hobert",
-            "dateTime": "2026-07-27T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260727-the-gig-list-la-buckner",
-            "imageUrl": "https://img.apmcdn.org/0ae20be2b5e9e1ffde848d3d3304579ec1bc6fe4/uncropped/261bff-2026-tcup-ice-out-show-first-avenue-laura-buhman-35-600.jpg",
+            "name": "The Gig List for August 5: Noah Kahan; Soul Asylum; Ne-Yo",
+            "dateTime": "2026-08-05T12:00:00",
+            "venue": "The Current Events",
+            "description": "Check out upcoming events featured on The Gig List for August 5.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260805-the-gig-list-noah-kahan",
+            "imageUrl": "https://img.apmcdn.org/58ddf7b25c5e965945d971c7247e0760a9d47df1/uncropped/595e7f-20240805-noah-kahan-at-hinterland-festival-credit-madison-poppen-307-600.jpg",
             "tags": [
-              "gig list",
-              "music roundup"
+              "Ne-Yo",
+              "Noah Kahan",
+              "Soul Asylum",
+              "music"
             ]
           },
           {
-            "name": "The Gig List for July 28: The Black Crowes; FINICK; Allen Stone",
-            "dateTime": "2026-07-28T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260728-the-gig-list-the-black-crowes",
-            "imageUrl": "https://img.apmcdn.org/6fd95d1fbc174cc846085507cf50744ccebd12a7/normal/27135c-20240517-the-black-crowes-press-photo-600.jpg",
+            "name": "Noah Kahan with Gigi Perez",
+            "dateTime": "2026-08-05T18:30:00",
+            "venue": "Target Field",
+            "address": "1 Twins Way, Minneapolis, MN 55403",
+            "description": "Noah Kahan performs at Target Field as part of The Great Divide Tour with special guest Gigi Perez.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260805-hoan-kahan-gigi-perez-target-field-minneapolis",
+            "imageUrl": "https://img.apmcdn.org/55803ff9e6a3b8e3379c338f93ea8eb4f73f5732/uncropped/27570b-20260202-noah-kahan-2026the-great-divide-tour-ad-mat-600.jpg",
             "tags": [
-              "gig list",
-              "music roundup"
-            ]
-          },
-          {
-            "name": "The Gig List for July 29: Chris Stapleton; Olivia Dean; Space Monkey Mafia",
-            "dateTime": "2026-07-29T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260729-the-gig-list-chris-stapleton",
-            "imageUrl": "https://img.apmcdn.org/c439a37b91de3220da2780d14e4a5622989d5834/normal/338dbc-20240408-chris-stapleton-us-bank-05-600.jpg",
-            "tags": [
-              "gig list",
-              "music roundup"
-            ]
-          },
-          {
-            "name": "The Gig List for July 30: Pert Near Sandstone; Chris Stapleton; Joanne Shaw Taylor",
-            "dateTime": "2026-07-30T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260730-the-gig-list-pert-near-sandstone",
-            "imageUrl": "https://img.apmcdn.org/4438526c44cee901fad1c88620dc0190e6686df3/uncropped/e886c5-20260629-pert-near-sandstone-blue-ox-music-festival-wisconsin-credit-tony-nelson-02-600.jpg",
-            "tags": [
-              "gig list",
-              "music roundup"
-            ]
-          },
-          {
-            "name": "The Current's Happy Hours: Utepils Brewing with Michigander",
-            "dateTime": "2026-07-30T16:00:00",
-            "venue": "Utepils Brewing",
-            "address": "225 Thomas Ave N #700, Minneapolis, MN 55405",
-            "sourceUrl": "https://www.thecurrent.org/events/20260730-utepils-happy-hour",
-            "imageUrl": "https://img.apmcdn.org/4ef9608a51d2ef13c4f1c7f34767ad0fc650febd/uncropped/a6be5c-20260615-michigander-600.jpg",
-            "tags": [
+              "Gigi Perez",
+              "Noah Kahan",
+              "Sports",
               "concert",
-              "free",
-              "happy hour"
+              "music"
             ]
           },
           {
-            "name": "The Gig List for July 31: Mumford & Sons; Dr. Mambo's Combo; Mason Jennings",
-            "dateTime": "2026-07-31T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260731-the-gig-list-mumford-and-sons",
-            "imageUrl": "https://img.apmcdn.org/4653c6ff7cfd39d404beac4f187c2b6bd58f32c4/uncropped/3e7bf3-20251010-mumford-and-sons-grand-casino-arena-tony-nelson06-600.jpg",
-            "tags": [
-              "gig list",
-              "music roundup"
-            ]
-          },
-          {
-            "name": "Mumford & Sons with Medium Build",
-            "dateTime": "2026-07-31T18:00:00",
-            "venue": "Mystic Lake Amphitheater",
-            "address": "721 Canterbury Road South, Shakopee, MN 55379",
-            "sourceUrl": "https://www.thecurrent.org/events/20260731-mumford-sons-medium-build-mystic-lake-amphitheater",
-            "imageUrl": "https://img.apmcdn.org/7296da7050e1362e8b31f064c96ccff2f06f362e/uncropped/643fd5-20260221-mumford-and-sons-prizefighter-tour-admat-2026-600.jpg",
-            "tags": [
-              "concert",
-              "tour"
-            ]
-          },
-          {
-            "name": "The Current presents Mason Jennings: Dark Wings Album Release",
-            "dateTime": "2026-07-31T19:00:00",
+            "name": "The Current presents See How We Are: John Doe & Exene Cervenka in an acoustic performance",
+            "dateTime": "2026-08-05T19:00:00",
             "venue": "Parkway Theater",
             "address": "4814 Chicago Avenue S., Minneapolis, MN 55417",
-            "sourceUrl": "https://www.thecurrent.org/events/20260731-mason-jennings-album-release-parkway-theater-minneapolis",
-            "imageUrl": "https://img.apmcdn.org/dbaab8dd91761e1902ee6de879d049b4fcff4544/uncropped/729c28-20240723-mason-jennings-600.jpg",
+            "description": "An acoustic performance by John Doe & Exene Cervenka presented by The Current.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260805-john-doe-exene-cervenka-parkway-theater-minneapolis",
+            "imageUrl": "https://img.apmcdn.org/526d0123b8ec23c041622fcafefea6b9bfde8a94/uncropped/349e66-20260303-john-doe-and-exene-cervenka-black-and-white-photo-on-stairwell-600.jpg",
             "tags": [
-              "album release",
-              "concert"
+              "Exene Cervenka",
+              "John Doe",
+              "acoustic",
+              "music"
             ]
           },
           {
-            "name": "The Gig List for August 1: FénixDion; Adrian Younge; League Two",
-            "dateTime": "2026-08-01T12:00:00",
-            "venue": "Various Minneapolis/St. Paul venues",
-            "sourceUrl": "https://www.thecurrent.org/events/20260801-the-gig-list-fenixdion",
-            "imageUrl": "https://img.apmcdn.org/9d508c2e33a1f1f7f7019435b7bf39121c90c301/uncropped/0aabe0-20240903-fefenixdion-mpr-day-state-fair-credit-bump-opera-16-600.jpg",
+            "name": "The Gig List for August 6: Young the Giant; Ry Edwards; room3",
+            "dateTime": "2026-08-06T12:00:00",
+            "venue": "The Current Events",
+            "description": "Check out upcoming events featured on The Gig List for August 6.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260806-the-gig-list-young-the-giant",
+            "imageUrl": "https://img.apmcdn.org/13dfbf74c9b62f1e1c9bc11966ba8222c47a16aa/uncropped/ce7579-20240813-young-the-giant-at-target-center-credit-sara-fish-10-600.jpg",
             "tags": [
-              "gig list",
-              "music roundup"
+              "Ry Edwards",
+              "Young the Giant",
+              "music",
+              "room3"
+            ]
+          },
+          {
+            "name": "The Current's Happy Hours: Plains Art Museum with tofusmell",
+            "dateTime": "2026-08-06T16:00:00",
+            "venue": "Plains Art Museum",
+            "address": "704 1st Ave N, Fargo, ND 58102",
+            "description": "The Current's Happy Hours series at Plains Art Museum featuring tofusmell.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260806-plains-art-museum-happy-hour",
+            "imageUrl": "https://img.apmcdn.org/b20a9bd8fdf84ea8c065fc238e51e04d443c99e4/uncropped/ee0125-20260615-tofusmell-600.jpg",
+            "tags": [
+              "Fargo",
+              "Happy Hours",
+              "music",
+              "tofusmell"
+            ]
+          },
+          {
+            "name": "MN Bluegrass Festival 2026: Thursday, August 6",
+            "dateTime": "2026-08-06T16:00:00",
+            "venue": "El Rancho Mañana Campground",
+            "address": "27302 Ranch Road, Richmond, MN 56368",
+            "description": "The Thursday, August 6 edition of the MN Bluegrass Festival 2026 held at El Rancho Mañana Campground.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260806-mn-bluegrass-festival-richmond-minnesota",
+            "imageUrl": "https://img.apmcdn.org/ec211a2cd832dbab590dded617db2916735cba32/uncropped/6770f8-20260630-mn-bluegrass-festival-2026-poster-600.jpg",
+            "tags": [
+              "Free",
+              "bluegrass",
+              "festival",
+              "music"
+            ]
+          },
+          {
+            "name": "The Current presents Young the Giant with special guests Cold War Kids",
+            "dateTime": "2026-08-06T17:00:00",
+            "venue": "Surly Brewing Festival Field",
+            "address": "520 Malcolm Avenue SE, Minneapolis, MN 55414",
+            "description": "The Current presents Young the Giant with special guests Cold War Kids at Surly Brewing Festival Field.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260806-young-the-giant-cold-war-kids-kennyhoopla-surly-minneapolis",
+            "imageUrl": "https://img.apmcdn.org/af4f735bbe524f58b8e579f8b854f220bfc8ce4e/uncropped/4fb810-20260219-young-the-giant-with-cold-war-kids-2026-tour-admat-600.jpg",
+            "tags": [
+              "Cold War Kids",
+              "Free",
+              "Young the Giant",
+              "concert",
+              "music"
+            ]
+          },
+          {
+            "name": "The Current presents See How We Are: John Doe & Exene Cervenka in an acoustic performance",
+            "dateTime": "2026-08-06T19:00:00",
+            "venue": "Parkway Theater",
+            "address": "4814 Chicago Avenue S., Minneapolis, MN 55417",
+            "description": "An acoustic performance by John Doe & Exene Cervenka presented by The Current.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260806-john-doe-exene-cervenka-parkway-theater-minnepolis",
+            "imageUrl": "https://img.apmcdn.org/526d0123b8ec23c041622fcafefea6b9bfde8a94/uncropped/349e66-20260303-john-doe-and-exene-cervenka-black-and-white-photo-on-stairwell-600.jpg",
+            "tags": [
+              "Exene Cervenka",
+              "John Doe",
+              "acoustic",
+              "music"
+            ]
+          },
+          {
+            "name": "The Gig List for August 7: Sophie Hiroko; Talib Kweli; Jazicality",
+            "dateTime": "2026-08-07T12:00:00",
+            "venue": "The Current Events",
+            "description": "Check out upcoming events featured on The Gig List for August 7.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260807-the-gig-list-sophie-hiroko",
+            "imageUrl": "https://img.apmcdn.org/35786583d422f55da9aa28ab5f4fd041c18dac81/uncropped/416573-20260120-sophie-hiroko-best-new-bands-credit-laura-buhman-08-600.jpg",
+            "tags": [
+              "Jazicality",
+              "Sophie Hiroko",
+              "Talib Kweli",
+              "music"
             ]
           }
         ]
@@ -1882,11 +1887,6 @@
     },
     "Minneapolis.org Events": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 19,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 17,
@@ -1951,253 +1951,311 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 18,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 22,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "Come From Away",
-            "dateTime": "2026-07-01T00:00:00",
-            "venue": "Guthrie Theater",
-            "description": "Come From Away is making its debut at the Guthrie Theater. The story follows the real-life timeline of airline passengers stranded in Newfoundland, Canada, after 9/11 closed U.S. airspace.",
-            "sourceUrl": "https://www.guthrietheater.org/whats-on/come-from-away/",
+            "name": "WWE SummerSlam",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "U.S. Bank Stadium",
+            "description": "WWE SummerSlam heads to U.S. Bank Stadium for two back-to-back nights of action featuring World Heavyweight Champion Roman Reigns defending against Seth \"Freakin\" Rollins, CM Punk vs. Cody Rhodes for the WWE Championship, and more.",
+            "sourceUrl": "https://www.usbankstadium.com/events/detail/summerslam",
             "tags": [
-              "Theater",
-              "broadway",
-              "theater"
+              "WWE",
+              "sports",
+              "wrestling"
             ]
           },
           {
-            "name": "Taste of Minnesota",
-            "dateTime": "2026-07-03T00:00:00",
-            "venue": "Downtown Minneapolis",
-            "description": "From crave-worthy food vendors and standout local businesses to talented artists, inspired makers, and an all-star lineup of homegrown music, Taste of Minnesota 2026 is taking over downtown Minneapolis.",
-            "sourceUrl": "https://www.tasteofmn.com/",
+            "name": "Powderhorn Art Fair",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "Powderhorn Park",
+            "description": "Over 200 artists from 26 states and 216 cities, more than 20 food vendors and nearly 20,000 attendees. Shop the works of hundreds of local and regional artists while filling up on the finest food trucks have to offer.",
+            "sourceUrl": "https://www.powderhornartfair.com/",
             "tags": [
-              "festival",
-              "food",
-              "music"
-            ]
-          },
-          {
-            "name": "Red, White & BOOM",
-            "dateTime": "2026-07-04T00:00:00",
-            "venue": "Mississippi Riverfront",
-            "description": "This favorite 4th of July event returns to the Mississippi Riverfront – bringing a full day of free programming, community celebration, and one of the most anticipated fireworks shows in the state.",
-            "sourceUrl": "https://www.minneapolisparks.org/activities-events/events/red_white_and_boom/",
-            "tags": [
-              "Free",
-              "fireworks",
-              "holiday",
-              "july-4th"
-            ]
-          },
-          {
-            "name": "Utepils World Cup Street Fair",
-            "dateTime": "2026-07-04T00:00:00",
-            "venue": "Utepils Brewing",
-            "description": "Join this FREE community celebration at Utepils Brewing. The taproom will turn into a global soccer festival with live World Cup viewing, music, food, vendors, and family activities all day long.",
-            "sourceUrl": "https://utepilsbrewing.com/events/world-cup-street-fair/",
-            "tags": [
-              "Free",
-              "Sports",
-              "festival",
-              "free",
-              "soccer"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-08T00:00:00",
-            "venue": "Orpheum Theatre",
-            "description": "From the first electrifying note to the final breathtaking moment, WICKED—the untold true story of the Witches of Oz—transfixes audiences with its wildly inventive story playing all month long at the Orpheum Theatre.",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Sports",
-              "Theater",
-              "broadway",
-              "musical",
-              "theater"
-            ]
-          },
-          {
-            "name": "Minnesota Salsa Fiesta",
-            "dateTime": "2026-06-12T00:00:00",
-            "venue": "Mill City Museum",
-            "description": "The annual Minnesota Salsa Fiesta returns to Mill City Museum with a full evening of music, dance, food, and more outdoors in the iconic Ruin Courtyard and indoors in Mill Commons.",
-            "sourceUrl": "https://www.mnhs.org/events/28828210353",
-            "tags": [
-              "Latin/World",
-              "Theater",
-              "dance",
-              "festival",
-              "food",
-              "music"
-            ]
-          },
-          {
-            "name": "Bastille Day",
-            "dateTime": "2026-07-14T00:00:00",
-            "venue": "Alliance Française",
-            "description": "Join the Alliance Française for their annual celebration where they invite the community to enjoy live music, traditional French food, and entertainment for the whole family.",
-            "sourceUrl": "https://www.afmsp.org/bastille-day-2026",
-            "tags": [
-              "celebration",
-              "cultural",
-              "french"
-            ]
-          },
-          {
-            "name": "Bastille Day Market at Cafe Marguerte",
-            "dateTime": "2026-07-11T00:00:00",
-            "venue": "Cafe Marguerte",
-            "description": "Bastille Day Market at Cafe Marguerte.",
-            "sourceUrl": "https://cafe-marg.com/event/bastille-day-market/",
-            "tags": [
-              "Market",
-              "cultural",
-              "french",
-              "market"
-            ]
-          },
-          {
-            "name": "Bucheron's Bastille Day Bash",
-            "dateTime": "2026-07-12T00:00:00",
-            "venue": "Bucheron",
-            "description": "Bucheron's Bastille Day Celebration.",
-            "sourceUrl": "https://ma.to/event/bastille-day-celebration-12-july-2026",
-            "tags": [
-              "celebration",
-              "cultural",
-              "french"
-            ]
-          },
-          {
-            "name": "Minnehaha Falls Art Fair",
-            "dateTime": "2026-07-18T00:00:00",
-            "venue": "Minnehaha Falls",
-            "description": "Celebrate dozens of local artists at the Minnehaha Falls Art Fair. Peruse a wide variety of mediums including paintings, ceramics, textiles, screen-printing, woodworking, photography, and more.",
-            "sourceUrl": "https://www.homespunevents.com/minnehahafallsartfair",
-            "tags": [
-              "art",
-              "festival",
-              "outdoor"
-            ]
-          },
-          {
-            "name": "Minnesota Yacht Club Festival",
-            "dateTime": "2026-07-17T00:00:00",
-            "venue": "Harriet Island Regional Park",
-            "description": "Minnesota Yacht Club festival takes place at Harriet Island Regional Park in the heart of downtown St. Paul, Minnesota. The music festival brings fans together for three days of performances across two stages with no overlapping sets between the 30 artists.",
-            "sourceUrl": "https://www.minnesotayachtclubfestival.com/",
-            "tags": [
-              "Free",
-              "festival",
-              "music",
-              "st-paul"
-            ]
-          },
-          {
-            "name": "2026 Minneapolis Aquatennial",
-            "dateTime": "2026-07-18T00:00:00",
-            "venue": "Various Minneapolis locations",
-            "description": "The 2026 Minneapolis Aquatennial will feature activities at locations throughout Minneapolis, including city parks, Bde Maka Ska, the Mississippi riverfront, and downtown. Events will be free, family-friendly, and open to all.",
-            "sourceUrl": "https://www.mplsaquatennial.com/",
-            "tags": [
-              "Free",
-              "festival",
-              "free",
-              "outdoor"
-            ]
-          },
-          {
-            "name": "Red Hot Art Fest",
-            "dateTime": "2026-07-18T00:00:00",
-            "venue": "Stevens Square Park",
-            "description": "Join for a day of art, music, and community in Stevens Square Park at Red Hot Art Fest! Shop from small local artists, make art with neighbors, enjoy food trucks, and connect with local resources and businesses from around the cities!",
-            "sourceUrl": "https://www.stevenssquare.org/rha2026",
-            "tags": [
-              "art",
-              "festival",
-              "music"
-            ]
-          },
-          {
-            "name": "Minneapolis Sister Cities Day",
-            "dateTime": "2026-07-19T00:00:00",
-            "venue": "Nicollet Island Pavilion",
-            "description": "Celebrate Minneapolis Sister Cities with a FREE ice cream social and gathering at the Nicollet Island Pavilion in Minneapolis. This family event features international entertainment, ice cream and refreshments.",
-            "sourceUrl": "https://www.minneapolis.org/about-us/sister-cities/sister-cities-day/",
-            "tags": [
-              "Free",
-              "cultural",
+              "art fair",
               "family",
+              "festival"
+            ]
+          },
+          {
+            "name": "MN Food Truck Festival - Minneapolis",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "Father Hennepin Bluff Park",
+            "description": "One of the Twin Cities' most popular and delicious free events, the MN Food Truck Festival takes place in the beautifully renovated Father Hennepin Bluff Park along the Mississippi River & Saint Anthony Main district of Minneapolis.",
+            "sourceUrl": "https://mnfoodtruckfestival.com/minneapolis",
+            "tags": [
+              "Free",
+              "festival",
+              "food",
               "free"
             ]
           },
           {
-            "name": "Loring Park Art Festival",
-            "dateTime": "2026-07-25T00:00:00",
-            "venue": "Loring Park",
-            "description": "The Loring Park Art Festival has been celebrating art and community since 2000. Set in the heart of Minneapolis at beautiful Loring Park, the festival transforms the gardens and ponds into a vibrant, two-day showcase of creativity, live entertainment, and local flavor.",
-            "sourceUrl": "https://www.loringparkartfestival.com/",
+            "name": "Nershfest",
+            "dateTime": "2026-08-01T00:00:00",
+            "venue": "56 Brewing Co",
+            "description": "Don't miss the 14th Annual Nershfest Music Festival at 56 Brewing Co! Get your friends and family together, venture to Northeast Minneapolis, and spend the day reveling in this rad lineup of local music.",
+            "sourceUrl": "https://www.nershfest.com/",
             "tags": [
               "Free",
-              "art",
               "festival",
-              "outdoor"
+              "local",
+              "music"
             ]
           },
           {
-            "name": "Megan Moroney - The Cloud 9 Tour",
-            "dateTime": "2026-07-25T00:00:00",
-            "venue": "Target Center",
-            "description": "Megan Moroney brings \"The Cloud 9 Tour\" to Target Center with special guests JP Saxe and Solon Holt.",
-            "sourceUrl": "https://www.targetcenter.com/events/detail/megan-moroney",
+            "name": "Noah Kahan - The Great Divide Tour",
+            "dateTime": "2026-08-05T00:00:00",
+            "venue": "Target Field",
+            "description": "Noah Kahan is bringing The Great Divide Tour to Target Field with special guests Gigi Perez and Annabelle Dinda.",
+            "sourceUrl": "https://www.mlb.com/twins/tickets/concerts/noah-kahan",
             "tags": [
               "Sports",
               "concert",
-              "country"
+              "music"
+            ],
+            "imageUrl": "https://www.mlbstatic.com/team-logos/share/142.jpg"
+          },
+          {
+            "name": "Concerts at Surly Brewing Festival Field",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Surly Brewing Festival Field",
+            "description": "Young the Giant, Big Thief and the Alabama Shakes are all coming to the Surly Brewing Festival Field in August on August 6, 15 and 28. Get tickets before they sell out.",
+            "sourceUrl": "https://first-avenue.com/venue/surly-brewing-festival-field/",
+            "tags": [
+              "Free",
+              "concert",
+              "music"
+            ],
+            "imageUrl": "https://first-avenue.com/wp-content/uploads/2016/03/48578129961_d252c78a6b_k.jpg"
+          },
+          {
+            "name": "Minnesota Fringe Festival",
+            "dateTime": "2026-08-06T00:00:00",
+            "venue": "Multiple Venues",
+            "description": "Nearly 50,000 seats filled annually, over 1,000 artists, dozens of works, hundreds of performances at over a dozen venues and spanning almost 20 genres. Minnesota's annual Fringe Festival is the largest performing arts festival in the Midwest.",
+            "sourceUrl": "https://minnesotafringe.org/shows/2026",
+            "tags": [
+              "Free",
+              "festival",
+              "performing arts",
+              "theater"
             ]
           },
           {
-            "name": "Dude Perfect: Squad Games Tour",
-            "dateTime": "2026-07-26T00:00:00",
-            "venue": "Target Center",
-            "description": "Dude Perfect: Squad Games Tour comes to Target Center with Trick Shot Squad. This show will be even bigger and better than anything you've ever seen, with a full 360° view and epic team battles and insane challenges.",
-            "sourceUrl": "https://www.targetcenter.com/events/detail/dude-perfect",
+            "name": "CatVideoFest",
+            "dateTime": "2026-08-08T00:00:00",
+            "venue": "The Main Cinema",
+            "description": "CatVideoFest is a compilation of the latest and best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and classic internet powerhouses.",
+            "sourceUrl": "https://mspfilm.org/show/catvideofest-2026/",
+            "tags": [
+              "cats",
+              "family",
+              "film"
+            ],
+            "imageUrl": "https://i0.wp.com/mspfilm.org/wp-content/uploads/2026/07/mspfilm-catvideofest-2026_1920x1080.jpg?fit=1920%2C1080&quality=89&ssl=1"
+          },
+          {
+            "name": "Twin Cities Irish Fest",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Harriet Island",
+            "description": "The Twin Cities Irish Fest is dedicated to promoting and celebrating Irish culture. Go to Harriet Island in St. Paul for a celebration of all things Irish with music, dance, family activities, and good craic!",
+            "sourceUrl": "https://www.twincitiesirishfest.com/",
+            "tags": [
+              "Theater",
+              "cultural",
+              "family",
+              "festival",
+              "music"
+            ],
+            "imageUrl": "https://static.wixstatic.com/media/e0b6c2_4fb03226f9c444219328f380e105a9c6%7Emv2.png/v1/fit/w_2500,h_1330,al_c/e0b6c2_4fb03226f9c444219328f380e105a9c6%7Emv2.png"
+          },
+          {
+            "name": "Big Minneapolis Anime",
+            "dateTime": "2026-08-08T00:00:00",
+            "venue": "Minneapolis Convention Center",
+            "description": "Head to Big Minneapolis Anime at the Minneapolis Convention Center for a full weekend of anime, cosplay, special guests and more!",
+            "sourceUrl": "https://bigminneapolisanime.com/",
+            "tags": [
+              "anime",
+              "convention",
+              "cosplay"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-09T00:00:00",
+            "venue": "Orpheum Theatre",
+            "description": "From the first electrifying note to the final breathtaking moment, WICKED—the untold true story of the Witches of Oz—transfixes audiences with its wildly inventive story playing all month long at the Orpheum Theatre.",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "Broadway",
+              "Sports",
+              "Theater",
+              "musical",
+              "theater"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/wicked.jpg"
+          },
+          {
+            "name": "Minneapolis Vintage Market at Utepils Brewing",
+            "dateTime": "2026-08-09T00:00:00",
+            "venue": "Utepils Brewing",
+            "description": "The Minneapolis Vintage Market is heading to Utepils Brewing! Find Minnesota's best vintage clothing, accessories and home goods vendors all in one spot, plus coffee, drinks, food, a pop-up photo booth and DJ tunes.",
+            "sourceUrl": "https://www.mplsvintagemarket.com/eventsfeed/utepilsaug3shop-74tt7",
+            "tags": [
+              "DJ/Electronic",
+              "Market",
+              "market",
+              "shopping",
+              "vintage"
+            ],
+            "imageUrl": "http://static1.squarespace.com/static/5e8f9a35187870153bff133a/5e8f9a42187870153bff1637/69f99be66eb86e77b5ad1239/1777966125941/2021-07-25%2BMPLS%2BVintage%2BMarket-Utepils-Darin%2BKamnetz-161.jpg?format=1500w"
+          },
+          {
+            "name": "Savannah Bananas",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Target Field",
+            "description": "The Savannah Bananas are bringing their viral, dance-heavy \"Banana Ball\" to Minneapolis for a three-game series at Target Field featuring a two-hour time limit, fans catching foul balls for outs, batters stealing first base, choreographed dance routines and epic celebrations.",
+            "sourceUrl": "https://www.mlb.com/twins/tickets/events/savannah-bananas",
             "tags": [
               "Sports",
+              "Theater",
+              "baseball",
               "entertainment",
-              "family"
+              "family",
+              "sports"
             ],
-            "imageUrl": "https://www.targetcenter.com/assets/img/2026-Dude-Perfect-Event-Page-864-x-540-8f70d65fdb.jpg"
+            "imageUrl": "https://www.mlbstatic.com/team-logos/share/142.jpg"
           },
           {
-            "name": "Olivia Dean - The Art of Loving Tour",
-            "dateTime": "2026-07-29T00:00:00",
+            "name": "Uptown Art Fair",
+            "dateTime": "2026-08-07T00:00:00",
+            "venue": "Uptown Minneapolis",
+            "description": "The Uptown Art Fair brings together artists, performers, neighbors, and partners for a weekend celebrating creativity and community. Shop local art and see musical performances along Lake of the Isles and the Uptown Mall.",
+            "sourceUrl": "https://www.uptownminneapolis.com/uptown-art-fair-2026/",
+            "tags": [
+              "Theater",
+              "art fair",
+              "festival",
+              "music"
+            ],
+            "imageUrl": "https://www.uptownminneapolis.com/wp-content/uploads/2026/05/UAFLogopurpGrad_1600x900-1.jpg"
+          },
+          {
+            "name": "Ed Sheeran's LOOP Tour",
+            "dateTime": "2026-08-15T00:00:00",
+            "venue": "U.S. Bank Stadium",
+            "description": "Ed Sheeran is bringing the LOOP Tour to U.S. Bank Stadium on August 15, joined by Myles Smith, Lukas Graham, and Ellie Banke. The tour promises an all new set design with new songs from his recently released album, Play, as well as fan favorites and some classics.",
+            "sourceUrl": "https://www.usbankstadium.com/events/detail/ed-sheeran-3",
+            "tags": [
+              "concert",
+              "music"
+            ]
+          },
+          {
+            "name": "Summer Sizzle Indoor Art Fair",
+            "dateTime": "2026-08-15T00:00:00",
+            "venue": "Northrup King Building",
+            "description": "Step inside and celebrate the season at the Northrup King Building's Summer Sizzle Indoor Art Fair—where creativity is in full bloom in every studio. Wander the halls, meet the artists behind the work, and experience incredible art around every corner in Minnesota's largest artist complex.",
+            "sourceUrl": "https://www.northrupkingbuilding.com/events/summer-sizzle",
+            "tags": [
+              "art fair",
+              "indoor"
+            ]
+          },
+          {
+            "name": "Dances with Dalí",
+            "dateTime": "2026-08-21T00:00:00",
+            "venue": "Southern Theater",
+            "description": "Dances with Dalí is a new production from Flamenco X exploring the intersection of flamenco tradition and the visual language of Salvador Dalí, featuring original flamenco choreography, live cante, and guitar.",
+            "sourceUrl": "https://southerntheater.org/shows/dances-with-dali-a-surreal-flamenco-experience",
+            "tags": [
+              "Theater",
+              "dance",
+              "flamenco",
+              "performing arts",
+              "theater"
+            ]
+          },
+          {
+            "name": "J. Cole - The Fall-Off Tour",
+            "dateTime": "2026-08-18T00:00:00",
             "venue": "Target Center",
-            "description": "\"Man I Need\" and \"Dive\" singer, songwriter Olivia Dean is coming to Target Center with her The Art of Loving tour.",
-            "sourceUrl": "https://www.targetcenter.com/events/detail/olivia-dean",
+            "description": "\"Middle Child\" and \"No Role Modelz\" rapper, singer and songwriter J. Cole is bringing \"The Fall-Off Tour\" to Target Center on August 18.",
+            "sourceUrl": "https://www.targetcenter.com/events/detail/jcole",
             "tags": [
               "Sports",
               "concert",
-              "pop"
-            ],
-            "imageUrl": "https://www.targetcenter.com/assets/img/2026-Olivia-Dean-Event-Page-864-x-540-c58ad0050b.jpg"
+              "hip-hop",
+              "music"
+            ]
+          },
+          {
+            "name": "Tim McGraw - Pawn Shop Guitar Tour",
+            "dateTime": "2026-08-23T00:00:00",
+            "venue": "Target Field",
+            "description": "Tim McGraw is bringing the Pawn Shop Guitar Tour to Target Field on August 23, 2026.",
+            "sourceUrl": "https://www.mlb.com/twins/tickets/concerts/tim-mcgraw",
+            "tags": [
+              "Sports",
+              "concert",
+              "country",
+              "music"
+            ]
+          },
+          {
+            "name": "My Chemical Romance - Long Live the Black Parade Tour",
+            "dateTime": "2026-08-24T00:00:00",
+            "venue": "Target Field",
+            "description": "My Chemical Romance is bringing the Long Live the Black Parade Tour to Target Field on August 24 with special guest Sleater-Kinney.",
+            "sourceUrl": "https://www.mlb.com/twins/tickets/concerts/my-chemical-romance",
+            "tags": [
+              "Sports",
+              "concert",
+              "music",
+              "rock"
+            ]
+          },
+          {
+            "name": "Tame Impala - The Deadbeat Tour",
+            "dateTime": "2026-08-28T00:00:00",
+            "venue": "Target Center",
+            "description": "Tame Impala is bringing \"The Deadbeat Tour\" to Target Center on August 28 with special guest Dominic Fike.",
+            "sourceUrl": "https://www.targetcenter.com/events/detail/tame-impala",
+            "tags": [
+              "Sports",
+              "concert",
+              "music",
+              "rock"
+            ]
+          },
+          {
+            "name": "Minnesota State Fair",
+            "dateTime": "2026-08-27T00:00:00",
+            "venue": "Minnesota State Fairgrounds",
+            "description": "The Minnesota State Fair is one of the largest and best-attended expositions in the world. Celebrating Minnesota's agriculture, art and industry, the Great Minnesota Get-Together is always 12 Days of Fun Ending Labor Day.",
+            "sourceUrl": "https://www.mnstatefair.org/",
+            "tags": [
+              "fair",
+              "family",
+              "festival"
+            ]
           }
         ]
       }
     },
     "331 Club": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 66,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 60,
@@ -2262,475 +2320,254 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 58,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 53,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "Chuck Board Bingo",
-            "dateTime": "2026-07-26T19:00:00",
-            "venue": "331 Club",
-            "description": "Chuck Board Bingo at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "bingo"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Dakota Dave Hull",
-            "dateTime": "2026-07-26T15:00:00",
-            "venue": "331 Club",
-            "description": "Live performance by Dakota Dave Hull at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Roe Family Singers",
-            "dateTime": "2026-07-27T20:00:00",
-            "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "HonkyTonk Ranch",
-            "dateTime": "2026-07-27T18:00:00",
-            "venue": "331 Club",
-            "description": "HonkyTonk Ranch at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "July Conspiracy Series featuring Paul Lawrence and Climes",
-            "dateTime": "2026-07-28T21:30:00",
-            "venue": "331 Club",
-            "description": "July Conspiracy Series featuring Paul Lawrence and Climes at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "concert series",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Worker's Playtime with Jake Manders",
-            "dateTime": "2026-07-28T18:00:00",
-            "venue": "331 Club",
-            "description": "Worker's Playtime featuring Jake Manders at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Lenz and Frenz",
-            "dateTime": "2026-07-29T21:30:00",
-            "venue": "331 Club",
-            "description": "Lenz and Frenz (certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks) perform every last Wednesday at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Harold's House Party on KFAI with RLB (Rich Lewis Band)",
-            "dateTime": "2026-07-29T19:00:00",
-            "venue": "331 Club",
-            "description": "Harold's House Party on KFAI featuring RLB (Rich Lewis Band) at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music",
-              "radio"
-            ]
-          },
-          {
-            "name": "Brotherhood Of Birds",
-            "dateTime": "2026-07-30T22:00:00",
-            "venue": "331 Club",
-            "description": "Brotherhood Of Birds perform at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Courtney Yasmineh and Ira Haze and the Strays",
-            "dateTime": "2026-07-31T22:00:00",
-            "venue": "331 Club",
-            "description": "Courtney Yasmineh with Ira Haze and the Strays at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Movie and Music Trivia",
-            "dateTime": "2026-07-31T19:00:00",
-            "venue": "331 Club",
-            "description": "Movie and Music Trivia at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Free",
-              "Local Bands",
-              "Music",
-              "trivia"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "TV for Dogs, DPFKS, and Jooliette",
-            "dateTime": "2026-08-01T22:00:00",
-            "venue": "331 Club",
-            "description": "TV for Dogs with DPFKS and Jooliette at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-08-01T19:00:00",
-            "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "game",
-              "trivia"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Brass Messengers",
-            "dateTime": "2026-08-02T19:00:00",
-            "venue": "331 Club",
-            "description": "Brass Messengers perform at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Dan Schwartz",
-            "dateTime": "2026-08-02T15:00:00",
-            "venue": "331 Club",
-            "description": "Live performance by Dan Schwartz at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Roe Family Singers",
-            "dateTime": "2026-08-03T20:00:00",
-            "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "Soul Trouvère",
-            "dateTime": "2026-08-03T18:00:00",
-            "venue": "331 Club",
-            "description": "Soul Trouvère perform at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music",
-              "music"
-            ]
-          },
-          {
-            "name": "August Conspiracy Series featuring Soul Tribe, Jerome Covington, and Clarity Vox",
+            "name": "August Conspiracy Series featuring Soul Tribe, Jerome Covington, Clarity Vox",
             "dateTime": "2026-08-04T21:30:00",
             "venue": "331 Club",
-            "description": "August Conspiracy Series featuring Soul Tribe, Jerome Covington, and Clarity Vox at the 331 Club.",
+            "description": "Monthly concert series featuring Soul Tribe, Jerome Covington, and Clarity Vox.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "concert series",
-              "live music",
-              "music"
-            ]
+              "concert",
+              "music",
+              "series"
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "Worker's Playtime with Gawker Slowdown",
+            "name": "Worker's Playtime featuring Gawker Slowdown",
             "dateTime": "2026-08-04T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime featuring Gawker Slowdown at the 331 Club.",
+            "description": "Worker's Playtime early show featuring Gawker Slowdown.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Bosso Poetry Company",
             "dateTime": "2026-08-05T21:30:00",
             "venue": "331 Club",
-            "description": "Bosso Poetry Company performs at the 331 Club.",
+            "description": "Poetry open mic hosted by Bosso Poetry Company.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "music",
               "poetry"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "Harold's House Party on KFAI with Don Scott and Rosanne Licciardi",
+            "name": "Harold's House Party on KFAI featuring Don Scott and Rosanne Licciardi",
             "dateTime": "2026-08-05T19:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI featuring Don Scott and Rosanne Licciardi at the 331 Club.",
+            "description": "KFAI radio show broadcast featuring Don Scott and Rosanne Licciardi.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music",
               "radio"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Northeast Invitational",
             "dateTime": "2026-08-06T21:30:00",
             "venue": "331 Club",
-            "description": "Northeast Invitational at the 331 Club.",
+            "description": "Live music event.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "Piss With Style, Druthers, and The Skeleton Crew",
+            "name": "Piss With Style, Druthers, The Skeleton Crew",
             "dateTime": "2026-08-07T22:00:00",
             "venue": "331 Club",
-            "description": "Piss With Style with Druthers and The Skeleton Crew at the 331 Club.",
+            "description": "Live music showcase featuring Piss With Style, Druthers, and The Skeleton Crew.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "concert",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Movie and Music Trivia",
             "dateTime": "2026-08-07T19:00:00",
             "venue": "331 Club",
-            "description": "Movie and Music Trivia at the 331 Club.",
+            "description": "Movie and music trivia night.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
               "trivia"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "Cain & Co., If Eye May, and The Grieving Pines",
+            "name": "Cain & Co., If Eye May, The Grieving Pines",
             "dateTime": "2026-08-08T22:00:00",
             "venue": "331 Club",
-            "description": "Cain & Co. with If Eye May and The Grieving Pines at the 331 Club.",
+            "description": "Live music featuring Cain & Co., If Eye May, and The Grieving Pines.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "concert",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Drinkin' Spelling Bee",
             "dateTime": "2026-08-08T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
+            "description": "Spelling bee with drinks.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "game",
-              "trivia"
-            ]
+              "game"
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Voltage Controller",
             "dateTime": "2026-08-08T15:00:00",
             "venue": "331 Club",
-            "description": "Voltage Controller performs at the 331 Club.",
+            "description": "Live music set by Voltage Controller.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "Emmy Woods and friends",
+            "name": "Emmy Woods and Friends",
             "dateTime": "2026-08-09T19:00:00",
             "venue": "331 Club",
-            "description": "Emmy Woods and friends at the 331 Club.",
+            "description": "Live performance by Emmy Woods and friends.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Dr. Sketchy's Anti-Art School",
             "dateTime": "2026-08-09T14:00:00",
             "venue": "331 Club",
-            "description": "Dr. Sketchy's Anti-Art School is held every second Sunday of the month from 2-4pm at the 331 Club.",
+            "description": "Monthly life drawing and art event held every second Sunday.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
               "art",
-              "workshop"
+              "drawing"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-08-10T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at the 331 Club.",
+            "description": "Weekly Monday night performance by Roe Family Singers.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "family",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "The Get Up Mondays",
             "dateTime": "2026-08-10T18:00:00",
             "venue": "331 Club",
-            "description": "The Get Up Mondays at the 331 Club.",
+            "description": "Weekly Monday early show featuring The Get Up Mondays.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
-            ]
+            ],
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
-            "name": "August Conspiracy Series featuring Soul Tribe, J-Mo on the Beat, and Wain Anthony McFarlane",
+            "name": "August Conspiracy Series featuring Soul Tribe, J-Mo on the Beat, Wain Anthony McFarlane",
             "dateTime": "2026-08-11T21:30:00",
             "venue": "331 Club",
-            "description": "August Conspiracy Series featuring Soul Tribe, J-Mo on the Beat, and Wain Anthony McFarlane at the 331 Club.",
+            "description": "Monthly concert series featuring Soul Tribe, J-Mo on the Beat, and Wain Anthony McFarlane.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "concert series",
-              "live music",
-              "music"
+              "concert",
+              "music",
+              "series"
             ]
           },
           {
-            "name": "Worker's Playtime with Jack Klatt",
+            "name": "Worker's Playtime featuring Jack Klatt",
             "dateTime": "2026-08-11T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime featuring Jack Klatt at the 331 Club.",
+            "description": "Worker's Playtime early show featuring Jack Klatt.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
           {
-            "name": "The What-have-yous and Mike Gunther & The Total Crapshoot",
+            "name": "The What-Have-Yous, Mike Gunther & The Total Crapshoot",
             "dateTime": "2026-08-12T21:30:00",
             "venue": "331 Club",
-            "description": "The What-have-yous with Mike Gunther & The Total Crapshoot at the 331 Club.",
+            "description": "Live music featuring The What-Have-Yous and Mike Gunther & The Total Crapshoot.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "concert",
               "music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI with David Robinson and the Dedicated Friends",
+            "name": "Harold's House Party on KFAI featuring David Robinson and the Dedicated Friends",
             "dateTime": "2026-08-12T19:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI featuring David Robinson and the Dedicated Friends at the 331 Club.",
+            "description": "KFAI radio show broadcast featuring David Robinson and the Dedicated Friends.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music",
               "radio"
             ]
@@ -2739,25 +2576,24 @@
             "name": "Tumbling Daisies",
             "dateTime": "2026-08-13T21:30:00",
             "venue": "331 Club",
-            "description": "Tumbling Daisies perform at the 331 Club.",
+            "description": "Live performance by Tumbling Daisies.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
           {
-            "name": "Night Audit, wolfbabycup, and Be Wary",
+            "name": "Night Audit, wolfbabycup, Be Wary",
             "dateTime": "2026-08-14T22:00:00",
             "venue": "331 Club",
-            "description": "Night Audit with wolfbabycup and Be Wary at the 331 Club.",
+            "description": "Live music showcase featuring Night Audit, wolfbabycup, and Be Wary.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "concert",
               "music"
             ]
           },
@@ -2765,7 +2601,7 @@
             "name": "Movie and Music Trivia",
             "dateTime": "2026-08-14T19:00:00",
             "venue": "331 Club",
-            "description": "Movie and Music Trivia at the 331 Club.",
+            "description": "Movie and music trivia night.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Free",
@@ -2778,12 +2614,11 @@
             "name": "Danser",
             "dateTime": "2026-08-15T22:00:00",
             "venue": "331 Club",
-            "description": "Danser perform at the 331 Club.",
+            "description": "Live performance by Danser.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2791,20 +2626,19 @@
             "name": "Drinkin' Spelling Bee",
             "dateTime": "2026-08-15T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
+            "description": "Spelling bee with drinks.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "game",
-              "trivia"
+              "game"
             ]
           },
           {
             "name": "Vendor Market",
             "dateTime": "2026-08-15T11:00:00",
             "venue": "331 Club",
-            "description": "Vendor Market at the 331 Club from 11am-6pm.",
+            "description": "Vendor market at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
@@ -2814,15 +2648,14 @@
             ]
           },
           {
-            "name": "eleven degenerates",
+            "name": "Eleven Degenerates",
             "dateTime": "2026-08-16T22:30:00",
             "venue": "331 Club",
-            "description": "eleven degenerates perform at the 331 Club.",
+            "description": "Late night performance by Eleven Degenerates.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2830,12 +2663,11 @@
             "name": "Switchyard",
             "dateTime": "2026-08-16T19:00:00",
             "venue": "331 Club",
-            "description": "Switchyard perform at the 331 Club.",
+            "description": "Live performance by Switchyard.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2843,12 +2675,11 @@
             "name": "Aaron Lee Kaplan",
             "dateTime": "2026-08-16T15:00:00",
             "venue": "331 Club",
-            "description": "Live performance by Aaron Lee Kaplan at the 331 Club.",
+            "description": "Afternoon performance by Aaron Lee Kaplan.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2856,39 +2687,38 @@
             "name": "Roe Family Singers",
             "dateTime": "2026-08-17T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at the 331 Club.",
+            "description": "Weekly Monday night performance by Roe Family Singers.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "family",
               "music"
             ]
           },
           {
-            "name": "August Conspiracy Series featuring Soul Tribe, Rada K and the Cicadas, and Yevrah",
+            "name": "August Conspiracy Series featuring Soul Tribe, Rada K and the Cicadas, Yevrah",
             "dateTime": "2026-08-18T21:30:00",
             "venue": "331 Club",
-            "description": "August Conspiracy Series featuring Soul Tribe, Rada K and the Cicadas, and Yevrah at the 331 Club.",
+            "description": "Monthly concert series featuring Soul Tribe, Rada K and the Cicadas, and Yevrah.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "concert series",
-              "live music",
-              "music"
+              "concert",
+              "music",
+              "series"
             ]
           },
           {
-            "name": "Worker's Playtime with Becky Kapell",
+            "name": "Worker's Playtime featuring Becky Kapell",
             "dateTime": "2026-08-18T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime featuring Becky Kapell at the 331 Club.",
+            "description": "Worker's Playtime early show featuring Becky Kapell.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2896,39 +2726,36 @@
             "name": "Lenz and Frenz",
             "dateTime": "2026-08-19T21:30:00",
             "venue": "331 Club",
-            "description": "Lenz and Frenz (certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks) perform every last Wednesday at the 331 Club.",
+            "description": "Monthly performance featuring certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, and Row of Ducks.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI with Andy Cohen and Friends",
+            "name": "Harold's House Party on KFAI featuring Andy Cohen and Friends",
             "dateTime": "2026-08-19T19:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI featuring Andy Cohen and Friends at the 331 Club.",
+            "description": "KFAI radio show broadcast featuring Andy Cohen and Friends.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music",
               "radio"
             ]
           },
           {
-            "name": "Cross Pollination featuring Knife Emoji and One Big Quilt",
+            "name": "Cross Pollination featuring Knife Emoji, One Big Quilt",
             "dateTime": "2026-08-20T21:30:00",
             "venue": "331 Club",
-            "description": "Cross Pollination is a monthly series of songwriters from different genres, on the third Thursday of every month. Featuring Knife Emoji and One Big Quilt at the 331 Club.",
+            "description": "Cross Pollination is a monthly series of songwriters from different genres, sort of like the Large Hadron Collider of genre mixers.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music",
               "songwriters"
             ]
@@ -2937,13 +2764,12 @@
             "name": "The Red Hot Django Peppers",
             "dateTime": "2026-08-21T22:00:00",
             "venue": "331 Club",
-            "description": "The Red Hot Django Peppers perform at the 331 Club.",
+            "description": "Live performance by The Red Hot Django Peppers.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "DJ/Electronic",
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -2951,7 +2777,7 @@
             "name": "Movie and Music Trivia",
             "dateTime": "2026-08-21T19:00:00",
             "venue": "331 Club",
-            "description": "Movie and Music Trivia at the 331 Club.",
+            "description": "Movie and music trivia night.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Free",
@@ -2961,15 +2787,15 @@
             ]
           },
           {
-            "name": "Social Cues",
+            "name": "Social Cues, Rhino Shrine",
             "dateTime": "2026-08-22T22:00:00",
             "venue": "331 Club",
-            "description": "Social Cues perform at the 331 Club.",
+            "description": "Live music featuring Social Cues and Rhino Shrine.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "concert",
               "music"
             ]
           },
@@ -2977,25 +2803,24 @@
             "name": "Drinkin' Spelling Bee",
             "dateTime": "2026-08-22T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
+            "description": "Spelling bee with drinks.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "game",
-              "trivia"
+              "game"
             ]
           },
           {
             "name": "Matty Harris Quintet",
             "dateTime": "2026-08-23T19:00:00",
             "venue": "331 Club",
-            "description": "Matty Harris Quintet performs at the 331 Club.",
+            "description": "Live performance by Matty Harris Quintet.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "jazz",
               "music"
             ]
           },
@@ -3003,12 +2828,11 @@
             "name": "Doyle Turner",
             "dateTime": "2026-08-23T15:00:00",
             "venue": "331 Club",
-            "description": "Live performance by Doyle Turner at the 331 Club.",
+            "description": "Afternoon performance by Doyle Turner.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
             ]
           },
@@ -3016,12 +2840,12 @@
             "name": "Roe Family Singers",
             "dateTime": "2026-08-24T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at the 331 Club.",
+            "description": "Weekly Monday night performance by Roe Family Singers.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
+              "family",
               "music"
             ]
           },
@@ -3029,13 +2853,164 @@
             "name": "HonkyTonk Ranch",
             "dateTime": "2026-08-24T18:00:00",
             "venue": "331 Club",
-            "description": "HonkyTonk Ranch at the 331 Club.",
+            "description": "Early show featuring HonkyTonk Ranch.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music",
               "music"
+            ]
+          },
+          {
+            "name": "August Conspiracy Series featuring Soul Tribe, Nur-D, Solana and the Sunsets",
+            "dateTime": "2026-08-25T21:30:00",
+            "venue": "331 Club",
+            "description": "Monthly concert series featuring Soul Tribe, Nur-D, and Solana and the Sunsets.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "concert",
+              "music",
+              "series"
+            ]
+          },
+          {
+            "name": "Worker's Playtime featuring Mike Munson",
+            "dateTime": "2026-08-25T18:00:00",
+            "venue": "331 Club",
+            "description": "Worker's Playtime early show featuring Mike Munson.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "Hannah Hendrickson",
+            "dateTime": "2026-08-26T21:30:00",
+            "venue": "331 Club",
+            "description": "Live performance by Hannah Hendrickson.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "Harold's House Party on KFAI featuring Erin McCawley's Harrison Street Band",
+            "dateTime": "2026-08-26T19:00:00",
+            "venue": "331 Club",
+            "description": "KFAI radio show broadcast featuring Erin McCawley's Harrison Street Band.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music",
+              "radio"
+            ]
+          },
+          {
+            "name": "Debbie Briggs Vintage Jazz",
+            "dateTime": "2026-08-27T21:30:00",
+            "venue": "331 Club",
+            "description": "Live performance by Debbie Briggs Vintage Jazz.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Market",
+              "Music",
+              "jazz",
+              "music"
+            ]
+          },
+          {
+            "name": "Ghostmouth, Muun Bato, Pew Pew",
+            "dateTime": "2026-08-28T22:00:00",
+            "venue": "331 Club",
+            "description": "Live music showcase featuring Ghostmouth, Muun Bato, and Pew Pew.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "concert",
+              "music"
+            ]
+          },
+          {
+            "name": "Movie and Music Trivia",
+            "dateTime": "2026-08-28T19:00:00",
+            "venue": "331 Club",
+            "description": "Movie and music trivia night.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Free",
+              "Local Bands",
+              "Music",
+              "trivia"
+            ]
+          },
+          {
+            "name": "Becky Kapell and The Fat 6",
+            "dateTime": "2026-08-30T19:00:00",
+            "venue": "331 Club",
+            "description": "Live performance by Becky Kapell and The Fat 6.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "David Huckfelt",
+            "dateTime": "2026-08-30T15:00:00",
+            "venue": "331 Club",
+            "description": "Afternoon performance by David Huckfelt.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "Roe Family Singers",
+            "dateTime": "2026-08-31T20:00:00",
+            "venue": "331 Club",
+            "description": "Weekly Monday night performance by Roe Family Singers.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "family",
+              "music"
+            ]
+          },
+          {
+            "name": "Worker's Playtime featuring Jeff Ray",
+            "dateTime": "2026-09-01T18:00:00",
+            "venue": "331 Club",
+            "description": "Worker's Playtime early show featuring Jeff Ray.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "music"
+            ]
+          },
+          {
+            "name": "Bosso Poetry Company",
+            "dateTime": "2026-09-02T21:30:00",
+            "venue": "331 Club",
+            "description": "Poetry open mic hosted by Bosso Poetry Company.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "poetry"
             ]
           }
         ]
@@ -3043,11 +3018,6 @@
     },
     "Nobool Presents": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 14,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 8,
@@ -3112,90 +3082,154 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 8,
           "status": "ok"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 10,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-26T11:02:12Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
           {
-            "name": "CHASTITY BROWN",
-            "dateTime": "2026-07-17T19:00:00",
-            "venue": "Under The Canopy @ The Hook and Ladder Event Center",
-            "description": "Under The Canopy at The Hook and Ladder Theater \"An Urban Outdoor Summer Concert Series\" Doors 6:00pm :: Music 7:00pm :: 21+ RAIN or SHINE.",
-            "sourceUrl": "https://noboolpresents.com/event/chastity-brown-2/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/260717-UTC-ChastityBrown-Cohen-2160x1080-Ticket-Web-TV-1.jpg",
-            "tags": []
+            "name": "Big Sandy & His Fly-Rite Boys",
+            "dateTime": "2026-08-09T18:00:00",
+            "venue": "The Hook & Ladder Event Center",
+            "description": "Rockabilly Hall of Fame band Big Sandy & His Fly-Rite Boys perform their rockabilly, rock & roll, honky-tonk, R&B, soul, and doo-wop music around the world. This rockin' quartet is considered one of the torch bearers of American roots music.",
+            "sourceUrl": "https://noboolpresents.com/event/bigsandy/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/260809-Theater-BigSandy-2160x1080-Web.jpg",
+            "tags": [
+              "R&B",
+              "doo-wop",
+              "honky-tonk",
+              "rock & roll",
+              "rockabilly",
+              "soul"
+            ]
           },
           {
-            "name": "FERAL DANCE [JULY]",
-            "dateTime": "2026-07-17T22:00:00",
+            "name": "Brian David Album Release",
+            "dateTime": "2026-08-09T18:00:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Brian David is a singer-songwriter blending acoustic grit, raw emotion, and reflective storytelling into what he calls \"Acoustic Stomp Rock.\" His upcoming album, The Echo In Your Soul, explores life's pivotal moments, second chances, and the search for what matters most.",
+            "sourceUrl": "https://noboolpresents.com/event/brian-david-album-release/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/06/BDB_ALBUM_RELEASE_2180X1060.png",
+            "tags": [
+              "acoustic",
+              "album release",
+              "singer-songwriter"
+            ]
+          },
+          {
+            "name": "Yazmin and Beat Zero",
+            "dateTime": "2026-08-13T19:00:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Join us for a night of heartfelt and invigorating multi-cultural music with Yazmin and Beat Zero, the Havana Quartet and Lady Midnight.",
+            "sourceUrl": "https://noboolpresents.com/event/yazmin-and-beat-zero/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/YBZ8_13HookLadderEventbrite.jpg",
+            "tags": [
+              "live music",
+              "multi-cultural"
+            ]
+          },
+          {
+            "name": "Summer Horn Fest",
+            "dateTime": "2026-08-14T19:00:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Clean Plate Club, Booster Pack, La La and the Gents, & Fuchsia.",
+            "sourceUrl": "https://noboolpresents.com/event/cleanplateclub-boosterpack-lalagents-fuchsia/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/260814-UTC-SummerHornFest-2160x1080-Ticket-Web-TV.jpg",
+            "tags": [
+              "Under The Canopy",
+              "outdoor concert",
+              "summer concert series"
+            ]
+          },
+          {
+            "name": "HOOCHELLA :: a party for the Hoochies",
+            "dateTime": "2026-08-15T21:30:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Join @materialgworlmpls as we honor the Black women and femmes who took their expression of personal style through music, hair, and fashion to the next level and made an undeniable impact on popular culture of the late early 90s through the 2000s!",
+            "sourceUrl": "https://noboolpresents.com/event/hoochella/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/07/BANNER-5.jpg",
+            "tags": [
+              "DJ",
+              "dance party",
+              "drag"
+            ]
+          },
+          {
+            "name": "S2 E4: FLUID FREQUENCIES – SUMMER SUNSET",
+            "dateTime": "2026-08-15T21:30:00",
             "venue": "James Ballentine \"Uptown\" VFW Post 246",
-            "description": "FERAL DANCE is an inclusive gathering of EDM/VGM fans based out of the Twin Cities.",
-            "sourceUrl": "https://noboolpresents.com/event/feral-dance-july/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2025/12/feralbanner-5.jpg",
+            "description": "Get ready to dive into a night of wicked bass, bold creativity, and an incredible sense of community at FLUID FREQUENCIES S2E4: SUMMER SUNSET! To close the summer we're bringing together an all-woman, non-binary, and queer lineup of local artists, DJs, painters, flow artists, and vendors to create a night you won't forget.",
+            "sourceUrl": "https://noboolpresents.com/event/s2e4-fluid-frequencies/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2025/11/FF04.png",
             "tags": [
-              "Theater"
+              "DJ",
+              "DJ/Electronic",
+              "community",
+              "dance party",
+              "queer"
             ]
           },
           {
-            "name": "Eleni Mandell Album Tour & Reunion Show",
-            "dateTime": "2026-07-18T19:30:00",
-            "venue": "The Zen Arcade Stage at The Hook and Ladder",
-            "description": "Eleni Mandell is a Los Angeles-based singer-songwriter known for her smoky vocals, sharp lyrical storytelling, and genre-blending style that spans jazz, folk, pop, and indie rock.",
-            "sourceUrl": "https://noboolpresents.com/event/eleni-mandell/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/Eleni-Mandell-2160-x-1080-px.jpg",
-            "tags": []
-          },
-          {
-            "name": "Light 'em Up THE BONG SHOW",
-            "dateTime": "2026-07-19T19:00:00",
-            "venue": "The Hook and Ladder Event Center Theater Stage",
-            "description": "The Hook hosts a unique and interactive comedy improv experience for Twin City comedy and cannabis fans!",
-            "sourceUrl": "https://noboolpresents.com/event/2607-bongshow/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/07/260719-Hook-TheBongShow-2160x1080-Eventbrite-Website-Twitter.jpg",
+            "name": "Dizgo Album Tour",
+            "dateTime": "2026-08-19T19:30:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Born from attic jam sessions between childhood friends Andrew Pickel and Kevin Hinnefeld, Dizgo's story began with two guitars, a tape recorder, and a dream - literally.",
+            "sourceUrl": "https://noboolpresents.com/event/dizgo-hotlikemars/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/Untitled-design-116.jpg",
             "tags": [
-              "Comedy"
+              "album tour",
+              "jazz-funk"
             ]
           },
           {
-            "name": "The Twin Cities DJANGOFEST",
-            "dateTime": "2026-07-24T18:00:00",
-            "venue": "The Hook and Ladder Theater",
-            "description": "The Twin Cities Djangofest is an event that brings together all the various legendary Django Reinhardt style musicians in the Twin Cities to one stage.",
-            "sourceUrl": "https://noboolpresents.com/event/2607-djangofest/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/Untitled-design-108.jpg",
+            "name": "OUR HOUSE: The Music Of Crosby, Stills, Nash & Young",
+            "dateTime": "2026-08-20T19:00:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Our House is committed to igniting the spirit and legacy of one of music's most emblematic ensembles – Crosby, Stills, Nash & Young (CSNY).",
+            "sourceUrl": "https://noboolpresents.com/event/utc26-our-house/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/260820-UTC-OurHouse-2160x1080-Ticket-Web-TV.jpg",
             "tags": [
-              "DJ/Electronic"
+              "Under The Canopy",
+              "classic rock",
+              "tribute"
             ]
           },
           {
-            "name": "Smell My Pillow Album Release",
-            "dateTime": "2026-07-24T19:00:00",
-            "venue": "The Hook and Ladder Event Center The Zen Arcade Stage",
-            "description": "Smell My Pillow is an original human rock band from Minneapolis, MN.",
-            "sourceUrl": "https://noboolpresents.com/event/smell-my-pillow/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/03/Untitled-design-143.jpg",
-            "tags": []
-          },
-          {
-            "name": "HONKY TONK SUMMIT '26",
-            "dateTime": "2026-07-25T19:00:00",
-            "venue": "Under The Canopy @ The Hook and Ladder Event Center",
-            "description": "For more than 30 years, Trailer Trash has been a cornerstone of the Twin Cities roots music scene, blending classic country, honky tonk, swing, and American roots music into one unforgettable live show.",
-            "sourceUrl": "https://noboolpresents.com/event/utc26-hony-tonk-summit/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/26725-UTC-HonkeyTonk-Summit-2160x1080-Ticket-Web-TV.jpg",
-            "tags": []
-          },
-          {
-            "name": "LET ME HAVE IT ALL DR MAMBO'S COMBO presents A Tribute to Iconic Funk Artists Sly and The Family Stone / Chaka Kahn & Rufus",
-            "dateTime": "2026-07-31T19:00:00",
-            "venue": "Under The Canopy at The Hook and Ladder Theater",
-            "description": "Celebrate the music of Sly & The Family Stone and Rufus with legendary Twin Cities band Dr. Mambo's Combo. The Combo will be performing a FULL night of music from these two iconic funk artists.",
-            "sourceUrl": "https://noboolpresents.com/event/26utc-let-me-have/",
-            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/06/260731-UTC-DrMambosCombo-1920x1080-FB-Event.jpg",
+            "name": "Brass Funkadelic",
+            "dateTime": "2026-08-28T19:30:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Brass Funkadelic: Celebrating Legendary Horn Band Hits of the '70s & '80s!",
+            "sourceUrl": "https://noboolpresents.com/event/brass-funkadelic/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/Untitled-design-137.jpg",
             "tags": [
-              "Music"
+              "brass",
+              "funk",
+              "tribute"
+            ]
+          },
+          {
+            "name": "Indigo Room",
+            "dateTime": "2026-08-29T21:30:00",
+            "venue": "The Hook and Ladder Event Center",
+            "description": "Culture of Color Collective is excited to be back with Indigo Room, our signature DJ-led high energy dance party centering Black queer joy. Our August edition features some of the Twin Cities' finest: DJ KP, DJ Ibibaby, and DJ Rae.",
+            "sourceUrl": "https://noboolpresents.com/event/2608-indigo-room/",
+            "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/07/Indigo-Room-August-Flyer-2160-x-1080-px.png",
+            "tags": [
+              "Afrobeats",
+              "Amapiano",
+              "DJ",
+              "DJ/Electronic",
+              "Hip-Hop",
+              "House",
+              "R&B",
+              "Theater",
+              "dance party"
             ]
           }
         ]
@@ -3203,11 +3237,6 @@
     },
     "Hennepin Arts": {
       "runs": [
-        {
-          "at": "2026-07-13T11:05:16Z",
-          "count": 49,
-          "status": "ok"
-        },
         {
           "at": "2026-07-14T11:04:00Z",
           "count": 49,
@@ -3272,378 +3301,25 @@
           "at": "2026-07-26T11:02:12Z",
           "count": 0,
           "status": "fallback"
+        },
+        {
+          "at": "2026-08-04T19:25:18Z",
+          "count": 43,
+          "status": "ok"
         }
       ],
-      "consecutive_empty": 1,
+      "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-07-25T11:02:04Z",
+        "at": "2026-08-04T19:25:18Z",
         "events": [
-          {
-            "name": "Leanne Morgan: The Time of Our Lives Tour",
-            "dateTime": "2026-06-28T19:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/leanne-morgan-the-time-of-our-lives-tour-2026",
-            "tags": [
-              "Comedy"
-            ]
-          },
-          {
-            "name": "Mike Campbell & The Dirty Knobs with special guest Sarah Lee Guthrie",
-            "dateTime": "2026-07-07T19:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/mike-campbell-and-the-dirty-knobs-2026",
-            "tags": [
-              "Concert",
-              "Music"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-08T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-09T13:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-09T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-10T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-10T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Off Book",
-            "dateTime": "2026-07-10T20:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/off-book-2026",
-            "tags": []
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-11T14:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-11T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-11T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Derek Hough – Symphony of Dance: Encore",
-            "dateTime": "2026-07-11T20:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/derek-hough-symphony-of-dance-encore-2026",
-            "tags": [
-              "Dance",
-              "Music",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Off Book",
-            "dateTime": "2026-07-11T20:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/off-book-2026",
-            "tags": []
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-12T13:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-12T18:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "LYLE LOVETT and his SMALL LARGE BAND",
-            "dateTime": "2026-07-14T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/lyle-lovett-and-his-small-large-band-2026",
-            "tags": [
-              "Concert",
-              "Music"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-14T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-15T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-16T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-17T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-17T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-18T14:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-18T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-18T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-19T13:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-19T18:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-21T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-22T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Summer Showtunes",
-            "dateTime": "2026-07-23T12:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/summer-showtunes",
-            "tags": [
-              "Music",
-              "Musical Theater"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-23T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-24T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-24T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Jewelry Power Elite",
-            "dateTime": "2026-07-24T20:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/jewelry-power-elite-2026",
-            "tags": []
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-25T14:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Battle of the Improv All-Stars 2026",
-            "dateTime": "2026-07-25T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
-            "tags": [
-              "Comedy",
-              "Improv"
-            ]
-          },
-          {
-            "name": "Wicked",
-            "dateTime": "2026-07-25T19:30:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/wicked",
-            "tags": [
-              "Broadway",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Jewelry Power Elite",
-            "dateTime": "2026-07-25T20:00:00",
-            "venue": "Hennepin Arts",
-            "sourceUrl": "https://hennepinarts.org/events/jewelry-power-elite-2026",
-            "tags": []
-          },
           {
             "name": "Wicked",
             "dateTime": "2026-07-26T13:00:00",
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3652,8 +3328,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3662,8 +3338,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3672,8 +3348,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3682,8 +3358,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3692,8 +3368,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
             "tags": [
-              "Comedy",
-              "Improv"
+              "comedy",
+              "improv"
             ]
           },
           {
@@ -3702,8 +3378,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3719,8 +3395,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3729,8 +3405,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
             "tags": [
-              "Comedy",
-              "Improv"
+              "comedy",
+              "improv"
             ]
           },
           {
@@ -3739,8 +3415,8 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/wicked",
             "tags": [
-              "Broadway",
-              "Theater"
+              "broadway",
+              "musical"
             ]
           },
           {
@@ -3749,6 +3425,283 @@
             "venue": "Hennepin Arts",
             "sourceUrl": "https://hennepinarts.org/events/jewelry-power-elite-2026",
             "tags": []
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-02T13:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-02T18:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-04T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-05T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-06T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Battle of the Improv All-Stars 2026",
+            "dateTime": "2026-08-07T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
+            "tags": [
+              "comedy",
+              "improv"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-07T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-08T14:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Battle of the Improv All-Stars 2026",
+            "dateTime": "2026-08-08T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/battle-of-the-improv-all-stars-2026",
+            "tags": [
+              "comedy",
+              "improv"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-08T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Alicia Villarreal: Donde Todo Comenzo 2.0",
+            "dateTime": "2026-08-08T20:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/alicia-villarreal-2025",
+            "tags": [
+              "concert"
+            ],
+            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/5TpTQeUxPan5oSsCruU3fq/7a8c5cfde167e32bc2d8d433c844297d/Alicia-Villarreal-web.png?fm=webp&w=1200&h=630&q=70&fit=fill"
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-09T13:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "Wicked",
+            "dateTime": "2026-08-09T18:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/wicked",
+            "tags": [
+              "broadway",
+              "musical"
+            ]
+          },
+          {
+            "name": "The Marvelous Miss Gender starring BOSCO",
+            "dateTime": "2026-08-12T20:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-marvelous-miss-gender-starring-bosco",
+            "tags": []
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-13T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "JOSH JOHNSON'S COMEDY BAND CAMP",
+            "dateTime": "2026-08-14T19:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/josh-johnsons-comedy-band-camp-2026",
+            "tags": [
+              "Comedy",
+              "comedy"
+            ]
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-14T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "Mat Kearney: Nothing Left to Lose, Everything to Gain Tour with Jake Scott",
+            "dateTime": "2026-08-14T20:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/mat-kearney-nothing-left-to-lose-everything-to-gain-tour-2026",
+            "tags": [
+              "concert"
+            ]
+          },
+          {
+            "name": "JOSH JOHNSON'S COMEDY BAND CAMP",
+            "dateTime": "2026-08-15T17:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/josh-johnsons-comedy-band-camp-2026",
+            "tags": [
+              "Comedy",
+              "comedy"
+            ]
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-15T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "JOSH JOHNSON'S COMEDY BAND CAMP",
+            "dateTime": "2026-08-15T20:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/josh-johnsons-comedy-band-camp-2026",
+            "tags": [
+              "Comedy",
+              "comedy"
+            ]
+          },
+          {
+            "name": "JOSH JOHNSON'S COMEDY BAND CAMP",
+            "dateTime": "2026-08-16T17:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/josh-johnsons-comedy-band-camp-2026",
+            "tags": [
+              "Comedy",
+              "comedy"
+            ]
+          },
+          {
+            "name": "JOSH JOHNSON'S COMEDY BAND CAMP",
+            "dateTime": "2026-08-16T20:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/josh-johnsons-comedy-band-camp-2026",
+            "tags": [
+              "Comedy",
+              "comedy"
+            ]
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-19T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-20T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-21T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-22T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "YOLANDA DEL RIO - LA GRAN SEÑORA DE MÈXICO",
+            "dateTime": "2026-08-22T20:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/yolanda-del-rio-2026",
+            "tags": [
+              "concert"
+            ]
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-28T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "The Algorithm is Gonna Get You",
+            "dateTime": "2026-08-29T19:30:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
+            "tags": []
+          },
+          {
+            "name": "Ray LaMontagne - Trouble 20th Anniversary Tour",
+            "dateTime": "2026-08-30T19:00:00",
+            "venue": "Hennepin Arts",
+            "sourceUrl": "https://hennepinarts.org/events/ray-lamontagne-2025",
+            "tags": [
+              "concert"
+            ]
           }
         ]
       }
