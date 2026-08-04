@@ -66,6 +66,22 @@ python -m the_word fetch
 python -m the_word validate
 ```
 
+## Production scheduling
+
+Hermes is the sole production scheduler (6 AM America/Chicago). Its live,
+no-agent job executes
+`/Users/dorian/project/the-word/.venv/bin/python /Users/dorian/project/the-word/scripts/run_production.py`
+synchronously (the executable script also supports `./scripts/run_production.py`),
+so a successful job means the current day's `events.json` was actually published
+to GitHub. Chromium binaries
+are kept persistently at `~/.hermes/playwright-browsers`, outside cache folders.
+The runner records bounded logs in `~/.hermes/logs`, verifies remote publication,
+and sends rate-limited Telegram health/failure alerts using environment variables
+from `~/.hermes/.env` (no secrets are stored in the repository).
+
+Event `sourceUrl` and `imageUrl` values must be trimmed, credential-free HTTP(S)
+URLs with a valid hostname and port; malformed URLs are dropped before processing.
+
 ## Design
 
 90s street art meets gospel energy. Dark mode only.

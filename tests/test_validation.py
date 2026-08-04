@@ -42,6 +42,30 @@ def test_drops_invalid_image_url():
     assert len(kept) == 0
 
 
+def test_drops_noncanonical_or_ambiguous_urls():
+    malformed = [
+        "https://example.com:not-a-port/event",
+        "https://example.com:70000/event",
+        "https://example.com:/event",
+        "https://exa mple.com/event",
+        "https://example.com/event\ninjected",
+        " https://example.com/event ",
+        "https://user:password@example.com/event",
+    ]
+    for url in malformed:
+        kept, dropped = validate_and_sanitize([_ev(sourceUrl=url)])
+        assert kept == []
+        assert "invalid sourceUrl" in dropped[0]
+
+
+def test_accepts_valid_https_url():
+    kept, dropped = validate_and_sanitize(
+        [_ev(sourceUrl="https://events.example.com:8443/calendar?day=today")]
+    )
+    assert len(kept) == 1
+    assert dropped == []
+
+
 def test_strips_whitespace_in_name_and_venue():
     kept, _ = validate_and_sanitize(
         [_ev(name="  Loud    Show  ", venue="  Venue   A  ")]

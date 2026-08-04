@@ -8,6 +8,8 @@ suspect event over propagating bad data.
 from __future__ import annotations
 
 from datetime import datetime
+import ipaddress
+import re
 from urllib.parse import urlparse
 
 MAX_NAME_LEN = 200
@@ -56,6 +58,15 @@ def _validate_event(event: dict) -> str | None:
     ):
         return "tags must be a list of strings"
 
+    # Empty optional URLs are intentionally removed during sanitization, but a
+    # nonempty malformed URL invalidates the event before it enters the pipeline.
+    for field in ("sourceUrl", "imageUrl"):
+        value = event.get(field)
+        if value is None or (isinstance(value, str) and not value.strip()):
+            continue
+        if not isinstance(value, str) or not _is_valid_url(value):
+            return f"invalid {field}"
+
     return None
 
 
@@ -80,7 +91,7 @@ def _sanitize(event: dict) -> dict:
     except ValueError:
         pass  # Shouldn't happen — validate runs first
 
-    # Drop empty-string optionals and invalid URLs (strip rather than fail)
+    # Drop empty optional keys. Nonempty malformed URLs were rejected above.
     for k in ("address", "description"):
         if k in event and (event[k] is None or event[k] == ""):
             del event[k]
@@ -115,8 +126,42 @@ def _parse_iso(value: str) -> datetime:
 
 
 def _is_valid_url(url: str) -> bool:
+    """Accept only canonical, credential-free HTTP(S) URLs with a valid host."""
+    if not isinstance(url, str) or url != url.strip():
+        return False
+    if any(char.isspace() or ord(char) < 32 or ord(char) == 127 for char in url):
+        return False
     try:
         parsed = urlparse(url)
-    except Exception:
+        # Accessing ``port`` deliberately validates its numeric range.
+        port = parsed.port
+    except (ValueError, TypeError):
         return False
-    return parsed.scheme in ("http", "https") and bool(parsed.netloc)
+    if parsed.scheme not in ("http", "https") or not parsed.hostname:
+        return False
+    if parsed.netloc.endswith(":"):
+        return False
+    if parsed.username is not None or parsed.password is not None or "@" in parsed.netloc:
+        return False
+    if port is not None and not 0 < port <= 65535:
+        return False
+    return _is_valid_hostname(parsed.hostname)
+
+
+def _is_valid_hostname(hostname: str) -> bool:
+    """Accept valid IP literals and DNS labels, including localhost."""
+    try:
+        ipaddress.ip_address(hostname)
+        return True
+    except ValueError:
+        pass
+    try:
+        host = hostname.encode("idna").decode("ascii")
+    except UnicodeError:
+        return False
+    if host.endswith("."):
+        host = host[:-1]
+    if not host or len(host) > 253:
+        return False
+    label = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?")
+    return all(label.fullmatch(part) is not None for part in host.split("."))

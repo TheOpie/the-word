@@ -3,7 +3,6 @@
 Follow-up work surfaced during the reliability overhaul and Codex adversarial review. Not a complete list — add as we learn.
 
 ## Observability & alerting
-- Hook `state/last_run.json` into an external alert (Telegram / Slack). Today the report is written but nothing reads it — degraded runs are invisible unless someone opens the file.
 - Track health history, not just the last run. A rolling log of per-run status would reveal slow degradations (e.g. `sourceUrl` density trending down over a week).
 - Source-level alerting: if a source's `consecutive_empty` crosses a threshold (say 3), notify so an operator can investigate before the fallback cache goes stale.
 
@@ -26,4 +25,3 @@ Follow-up work surfaced during the reliability overhaul and Codex adversarial re
 ## Operations
 - CI: run `pytest` on PR (GitHub Actions). Right now we only test locally.
 - Document required env vars (`OLLAMA_BASE_URL`, `THE_WORD_MODEL`, `GITHUB_TOKEN`) in README or `.env.example`.
-- Verify the cron job (`~/.openclaw/cron/jobs.json` → "The Word Daily Scrape — 6:00 AM CT") still works end-to-end against the new CLI signature, particularly exit codes. Degraded runs (exit 2) should not be treated as failures.
