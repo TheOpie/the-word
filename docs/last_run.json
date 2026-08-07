@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-08-05T11:01:54Z",
+  "run_at": "2026-08-06T11:02:13Z",
   "total_sources": 9,
   "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 243,
-  "final_events": 92,
+  "fresh_events": 237,
+  "final_events": 106,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 66,
+      "fresh_count": 60,
       "final_count": 14,
       "baseline": 58,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 33.44,
+      "duration_s": 70.35,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -27,12 +27,12 @@
     {
       "name": "Bandsintown Minneapolis",
       "status": "ok",
-      "fresh_count": 28,
-      "final_count": 8,
+      "fresh_count": 29,
+      "final_count": 16,
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 32.68,
+      "duration_s": 87.17,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -42,10 +42,10 @@
       "status": "ok",
       "fresh_count": 17,
       "final_count": 6,
-      "baseline": 20,
+      "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 15.26,
+      "duration_s": 57.78,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -54,11 +54,11 @@
       "name": "Hennepin Arts",
       "status": "ok",
       "fresh_count": 43,
-      "final_count": 3,
+      "final_count": 4,
       "baseline": 49,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 44.85,
+      "duration_s": 27.88,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -67,11 +67,11 @@
       "name": "Minneapolis Events",
       "status": "ok",
       "fresh_count": 15,
-      "final_count": 12,
+      "final_count": 14,
       "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 33.42,
+      "duration_s": 22.55,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -84,7 +84,7 @@
       "baseline": 18,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 18.29,
+      "duration_s": 32.33,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -94,10 +94,10 @@
       "status": "ok",
       "fresh_count": 11,
       "final_count": 3,
-      "baseline": 10,
+      "baseline": 11,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 55.06,
+      "duration_s": 63.61,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -105,12 +105,12 @@
     {
       "name": "Songkick Minneapolis",
       "status": "ok",
-      "fresh_count": 31,
-      "final_count": 28,
+      "fresh_count": 30,
+      "final_count": 30,
       "baseline": 30,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 62.01,
+      "duration_s": 58.44,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -119,11 +119,11 @@
       "name": "The Current Events",
       "status": "ok",
       "fresh_count": 10,
-      "final_count": 9,
+      "final_count": 10,
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 52.26,
+      "duration_s": 41.36,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 106,
+        "unique_venues": 53,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1320754716981132,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 92,
         "unique_venues": 55,
         "top_venue": "331 Club",
         "top_venue_share": 0.15217391304347827,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 94,
-        "unique_venues": 56,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.14893617021276595,
         "source_url_density": 1.0
       }
     }
