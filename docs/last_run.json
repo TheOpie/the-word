@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-08-10T11:04:57Z",
+  "run_at": "2026-08-11T11:02:13Z",
   "total_sources": 9,
   "succeeded": 9,
   "empty": 0,
   "failed": 0,
   "fallback_used": 0,
-  "fresh_events": 223,
-  "final_events": 75,
+  "fresh_events": 224,
+  "final_events": 74,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "healthy",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 51,
-      "final_count": 15,
+      "fresh_count": 52,
+      "final_count": 14,
       "baseline": 58,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 127.63,
+      "duration_s": 74.88,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,7 +32,7 @@
       "baseline": 28,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 78.18,
+      "duration_s": 62.15,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -40,12 +40,12 @@
     {
       "name": "First Avenue",
       "status": "ok",
-      "fresh_count": 20,
+      "fresh_count": 19,
       "final_count": 0,
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 79.15,
+      "duration_s": 38.68,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 43,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 106.09,
+      "duration_s": 52.29,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -71,7 +71,7 @@
       "baseline": 15,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 64.29,
+      "duration_s": 22.71,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 22,
+      "fresh_count": 23,
       "final_count": 2,
-      "baseline": 20,
+      "baseline": 22,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 103.34,
+      "duration_s": 83.89,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -97,7 +97,7 @@
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 54.62,
+      "duration_s": 81.43,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -110,7 +110,7 @@
       "baseline": 31,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 272.05,
+      "duration_s": 25.35,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -123,7 +123,7 @@
       "baseline": 10,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 56.18,
+      "duration_s": 69.35,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 8
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 74,
+        "unique_venues": 51,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1891891891891892,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 75,
         "unique_venues": 49,
         "top_venue": "331 Club",
         "top_venue_share": 0.2,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 93,
-        "unique_venues": 54,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.15053763440860216,
         "source_url_density": 1.0
       }
     }
