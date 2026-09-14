@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-09-12T11:04:01Z",
+  "run_at": "2026-09-13T11:02:29Z",
   "total_sources": 9,
   "succeeded": 8,
   "empty": 0,
   "failed": 0,
   "fallback_used": 1,
-  "fresh_events": 218,
-  "final_events": 84,
+  "fresh_events": 234,
+  "final_events": 88,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 77,
-      "final_count": 13,
+      "fresh_count": 76,
+      "final_count": 12,
       "baseline": 71,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 117.5,
+      "duration_s": 66.36,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -28,12 +28,12 @@
       "name": "Bandsintown Minneapolis",
       "status": "fallback",
       "fresh_count": 0,
-      "final_count": 6,
+      "final_count": 4,
       "baseline": 0,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 15.74,
-      "consecutive_empty": 25,
+      "duration_s": 17.9,
+      "consecutive_empty": 26,
       "error": null,
       "dropped_count": 0
     },
@@ -45,7 +45,7 @@
       "baseline": 17,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 62.13,
+      "duration_s": 87.58,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 39,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 15.13,
+      "duration_s": 17.04,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -66,12 +66,12 @@
     {
       "name": "Minneapolis Events",
       "status": "ok",
-      "fresh_count": 18,
-      "final_count": 15,
+      "fresh_count": 25,
+      "final_count": 19,
       "baseline": 24,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 35.95,
+      "duration_s": 79.86,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 19,
-      "final_count": 7,
+      "fresh_count": 22,
+      "final_count": 8,
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 221.65,
+      "duration_s": 120.25,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -92,25 +92,25 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 6,
+      "fresh_count": 12,
       "final_count": 1,
       "baseline": 6,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 211.64,
+      "duration_s": 93.63,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 2
+      "dropped_count": 0
     },
     {
       "name": "Songkick Minneapolis",
       "status": "ok",
-      "fresh_count": 30,
-      "final_count": 27,
+      "fresh_count": 31,
+      "final_count": 29,
       "baseline": 32,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 66.97,
+      "duration_s": 54.99,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -123,7 +123,7 @@
       "baseline": 3,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 99.72,
+      "duration_s": 97.44,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 88,
+        "unique_venues": 52,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.13636363636363635,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 84,
         "unique_venues": 52,
         "top_venue": "331 Club",
         "top_venue_share": 0.15476190476190477,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 74,
-        "unique_venues": 48,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.17567567567567569,
         "source_url_density": 1.0
       }
     }
