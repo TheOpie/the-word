@@ -1,14 +1,9 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T11:02:30Z",
+  "updated_at": "2026-09-27T11:02:27Z",
   "sources": {
     "Minneapolis Events": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 25,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 28,
@@ -73,9 +68,14 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 0,
           "status": "fallback"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 0,
+          "status": "fallback"
         }
       ],
-      "consecutive_empty": 12,
+      "consecutive_empty": 13,
       "last_known_good": {
         "at": "2026-09-14T11:06:16Z",
         "events": [
@@ -757,11 +757,6 @@
     "Songkick Minneapolis": {
       "runs": [
         {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 31,
-          "status": "ok"
-        },
-        {
           "at": "2026-09-14T11:06:16Z",
           "count": 31,
           "status": "ok"
@@ -825,136 +820,24 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 33,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 33,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
-          {
-            "name": "Pitbull",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Mystic Lake Amphitheater",
-            "address": "Shakopee, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/42990664-pitbull-at-mystic-lake-amphitheater",
-            "tags": [
-              "latin",
-              "pop"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/440797/huge_avatar"
-          },
-          {
-            "name": "Teddy Swims",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Grand Casino Arena",
-            "address": "St. Paul, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43329991-teddy-swims-at-grand-casino-arena",
-            "tags": [
-              "pop"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/teddy-swims.jpg"
-          },
-          {
-            "name": "This is Lorelei and Bleachers",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "The Armory",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43104128-this-is-lorelei-at-armory",
-            "tags": [
-              "indie",
-              "rock"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8857044/huge_avatar"
-          },
-          {
-            "name": "Bahamas",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Fine Line",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43091466-bahamas-at-fine-line",
-            "tags": [
-              "Music",
-              "folk"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/bahamas.jpg"
-          },
-          {
-            "name": "Chelsea Wolfe and Jonathan Hulten",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Fitzgerald Theater",
-            "address": "St. Paul, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43290454-chelsea-wolfe-at-fitzgerald-theater",
-            "tags": [
-              "metal"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/183260/huge_avatar"
-          },
-          {
-            "name": "Beth Orton",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "The Parkway Theater",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43168617-beth-orton-at-parkway-theater",
-            "tags": [
-              "folk"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/308960/huge_avatar"
-          },
-          {
-            "name": "Bruce Hornsby and Bruce Hornsby & the Noisemakers",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Uptown Theater",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43087269-bruce-hornsby-at-uptown-theater",
-            "tags": [
-              "folk",
-              "jazz"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/249597/huge_avatar"
-          },
-          {
-            "name": "Beth Hart",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Palace Theatre",
-            "address": "St. Paul, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43172562-beth-hart-at-palace-theatre",
-            "tags": [
-              "blues",
-              "rock"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/405677/huge_avatar"
-          },
-          {
-            "name": "Jo Dee Messina",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Mayo Clinic Health System Event Center",
-            "address": "Mankato, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43205613-jo-dee-messina-at-mayo-clinic-health-system-event-center",
-            "tags": [
-              "country"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/273274/huge_avatar"
-          },
-          {
-            "name": "Sam Feldt",
-            "dateTime": "2026-09-26T00:00:00",
-            "venue": "Union Restaurant & Rooftop",
-            "address": "Minneapolis, MN, US",
-            "sourceUrl": "https://www.songkick.com/concerts/43402351-sam-feldt-at-union-restaurant-and-rooftop",
-            "tags": [
-              "electronic"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8386078/huge_avatar"
-          },
           {
             "name": "Steve Lacy",
             "dateTime": "2026-09-27T00:00:00",
             "venue": "The Armory",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43365560-steve-lacy-at-armory",
-            "tags": [
-              "rnb"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8538309/huge_avatar"
           },
           {
@@ -963,10 +846,7 @@
             "venue": "Grand Casino Arena",
             "address": "St. Paul, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43330423-johnny-blue-skies-at-grand-casino-arena",
-            "tags": [
-              "country",
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10340568/huge_avatar"
           },
           {
@@ -975,9 +855,7 @@
             "venue": "Uptown Theater",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43344679-esdeekid-at-uptown-theater",
-            "tags": [
-              "hip-hop"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10384295/huge_avatar"
           },
           {
@@ -986,10 +864,7 @@
             "venue": "Varsity Theater",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43320273-linda-lindas-at-varsity-theater",
-            "tags": [
-              "punk",
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://api.minneapolis.events/media/the-linda-lindas.jpg"
           },
           {
@@ -999,8 +874,6 @@
             "address": "St. Paul, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43250773-okee-dokee-brothers-at-como-park",
             "tags": [
-              "family",
-              "folk",
               "outdoor"
             ],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2749591/huge_avatar"
@@ -1011,9 +884,7 @@
             "venue": "Icehouse",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43283286-schizophonics-at-icehouse",
-            "tags": [
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8658984/huge_avatar"
           },
           {
@@ -1024,8 +895,7 @@
             "sourceUrl": "https://www.songkick.com/concerts/43275923-two-runner-at-turf-club",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk"
+              "Music"
             ],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10196688/huge_avatar"
           },
@@ -1035,9 +905,7 @@
             "venue": "Dakota",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43263691-alicia-witt-at-dakota",
-            "tags": [
-              "jazz"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2340059/huge_avatar"
           },
           {
@@ -1046,9 +914,7 @@
             "venue": "The Cedar",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43252491-savage-aural-hotbed-at-cedar",
-            "tags": [
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/14199/huge_avatar"
           },
           {
@@ -1057,9 +923,7 @@
             "venue": "The White Squirrel",
             "address": "St. Paul, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43417171-lilac-fortress-at-white-squirrel",
-            "tags": [
-              "indie"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9460339/huge_avatar"
           },
           {
@@ -1068,10 +932,7 @@
             "venue": "The Armory",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43184562-foster-the-people-at-armory",
-            "tags": [
-              "indie",
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/3120231/huge_avatar"
           },
           {
@@ -1080,10 +941,7 @@
             "venue": "The Fillmore",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43276907-garden-at-fillmore",
-            "tags": [
-              "hip-hop",
-              "punk"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/263179/huge_avatar"
           },
           {
@@ -1092,9 +950,7 @@
             "venue": "Icehouse",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43313589-buzz-kull-at-icehouse",
-            "tags": [
-              "electronic"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/6139259/huge_avatar"
           },
           {
@@ -1103,9 +959,7 @@
             "venue": "Cloudland Theater",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43373037-simon-joyner-at-cloudland-theater",
-            "tags": [
-              "folk"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/110154/huge_avatar"
           },
           {
@@ -1144,7 +998,6 @@
             "address": "St. Paul, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43242093-knocked-loose-at-myth-live",
             "tags": [
-              "hardcore",
               "metal"
             ],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/7222529/huge_avatar"
@@ -1155,10 +1008,8 @@
             "venue": "The Fillmore",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43136297-artemas-at-fillmore",
-            "tags": [
-              "pop"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/3644976/huge_avatar"
+            "tags": [],
+            "imageUrl": "https://api.minneapolis.events/media/artemas.jpg"
           },
           {
             "name": "Dying Fetus, Sanguisugabogg, Crowbar, and Left To Suffer",
@@ -1177,9 +1028,7 @@
             "venue": "7th St. Entry",
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43172564-bayonne-at-7th-st-entry",
-            "tags": [
-              "electronic"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/3094156/huge_avatar"
           },
           {
@@ -1189,8 +1038,7 @@
             "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43144800-culture-wars-at-fine-line",
             "tags": [
-              "Music",
-              "rock"
+              "Music"
             ],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9157674/huge_avatar"
           },
@@ -1198,23 +1046,120 @@
             "name": "Quicksand and Baldosa",
             "dateTime": "2026-09-29T00:00:00",
             "venue": "Zhora Darling",
+            "address": "Minneapolis, MN, US",
             "sourceUrl": "https://www.songkick.com/concerts/43384301-quicksand-at-zhora-darling",
-            "tags": [
-              "metal",
-              "rock"
-            ],
+            "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/375197/huge_avatar"
+          },
+          {
+            "name": "Sorry Ghost and Kevin Walkman",
+            "dateTime": "2026-09-29T00:00:00",
+            "venue": "Underground Music Venue - Cafe",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43338346-sorry-ghost-at-underground-music-venue-cafe",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9495399/huge_avatar"
+          },
+          {
+            "name": "King 810",
+            "dateTime": "2026-09-29T00:00:00",
+            "venue": "Turf Club",
+            "address": "St. Paul, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43341933-king-810-at-turf-club",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "metal"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/king-810.jpg"
+          },
+          {
+            "name": "Startijenn and Danny",
+            "dateTime": "2026-09-29T00:00:00",
+            "venue": "Cedar Cultural Center",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43204296-startijenn-at-cedar-cultural-center",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/82066/huge_avatar"
+          },
+          {
+            "name": "Bryson Tiller, Majid Jordan, Ty Dolla $ign, and Austin Millz",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Mystic Lake Amphitheater",
+            "address": "Shakopee, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43247993-bryson-tiller-at-mystic-lake-amphitheater",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8589549/huge_avatar"
+          },
+          {
+            "name": "Sara Bareilles",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Orpheum Theatre",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43255662-sara-bareilles-at-orpheum-theatre",
+            "tags": [
+              "Theater"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/390985/huge_avatar"
+          },
+          {
+            "name": "Citizen, Anxious, and Cryogeyser",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Varsity Theater",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43190590-citizen-at-varsity-theater",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/324205/huge_avatar"
+          },
+          {
+            "name": "Vieux Farka Toure",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Dakota",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43199779-vieux-farka-toure-at-dakota",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/398166/huge_avatar"
+          },
+          {
+            "name": "DOMi & JD BECK",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Fillmore Minneapolis",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43325861-domi-and-jd-beck-at-fillmore-minneapolis",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10140024/huge_avatar"
+          },
+          {
+            "name": "MICO and Will Linley",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "First Avenue",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43223963-mico-at-first-avenue",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/502504/huge_avatar"
+          },
+          {
+            "name": "Jervis Campbell",
+            "dateTime": "2026-09-30T00:00:00",
+            "venue": "Fine Line",
+            "address": "Minneapolis, MN, US",
+            "sourceUrl": "https://www.songkick.com/concerts/43210627-jervis-campbell-at-fine-line",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9324679/huge_avatar"
           }
         ]
       }
     },
     "Bandsintown Minneapolis": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 0,
-          "status": "fallback"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 0,
@@ -1279,9 +1224,14 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 0,
           "status": "fallback"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 0,
+          "status": "fallback"
         }
       ],
-      "consecutive_empty": 39,
+      "consecutive_empty": 40,
       "last_known_good": {
         "at": "2026-08-18T11:03:04Z",
         "events": [
@@ -1585,11 +1535,6 @@
     "First Avenue": {
       "runs": [
         {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 19,
-          "status": "ok"
-        },
-        {
           "at": "2026-09-14T11:06:16Z",
           "count": 18,
           "status": "ok"
@@ -1653,11 +1598,16 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 19,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 19,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
           {
             "name": "Peter Hook & The Light",
@@ -1665,11 +1615,10 @@
             "venue": "First Avenue",
             "description": "North American Tour 2026 with DJ Jake Rudh.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-peter-hook-the-light/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-first-avenue.svg",
             "tags": [
               "DJ/Electronic",
               "Music",
-              "concert"
+              "rock"
             ]
           },
           {
@@ -1678,11 +1627,10 @@
             "venue": "Fine Line",
             "description": "with Platinum Moon.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-ugly-kid-joe/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-fine-line.svg",
             "tags": [
               "Latin/World",
               "Music",
-              "concert"
+              "rock"
             ]
           },
           {
@@ -1691,9 +1639,8 @@
             "venue": "7th St Entry",
             "description": "Steel Beans is… a Psyop Tour 2026 with Tarias and the Sound.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-steel-beans/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
-              "concert"
+              "indie"
             ]
           },
           {
@@ -1702,9 +1649,8 @@
             "venue": "7th St Entry",
             "description": "★ Local Show ★ with Call Me Fritz and Bright Young Things.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-clovers-daughter/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
-              "concert",
+              "indie",
               "local"
             ]
           },
@@ -1712,13 +1658,12 @@
             "name": "Clung Tight",
             "dateTime": "2026-09-03T00:00:00",
             "venue": "Turf Club",
-            "description": "Single Release ★ Local Show ★ with Therapy Culture and d'Lakes.",
+            "description": "Single Release. ★ Local Show ★ with Therapy Culture and d'Lakes.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-clung-tight/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "concert",
+              "indie",
               "local"
             ]
           },
@@ -1728,26 +1673,24 @@
             "venue": "Turf Club",
             "description": "In the Clown Lounge (Turf Club basement).",
             "sourceUrl": "https://first-avenue.com/event/2026-09-riyl-live-w-adam-voith/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "conversation",
-              "literary"
+              "literary",
+              "spoken word"
             ]
           },
           {
             "name": "Danny Worsnop and Tyler Rich",
             "dateTime": "2026-09-04T00:00:00",
             "venue": "Turf Club",
-            "description": "Cancelled.",
+            "description": "Cancelled event.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-danny-worsnop-and-tyler-rich/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "cancelled",
-              "concert"
+              "country",
+              "rock"
             ]
           },
           {
@@ -1756,21 +1699,20 @@
             "venue": "Fine Line",
             "description": "with Public Circuit and Jimmy Cicero.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-black-marble/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-fine-line.svg",
             "tags": [
               "Music",
-              "concert"
+              "electronic",
+              "indie"
             ]
           },
           {
-            "name": "First Avenue Goes to the Fair (Fri)",
+            "name": "First Avenue Goes to the Fair",
             "dateTime": "2026-09-04T00:00:00",
             "venue": "Pryes Stage at Schilling Amphitheater at the West End",
-            "description": "Featuring Adam Bohanan, Annie Sparrows, Erik Koskinen, Obadiah Gamble, Thomas Sticha, hosted by Jade, with Al Church and The Congregation.",
+            "description": "Featuring Adam Bohanan, Annie Sparrows, Erik Koskinen, Obadiah Gamble, Thomas Sticha, hosted by Jade. ★ Local Show ★ with Al Church and The Congregation.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-first-avenue-goes-to-the-fair-fri/",
             "tags": [
-              "concert",
-              "festival",
+              "fair",
               "local"
             ]
           },
@@ -1780,11 +1722,10 @@
             "venue": "Turf Club",
             "description": "★ Local Show ★ with Heavy As I and Dad's Nighttime Friends.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-red-desert/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "concert",
+              "indie",
               "local"
             ]
           },
@@ -1794,12 +1735,11 @@
             "venue": "7th St Entry",
             "description": "With Lorraine, Xminus1, Allen Hz, Ori The Ghost, Sergio, Jamila, Elysium Alps, DJ Sci-Fi. ★ Local Show ★",
             "sourceUrl": "https://first-avenue.com/event/2026-09-pivot/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
               "DJ/Electronic",
-              "concert",
-              "local",
-              "party"
+              "dance",
+              "dj",
+              "local"
             ]
           },
           {
@@ -1808,9 +1748,8 @@
             "venue": "7th St Entry",
             "description": "with Paco.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-greek/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
-              "concert"
+              "indie"
             ]
           },
           {
@@ -1819,22 +1758,21 @@
             "venue": "Turf Club",
             "description": "with Oscar Lindsey.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-robert-lester-folsom/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "concert"
+              "folk",
+              "singer-songwriter"
             ]
           },
           {
-            "name": "First Avenue Goes to the Fair (Sat)",
+            "name": "First Avenue Goes to the Fair",
             "dateTime": "2026-09-05T00:00:00",
             "venue": "Pryes Stage at Schilling Amphitheater at the West End",
-            "description": "Featuring Clayton Ryan, GR3G, LASALLE, Mike Kota, Sophie Hiroko, hosted by Jade, with Al Church and The Congregation.",
+            "description": "Featuring Clayton Ryan, GR3G, LASALLE, Mike Kota, Sophie Hiroko, hosted by Jade. ★ Local Show ★ with Al Church and The Congregation.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-first-avenue-goes-to-the-fair-sat/",
             "tags": [
-              "concert",
-              "festival",
+              "fair",
               "local"
             ]
           },
@@ -1842,14 +1780,13 @@
             "name": "Next Level KPOP Rave ft. Velocipey",
             "dateTime": "2026-09-05T00:00:00",
             "venue": "Fine Line",
-            "description": "K-Pop rave event.",
+            "description": "Next Level KPOP Rave featuring Velocipey.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-next-level-kpop-rave/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-fine-line.svg",
             "tags": [
               "Music",
-              "concert",
               "dance",
-              "kpop"
+              "kpop",
+              "rave"
             ]
           },
           {
@@ -1858,24 +1795,23 @@
             "venue": "Fine Line",
             "description": "with Pity Party (Girls Club), Manwolves and Chicano Mosh.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-mustard-service/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-fine-line.svg",
             "tags": [
               "Music",
-              "concert"
+              "indie"
             ]
           },
           {
             "name": "Steven Hyden in Conversation with Steve Gorman",
             "dateTime": "2026-09-08T00:00:00",
             "venue": "Turf Club",
-            "description": "On the release of 'Is This It: The Never-Ending Rise and Fall of the Strokes (and Rock 'n' Roll)'. In the Clown Lounge (Turf Club basement).",
+            "description": "On the Release of 'Is This It: The Never-Ending Rise and Fall of the Strokes (and Rock 'n' Roll)' in the Clown Lounge (Turf Club basement).",
             "sourceUrl": "https://first-avenue.com/event/2026-09-steven-hyden-in-conversation-with-steve-gorman/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-turf-club.svg",
             "tags": [
               "Local Bands",
               "Music",
-              "conversation",
-              "literary"
+              "author",
+              "literary",
+              "spoken word"
             ]
           },
           {
@@ -1884,9 +1820,9 @@
             "venue": "7th St Entry",
             "description": "with Aren't We Amphibians.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-macseal-and-ben-quad/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
-              "concert"
+              "indie",
+              "rock"
             ]
           },
           {
@@ -1895,9 +1831,9 @@
             "venue": "7th St Entry",
             "description": "North America Tour.",
             "sourceUrl": "https://first-avenue.com/event/2026-09-saint-harison/",
-            "imageUrl": "https://first-avenue.com/wp-content/uploads/2020/06/icon-7th-st-entry.svg",
             "tags": [
-              "concert"
+              "r&b",
+              "tour"
             ]
           }
         ]
@@ -1905,11 +1841,6 @@
     },
     "The Current Events": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 10,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 4,
@@ -1974,49 +1905,28 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 5,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 5,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
-          {
-            "name": "The Current presents Bleachers",
-            "dateTime": "2026-09-26T08:00:00",
-            "venue": "The Armory",
-            "address": "500 South Sixth Street, Minneapolis, 55415",
-            "sourceUrl": "https://www.thecurrent.org/events/20260926-bleachers-armory-minneapolis",
-            "imageUrl": "https://img.apmcdn.org/48369a923a6637a279a56fa0cd023e67b3dd2019/uncropped/7bce7d-20260828-bleachers-forever-2026-updated-tour-admat-600.jpg",
-            "tags": [
-              "Bleachers",
-              "The Armory",
-              "concert"
-            ]
-          },
-          {
-            "name": "The Current presents Beth Orton",
-            "dateTime": "2026-09-26T18:30:00",
-            "venue": "Parkway Theater",
-            "address": "4814 Chicago Avenue S., Minneapolis 55417",
-            "sourceUrl": "https://www.thecurrent.org/events/20260926-beth-orton-parkway-theater-minneapolis",
-            "imageUrl": "https://img.apmcdn.org/15c4b5a2d8c86ebfc98cb82a0b977ca6a28ed498/uncropped/bec9df-20260629-beth-orton-2026-tour-admat-600.jpg",
-            "tags": [
-              "Beth Orton",
-              "Parkway Theater",
-              "concert"
-            ]
-          },
           {
             "name": "The Current presents The Linda Lindas",
             "dateTime": "2026-09-27T18:00:00",
             "venue": "Varsity Theater",
-            "address": "1308 SE 4th Street, Minneapolis, MN 55401",
-            "sourceUrl": "https://www.thecurrent.org/events/20260927-the-linda-lindas-varsity-theater-minneapolis",
+            "address": "1308 SE 4th Street Minneapolis, Minnesota 55401",
+            "description": "The Current presents The Linda Lindas at Varsity Theater in Minneapolis.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260927-the-linda-lindas-varsity-theater-minneapolis",
             "imageUrl": "https://img.apmcdn.org/fdc0dc9aa694f71870568927203463e93e1505a8/uncropped/ead101-20260717-the-linda-lindas-2026-tour-admat-600.jpg",
             "tags": [
-              "The Linda Lindas",
-              "Varsity Theater",
-              "concert"
+              "concert",
+              "rock"
             ]
           },
           {
@@ -2024,25 +1934,51 @@
             "dateTime": "2026-09-27T19:00:00",
             "venue": "Grand Casino Arena",
             "address": "199 West Kellogg Boulevard, Saint Paul, MN 55102",
-            "sourceUrl": "https://www.thecurrent.org/events/20260927-johnny-blue-skies-the-dark-clouds-grand-casino-arena",
+            "description": "The Current presents Johnny Blue Skies & the Dark Clouds at Grand Casino Arena in Saint Paul.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260927-johnny-blue-skies-the-dark-clouds-grand-casino-arena",
             "imageUrl": "https://img.apmcdn.org/f08dabd5870653627b613a655f017de5a283e8a2/uncropped/9dd77b-20260408-johnny-blue-skies-and-the-dark-clouds-sep-27-2026-tour-admat-800.png",
             "tags": [
-              "Grand Casino Arena",
-              "Johnny Blue Skies",
               "concert"
             ]
           },
           {
-            "name": "The Current's Happy Hours: Pizza Lucé with Nur-D (Duluth, Minnesota)",
+            "name": "The Current's Happy Hours: Pizza Lucé with Nur-D",
             "dateTime": "2026-09-29T16:00:00",
             "venue": "Pizza Lucé (Duluth, Minnesota)",
             "address": "11 E Superior St, Duluth, MN 55802",
-            "sourceUrl": "https://www.thecurrent.org/events/20260929-pizza-luce-happy-hour",
+            "description": "The Current's Happy Hours featuring Nur-D at Pizza Lucé in Duluth, Minnesota.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260929-pizza-luce-happy-hour",
             "imageUrl": "https://img.apmcdn.org/21cb8faa15e2d4ef52bf47a5597a5f70a2718a69/uncropped/e9d2cc-20260721-nurd-1200.png",
             "tags": [
-              "Nur-D",
-              "Pizza Lucé",
-              "happy hour"
+              "happy hour",
+              "hip-hop"
+            ]
+          },
+          {
+            "name": "The Current presents Sunny War",
+            "dateTime": "2026-09-30T18:30:00",
+            "venue": "Parkway Theater",
+            "address": "4814 Chicago Avenue S., Minneapolis 55417",
+            "description": "The Current presents Sunny War at Parkway Theater in Minneapolis.",
+            "sourceUrl": "https://www.thecurrent.com/events/20260930-sunny-war-parkway-theater-minneapolis",
+            "imageUrl": "https://img.apmcdn.org/1b283ad03ea83078829dd78cb0b2a03e56113fbe/uncropped/7f658a-20260629-sunny-war-2026-600.jpg",
+            "tags": [
+              "blues",
+              "concert"
+            ]
+          },
+          {
+            "name": "The Current presents An Evening with They Might Be Giants",
+            "dateTime": "2026-10-01T19:00:00",
+            "venue": "First Avenue",
+            "address": "701 1st Ave N, Minneapolis, MN 55403",
+            "description": "The Current presents An Evening with They Might Be Giants at First Avenue in Minneapolis.",
+            "sourceUrl": "https://www.thecurrent.com/events/20261001-they-might-be-giants-first-avenue",
+            "imageUrl": "https://img.apmcdn.org/5291bacd66f1915c93008d6c61e4adffe515eeb9/uncropped/7b99c9-20260904-they-might-be-giants-updated-2026-tour-admat-600.jpg",
+            "tags": [
+              "Music",
+              "concert",
+              "rock"
             ]
           }
         ]
@@ -2050,11 +1986,6 @@
     },
     "Minneapolis.org Events": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 22,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 20,
@@ -2119,17 +2050,22 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 9,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 9,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
           {
             "name": "Kacey Musgraves",
             "dateTime": "2026-09-22T00:00:00",
             "venue": "Target Center",
-            "description": "Kacey Musgraves is bringing the \"Middle of Nowhere\" tour to Target Center on September 22, 2026 with special guest Carter Faith.",
+            "description": "\"Rainbow\", \"Dry Spell\", and \"Butterflies\" artist, Kacey Musgraves is bringing the \"Middle of Nowhere\" tour to Target Center on September 22, 2026 with special guest Carter Faith.",
             "sourceUrl": "https://www.axs.com/events/1420218/kacey-musgraves-tickets?skin=targetcenter",
             "tags": [
               "Sports",
@@ -2142,13 +2078,13 @@
             "name": "Twin Cities Arab Film Festival",
             "dateTime": "2026-09-23T00:00:00",
             "venue": "The Main Cinema and Walker Art Center",
-            "description": "Mizna celebrates the 20th edition of the Twin Cities Arab Film Festival, featuring special screenings, guests, and more, with screenings at The Main Cinema and the Walker Art Center.",
+            "description": "Mizna celebrates the 20th edition of the Twin Cities Arab Film Festival. The festival presents special screenings, guests, and more, considering what has been overlooked and discovering liberatory lessons the past might offer the present and future.",
             "sourceUrl": "https://mizna.org/event/2026-tcaff/",
             "tags": [
               "Art",
               "Exhibition",
               "Free",
-              "arts",
+              "culture",
               "festival",
               "film"
             ]
@@ -2156,20 +2092,21 @@
           {
             "name": "Cocktails at the Castle",
             "dateTime": "2026-09-25T00:00:00",
-            "venue": "American Swedish Institute (Turnblad Mansion)",
-            "description": "Cocktails at the Castle brings together a diverse community of music, art, and craft lovers at the American Swedish Institute's historic Turnblad Mansion, featuring top local musicians, interactive art demos, curated cocktails, and craft beers.",
+            "venue": "American Swedish Institute",
+            "description": "More than just a night out, Cocktails at the Castle brings together a diverse community of music, art, and craft lovers at the Twin Cities' only castle, featuring top local musicians, interactive art demos, food, curated cocktails (and mocktails!), and craft beers.",
             "sourceUrl": "https://asimn.org/experience/festivals/cocktails-at-the-castle/",
             "tags": [
-              "arts",
-              "food and drink",
+              "drink",
+              "festival",
+              "food",
               "music"
             ]
           },
           {
             "name": "Dakota Block Party",
             "dateTime": "2026-09-26T00:00:00",
-            "venue": "Dakota (Downtown Minneapolis)",
-            "description": "The Dakota Block Party in downtown Minneapolis features a lineup of more than a dozen musical acts, food and beverage offerings, a local Makers' Market, and a kids' \"Treble Makers\" play area. This is a free, all-ages celebration.",
+            "venue": "Dakota",
+            "description": "Get jazzy in downtown Minneapolis at the Dakota Block Party, featuring a lineup of more than a dozen musical acts throughout the afternoon and evening, along with food and beverage offerings, a local Makers' Market, and kids' \"Treble Makers\" play area. Free, all-ages celebration.",
             "sourceUrl": "https://www.dakotacooks.com/dakota-block-party/",
             "tags": [
               "Free",
@@ -2179,8 +2116,7 @@
               "festival",
               "free",
               "music"
-            ],
-            "imageUrl": "https://www.dakotacooks.com/wp-content/uploads/2026/05/Dakota-BlockParty_2026_Finals-Vertical.png"
+            ]
           },
           {
             "name": "Bleachers",
@@ -2190,32 +2126,31 @@
             "sourceUrl": "https://armorymn.com/events/bleachers/",
             "tags": [
               "concert",
+              "indie",
               "music"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/bleachers.jpg"
+            ]
           },
           {
             "name": "Red Bull Flugtag",
             "dateTime": "2026-09-26T00:00:00",
             "venue": "Bohemian Flats Park",
-            "description": "Red Bull Flugtag challenges wacky engineers and fearless pilots to fulfill their dream of flying by building their own flying machines and launching them off a ramp at Bohemian Flats Park.",
+            "description": "Red Bull Flugtag challenges wacky engineers and fearless pilots to fulfill their dream of flying. First they build their flying machine, then they take a leap of faith—or plunge into the waters below.",
             "sourceUrl": "https://www.redbull.com/us-en/events/red-bull-flugtag-minneapolis",
             "tags": [
-              "festival",
-              "free",
+              "competition",
               "outdoor",
-              "sports"
-            ],
-            "imageUrl": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2026/4/13/jffmv6cdxpfukiwpjlob/red-bull-flugtag-minneapolis"
+              "spectacle"
+            ]
           },
           {
             "name": "Foster the People",
             "dateTime": "2026-09-28T00:00:00",
             "venue": "The Armory",
-            "description": "Foster the People is coming to the Armory for The Good Morning Sunshine Tour live on September 28.",
+            "description": "Foster the People is coming to the Armory! See The Good Morning Sunshine Tour live on September 28.",
             "sourceUrl": "https://armorymn.com/events/foster-the-people/",
             "tags": [
               "concert",
+              "indie",
               "music"
             ],
             "imageUrl": "https://armorymn.com/wp-content/uploads/2026/04/Static_Social-Instagram_1080x1080_FosterThePeople_2026_Regional_TheArmory_0928.jpg"
@@ -2223,8 +2158,8 @@
           {
             "name": "Back from the Underworld: Mia's Dante Tapestry Restored",
             "dateTime": "2026-09-01T00:00:00",
-            "venue": "Minneapolis Institute of Art (Mia)",
-            "description": "The Minneapolis Institute of Art is bringing back to view Francesco Salviati's tapestry depicting the meeting of Dante and Virgil at the beginning of the Inferno. Over 17 feet tall, the tapestry was woven in the 1540s and has been in storage at Mia for nearly 70 years. On view through January 31, 2027.",
+            "venue": "Minneapolis Institute of Art",
+            "description": "The Minneapolis Institute of Art is bringing back to view Francesco Salviati's tapestry depicting the meeting of Dante and Virgil at the beginning of the Inferno. Over 17 feet tall, the tapestry was created to cover an entire wall of the Palazzo Salviati in Florence and was woven in the 1540s.",
             "sourceUrl": "https://new.artsmia.org/exhibition/back-from-the-underworld-mias-dante-tapestry-restored",
             "tags": [
               "Art",
@@ -2238,7 +2173,7 @@
             "name": "Minnesota Twins Game",
             "dateTime": "2026-09-01T00:00:00",
             "venue": "Target Field",
-            "description": "Catch a Minnesota Twins game at Target Field before the baseball season ends, taking advantage of gameday promotions like Tuesday Dollar Dog Night and pregame beers on Friday and Saturday games.",
+            "description": "Baseball season is winding down, so catch a Twins game at Target Field before summer is over, with gameday promotions like Tuesday Dollar Dog Night and pregame beers that only cost $2 on Friday and Saturday games.",
             "sourceUrl": "http://mlb.com/twins/schedule",
             "tags": [
               "Sports",
@@ -2251,11 +2186,6 @@
     },
     "331 Club": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 76,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 72,
@@ -2320,74 +2250,59 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 67,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 66,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
-          {
-            "name": "DPFKS, Off Planet, The Dirtpops",
-            "dateTime": "2026-09-26T22:00:00",
-            "venue": "331 Club",
-            "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Drinking Liberally",
-            "dateTime": "2026-09-26T18:00:00",
-            "venue": "331 Club",
-            "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
           {
             "name": "Colonel Mustard's Mechanical Orchestra",
             "dateTime": "2026-09-27T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/19VFKAmR7R/?mibextid=wwXIfr",
+            "description": "Live performance at 331 Club.",
+            "sourceUrl": "https://331club.com/",
+            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
-            ],
-            "imageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/500769863_683882821065900_5337114011282102465_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1000x1000&amp;ctp=s720x720&amp;_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=xbHgeJ4cDqkQ7kNvwHy0bA3&amp;_nc_oc=AdqwucH9y0wZdnmwoczqMJsZNWPpFgym1ypsqTkMWypZWSLJX0yo4Z5noLjt5FS8NzQ&amp;_nc_zt=24&amp;_nc_ht=scontent-ord5-2.xx&amp;_nc_gid=E54HtdAR1EO3onBl99rdqg&amp;_nc_ss=7b20f&amp;oh=00_AQJiZme_IYTtzwMEyGs_6hC-tyLcFIX52eGsQiNyqdGCpg&amp;oe=6ABD67FE"
+              "live music",
+              "music"
+            ]
           },
           {
             "name": "Tom Feldmann",
             "dateTime": "2026-09-27T15:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/1G53UX1PEf/?mibextid=wwXIfr",
+            "description": "Live performance at 331 Club.",
+            "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ],
-            "imageUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/273383984_339306188194351_7652523123632688733_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1024x683&amp;ctp=s960x960&amp;_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=L27Kd_H_dggQ7kNvwEIh-BS&amp;_nc_oc=AdqYhgoeVgzTBGnOdH8eunPuR4N2M35_7jFXKYmvAGFo49RirjuHhZmIVoagVr_5XhU&amp;_nc_zt=24&amp;_nc_ht=scontent-ord5-1.xx&amp;_nc_gid=JBqmsYyF2jucF2SkcukagQ&amp;_nc_ss=7b20f&amp;oh=00_AQIkXvkb5buo3gsTH-HTtBILQ2UilBC_aceWZAId76Zxsg&amp;oe=6ABD8330"
+            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-09-28T20:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
+            "description": "Roe Family Singers perform every Monday at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2395,37 +2310,44 @@
             "dateTime": "2026-09-28T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100094683949311",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "honky tonk",
+              "live music",
+              "music"
+            ]
           },
           {
             "name": "September Conspiracy Series featuring Dan Tanz & the Wildfire",
             "dateTime": "2026-09-29T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/195iHrHFfk/?mibextid=wwXIfr",
+            "description": "September Conspiracy Series featuring Dan Tanz & the Wildfire.",
+            "sourceUrl": "https://www.facebook.com/share/195iHrHFfk/",
             "tags": [
               "Local Bands",
               "Music",
               "Sports",
-              "live music"
+              "concert series",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Worker's Playtime featuring Pop Wagner",
+            "name": "Worker's Playtime: Pop Wagner",
             "dateTime": "2026-09-29T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/pop.wagner?igsh=MWJ1Y3M1OGJ2c2hxdQ==",
+            "description": "Worker's Playtime featuring Pop Wagner.",
+            "sourceUrl": "https://www.instagram.com/pop.wagner/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2433,24 +2355,28 @@
             "dateTime": "2026-09-30T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Lenz and Frenz featuring certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, and Row of Ducks.",
             "sourceUrl": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-            "imageUrl": "https://331club.com/wp-content/uploads/2018/02/27459473_10154438965942706_3546471874199840314_n.jpg",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
-            ]
+              "live music",
+              "music"
+            ],
+            "imageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/305303345_488688159932461_2558568722447975663_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx647x640&amp;ctp=s647x640&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=ChyCFCYedIsQ7kNvwERLMl5&amp;_nc_oc=AdqPkmhCYhAiklGEY9tk6Tf_QPhDyCsdiPV69GiXmi2eZpkNkM7wB1Y8JCDhOSpqmDs&amp;_nc_zt=24&amp;_nc_ht=scontent-ord5-2.xx&amp;_nc_gid=sdDZCPokJCTNTsUnh9jD3Q&amp;_nc_ss=7b20f&amp;oh=00_AQJ100t0Hr5bz9fz8a-Bx5n-L43Mm8XWYu-4saT3TGSw6w&amp;oe=6ABEB1AF"
           },
           {
-            "name": "Harold's House Party on KFAI featuring Bill Finke and Pete Meyer",
+            "name": "Harold's House Party on KFAI: Bill Finke and Pete Meyer",
             "dateTime": "2026-09-30T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Harold's House Party on KFAI featuring Bill Finke and Pete Meyer.",
             "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
               "radio"
             ]
           },
@@ -2459,24 +2385,27 @@
             "dateTime": "2026-10-01T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Northeast Invitational live performance.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "live music",
+              "music"
+            ]
           },
           {
-            "name": "Mind Out of Time, Big Salt",
+            "name": "Mind Out of Time & Big Salt",
             "dateTime": "2026-10-02T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by Mind Out of Time and Big Salt.",
+            "sourceUrl": "https://www.instagram.com/mindoutoftiime/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2484,24 +2413,28 @@
             "dateTime": "2026-10-02T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
+            "description": "Movie and Music Trivia night at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
+              "events",
               "trivia"
             ]
           },
           {
-            "name": "Lords of the Universe, Socktopus, Wooly Mack",
+            "name": "Lords of the Universe, Socktopus & Wooly Mack",
             "dateTime": "2026-10-03T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by Lords of the Universe, Socktopus, and Wooly Mack.",
+            "sourceUrl": "https://www.instagram.com/lordsoftheuniverse_mn/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2509,10 +2442,13 @@
             "dateTime": "2026-10-03T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Drinkin' Spelling Bee at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music"
+              "Music",
+              "events",
+              "trivia"
             ]
           },
           {
@@ -2520,11 +2456,14 @@
             "dateTime": "2026-10-04T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
+            "description": "Brass Messengers live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063684781557",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "brass",
+              "live music",
+              "music"
             ]
           },
           {
@@ -2532,11 +2471,13 @@
             "dateTime": "2026-10-04T15:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/18HHs2ZLYc/?mibextid=wwXIfr",
+            "description": "Corpse Reviver live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/share/18HHs2ZLYc/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2544,12 +2485,13 @@
             "dateTime": "2026-10-05T20:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
+            "description": "Roe Family Singers perform every Monday at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2557,35 +2499,43 @@
             "dateTime": "2026-10-05T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
+            "description": "Soul Trouvère live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/share/1AFhiYvk34/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music",
+              "soul"
             ]
           },
           {
-            "name": "October Conspiracy Series featuring ditch pigeon, whispers the rabbit, girdle of judith",
+            "name": "October Conspiracy Series: ditch pigeon, whispers the rabbit, girdle of judith",
             "dateTime": "2026-10-06T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "October Conspiracy Series featuring ditch pigeon, whispers the rabbit, and girdle of judith.",
+            "sourceUrl": "https://www.instagram.com/ditchpigeon/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "concert series",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Worker's Playtime featuring Paul Bergen",
+            "name": "Worker's Playtime: Paul Bergen",
             "dateTime": "2026-10-06T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Worker's Playtime featuring Paul Bergen.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2593,23 +2543,28 @@
             "dateTime": "2026-10-07T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "poetry"
-            ]
-          },
-          {
-            "name": "Harold's House Party on KFAI featuring Drew Peterson",
-            "dateTime": "2026-10-07T19:00:00",
-            "venue": "331 Club",
-            "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
+            "description": "Bosso Poetry Company live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/bossopoetrycompany",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
+              "poetry"
+            ]
+          },
+          {
+            "name": "Harold's House Party on KFAI: Drew Peterson",
+            "dateTime": "2026-10-07T19:00:00",
+            "venue": "331 Club",
+            "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Harold's House Party on KFAI featuring Drew Peterson.",
+            "sourceUrl": "https://www.facebook.com/share/1DdR81ErBU/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "live music",
+              "music",
               "radio"
             ]
           },
@@ -2618,23 +2573,27 @@
             "dateTime": "2026-10-08T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/laurahugomusic?igsh=MXJ4N2VwdW44eWpkNg==",
+            "description": "Laura Hugo live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/laurahugomusic/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "TBA",
+            "name": "Luke Callen",
             "dateTime": "2026-10-09T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Luke Callen live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/_lukecallen_/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2642,11 +2601,13 @@
             "dateTime": "2026-10-09T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
+            "description": "Movie and Music Trivia night at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
+              "events",
               "trivia"
             ]
           },
@@ -2655,10 +2616,13 @@
             "dateTime": "2026-10-10T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Star Trek Bar Crawl at 331 Club.",
             "sourceUrl": "https://facebook.com/events/s/save-the-stardate-star-trek-ba/1375059094123716/",
             "tags": [
               "Local Bands",
-              "Music"
+              "Music",
+              "bar crawl",
+              "events"
             ]
           },
           {
@@ -2666,10 +2630,13 @@
             "dateTime": "2026-10-10T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Drinkin' Spelling Bee at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music"
+              "Music",
+              "events",
+              "trivia"
             ]
           },
           {
@@ -2677,11 +2644,13 @@
             "dateTime": "2026-10-11T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
+            "description": "Emmy Woods and friends live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100090071273380",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2689,12 +2658,14 @@
             "dateTime": "2026-10-11T14:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Dr. Sketchy's Anti-Art School, every second Sunday of the month, 2-4pm.",
             "sourceUrl": "http://www.drsketchy.com/branch/Minneapolis",
             "imageUrl": "https://331club.com/wp-content/uploads/2017/08/21175842_10211487756323824_1438538341_n.jpg",
             "tags": [
               "Local Bands",
               "Music",
-              "art"
+              "art",
+              "workshop"
             ]
           },
           {
@@ -2702,12 +2673,13 @@
             "dateTime": "2026-10-12T20:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
+            "description": "Roe Family Singers perform every Monday at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2715,86 +2687,102 @@
             "dateTime": "2026-10-12T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/erikbrandt1973?igsi=MWJvbzIwcTdxMDJpaw==",
+            "description": "Erik Brandt & the Folksingers live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/erikbrandt1973/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "folk",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "October Conspiracy Series featuring ditch pigeon, sawtooth witch, astronomy town",
+            "name": "October Conspiracy Series: ditch pigeon, sawtooth witch, astronomy town",
             "dateTime": "2026-10-13T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "October Conspiracy Series featuring ditch pigeon, sawtooth witch, and astronomy town.",
+            "sourceUrl": "https://www.instagram.com/ditchpigeon/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "concert series",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Worker's Playtime featuring Jake La Botz",
+            "name": "Worker's Playtime: Jake La Botz",
             "dateTime": "2026-10-13T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/jakelabotz?stkn=MTJpaXh1Y29jZjg3eQ==",
+            "description": "Worker's Playtime featuring Jake La Botz.",
+            "sourceUrl": "https://www.instagram.com/jakelabotz/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "The Flying T, Brass Messengers",
+            "name": "The Flying T & Bobby J's West Bank Social Club",
             "dateTime": "2026-10-14T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by The Flying T and Bobby J's West Bank Social Club.",
+            "sourceUrl": "https://www.instagram.com/tmillsvfx/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Joe T Cook",
+            "name": "Harold's House Party on KFAI: Joe T Cook",
             "dateTime": "2026-10-14T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Harold's House Party on KFAI featuring Joe T Cook.",
             "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
               "radio"
             ]
           },
           {
-            "name": "Cross Pollination featuring Knife Emoj, Embahn",
+            "name": "Cross Pollination: Knife Emoj & Embahn",
             "dateTime": "2026-10-15T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "description": "A monthly series of songwriters from different genres, sort of like the Large Hadron Collider of genre mixers.",
+            "description": "Cross Pollination is a monthly series of songwriters from different genres, on the third Thursday of every month.",
             "sourceUrl": "https://www.facebook.com/groups/1888430501448581/",
             "imageUrl": "https://331club.com/wp-content/uploads/2018/03/8CDEF39E-B540-4B69-990A-BBB69BA4F845.jpeg",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music",
+              "songwriter"
             ]
           },
           {
-            "name": "Wish Wash, Tender Comrade, TV For Dogs",
+            "name": "Wish Wash, Tender Comrade & TV For Dogs",
             "dateTime": "2026-10-16T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by Wish Wash, Tender Comrade, and TV For Dogs.",
+            "sourceUrl": "https://www.instagram.com/wishwashmpls/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2802,24 +2790,28 @@
             "dateTime": "2026-10-16T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
+            "description": "Movie and Music Trivia night at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
+              "events",
               "trivia"
             ]
           },
           {
-            "name": "close to toast, Paper Beast, SYFN",
+            "name": "close to toast, Paper Beast & SYFN",
             "dateTime": "2026-10-17T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by close to toast, Paper Beast, and SYFN.",
+            "sourceUrl": "https://www.instagram.com/closetotoastband/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2827,10 +2819,13 @@
             "dateTime": "2026-10-17T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Drinkin' Spelling Bee at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music"
+              "Music",
+              "events",
+              "trivia"
             ]
           },
           {
@@ -2838,11 +2833,13 @@
             "dateTime": "2026-10-18T22:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "eleven degenerates live performance at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2850,11 +2847,13 @@
             "dateTime": "2026-10-18T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
+            "description": "Switchyard live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/switchyard.band.mpls/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2862,11 +2861,13 @@
             "dateTime": "2026-10-18T15:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.facebook.com/share/1F8AfRDSsx/?mibextid=wwXIfr",
+            "description": "Robert Wilkinson live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/share/1F8AfRDSsx/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2874,73 +2875,87 @@
             "dateTime": "2026-10-19T20:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
+            "description": "Roe Family Singers perform every Monday at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Womenfolk Presents featuring Joy Zimmerman",
+            "name": "Womenfolk Presents: Joy Zimmerman",
             "dateTime": "2026-10-19T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Womenfolk Radio Concerts present Joy Zimmerman.",
             "sourceUrl": "https://331club.com/",
             "imageUrl": "https://331club.com/wp-content/uploads/2022/09/E1CAE91E-37E7-4D47-B3CA-8CA620F6B237.jpeg",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "folk",
+              "live music",
+              "music",
+              "womenfolk"
             ]
           },
           {
-            "name": "October Conspiracy Series featuring ditch pigeon, spectacle case, we are the willows",
+            "name": "October Conspiracy Series: ditch pigeon, spectacle case, we are the willows",
             "dateTime": "2026-10-20T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "October Conspiracy Series featuring ditch pigeon, spectacle case, and we are the willows.",
+            "sourceUrl": "https://www.instagram.com/ditchpigeon/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "concert series",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Worker's Playtime featuring Becky Kapell",
+            "name": "Worker's Playtime: Becky Kapell",
             "dateTime": "2026-10-20T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/beckykapell?stkn=aDlzZ3ZuOXZscnYz",
+            "description": "Worker's Playtime featuring Becky Kapell.",
+            "sourceUrl": "https://www.instagram.com/beckykapell/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Nina Luna, Sammie Jean Cohen, Aly Dyg",
+            "name": "Nina Luna, Sammie Jean Cohen & Aly Dyg",
             "dateTime": "2026-10-21T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by Nina Luna, Sammie Jean Cohen, and Aly Dyg.",
+            "sourceUrl": "https://www.instagram.com/thisisninaluna/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Virgil Caine",
+            "name": "Harold's House Party on KFAI: Virgil Caine",
             "dateTime": "2026-10-21T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Harold's House Party on KFAI featuring Virgil Caine.",
             "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
               "radio"
             ]
           },
@@ -2949,23 +2964,27 @@
             "dateTime": "2026-10-22T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "The Drunk Uncles live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/thedrunkunclesmn/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "USPOP",
+            "name": "USPOP & Good Diction",
             "dateTime": "2026-10-23T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by USPOP and Good Diction.",
+            "sourceUrl": "https://www.instagram.com/uspopband/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2973,24 +2992,28 @@
             "dateTime": "2026-10-23T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
+            "description": "Movie and Music Trivia night at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
+              "events",
               "trivia"
             ]
           },
           {
-            "name": "Grand Lilac, Fumbler, The Envies",
+            "name": "Grand Lilac, Fumbler & The Envies",
             "dateTime": "2026-10-24T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Live performances by Grand Lilac, Fumbler, and The Envies.",
+            "sourceUrl": "https://www.instagram.com/grandlilac/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -2998,10 +3021,13 @@
             "dateTime": "2026-10-24T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Drinkin' Spelling Bee at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music"
+              "Music",
+              "events",
+              "trivia"
             ]
           },
           {
@@ -3009,12 +3035,14 @@
             "dateTime": "2026-10-25T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Chuck NORAD live performance for Halloween at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/the_real_chuck_norad/",
             "tags": [
               "Local Bands",
               "Music",
               "halloween",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -3022,11 +3050,13 @@
             "dateTime": "2026-10-25T15:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/kelleysmithmusic?stkn=MmVnZGtpcWpvcjRl",
+            "description": "Kelley Smith live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/kelleysmithmusic/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -3034,12 +3064,13 @@
             "dateTime": "2026-10-26T20:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
+            "description": "Roe Family Singers perform every Monday at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -3047,35 +3078,43 @@
             "dateTime": "2026-10-26T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "HonkyTonk Ranch live performance at 331 Club.",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100094683949311",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "honky tonk",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "October Conspiracy Series featuring ditch pigeon, knife emoji, red lovely",
+            "name": "October Conspiracy Series: ditch pigeon, knife emoji, red lovely",
             "dateTime": "2026-10-27T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "October Conspiracy Series featuring ditch pigeon, knife emoji, and red lovely.",
+            "sourceUrl": "https://www.instagram.com/ditchpigeon/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "concert series",
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Worker's Playtime featuring mike munson",
+            "name": "Worker's Playtime: Mike Munson",
             "dateTime": "2026-10-27T18:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/mikemunson_?stkn=MWd1Y3doeDNzanRteg==",
+            "description": "Worker's Playtime featuring Mike Munson.",
+            "sourceUrl": "https://www.instagram.com/mikemunson_/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -3083,24 +3122,27 @@
             "dateTime": "2026-10-28T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Lenz and Frenz featuring certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, and Row of Ducks.",
             "sourceUrl": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-            "imageUrl": "https://331club.com/wp-content/uploads/2018/02/27459473_10154438965942706_3546471874199840314_n.jpg",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Pat Donohue and the Prairie All Stars",
+            "name": "Harold's House Party on KFAI: Pat Donohue and the Prairie All Stars",
             "dateTime": "2026-10-28T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Harold's House Party on KFAI featuring Pat Donohue and the Prairie All Stars.",
             "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
               "radio"
             ]
           },
@@ -3109,11 +3151,13 @@
             "dateTime": "2026-10-29T21:30:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Todd Snyder Tribute performance at 331 Club.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
               "Music",
               "live music",
+              "music",
               "tribute"
             ]
           },
@@ -3122,11 +3166,13 @@
             "dateTime": "2026-10-30T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://331club.com/",
+            "description": "Le Cirque Rouge live performance at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/lecirquerouge/",
             "tags": [
               "Local Bands",
               "Music",
-              "live music"
+              "live music",
+              "music"
             ]
           },
           {
@@ -3134,27 +3180,44 @@
             "dateTime": "2026-10-30T19:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
+            "description": "Movie and Music Trivia night at 331 Club.",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331",
             "tags": [
               "Free",
               "Local Bands",
               "Music",
+              "events",
               "trivia"
             ]
           },
           {
-            "name": "M.A.Y. – The Greed States EP Release Show / She Rock She Rock Fundraiser",
+            "name": "M.A.Y. – The Greed States EP release show (She Rock She Rock Fundraiser)",
             "dateTime": "2026-10-31T22:00:00",
             "venue": "331 Club",
             "address": "331 13th Ave NE, Minneapolis, MN 55413",
-            "description": "M.A.Y. – The Greed States EP release show. She Rock She Rock Fundraiser with M.A.Y. + She Rock signature guitar raffle.",
-            "sourceUrl": "https://331club.com/",
+            "description": "M.A.Y. The Greed States EP release show, She Rock She Rock Fundraiser featuring M.A.Y. signature guitar raffle. Performers include crash cuddle, m.a.y., warcake, stillpoints, and Color in Reverse.",
+            "sourceUrl": "https://www.midwestamericanyouth.com/",
             "tags": [
               "EP release",
               "Local Bands",
               "Music",
               "fundraiser",
-              "live music"
+              "live music",
+              "music"
+            ]
+          },
+          {
+            "name": "Drinkin' Spelling Bee",
+            "dateTime": "2026-10-31T19:00:00",
+            "venue": "331 Club",
+            "address": "331 13th Ave NE, Minneapolis, MN 55413",
+            "description": "Drinkin' Spelling Bee at 331 Club.",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "events",
+              "trivia"
             ]
           }
         ]
@@ -3162,11 +3225,6 @@
     },
     "Nobool Presents": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 12,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 6,
@@ -3231,11 +3289,16 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 6,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 6,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
           {
             "name": "FERAL DANCE [SEPT]",
@@ -3255,7 +3318,7 @@
             "name": "Cliff Cash – Early Show",
             "dateTime": "2026-09-21T18:30:00",
             "venue": "The Hook and Ladder Theater",
-            "description": "Cliff Cash hit his first open mic in 2011 at the age of 31 and went on to win Port City's Top Comic, Comedy Central's UpNext Regionals, Comedy Zone's Almost Famous, and landed himself on Sirius XM.",
+            "description": "Cliff Cash hit his first open mic in 2011 at the age of 31. He didn't miss a Thursday open mic after that for about a year. Within 2 years Cliff won Port City's Top Comic, Comedy Central's UpNext Regionals, Comedy Zone's Almost Famous and landed himself on Sirius XM.",
             "sourceUrl": "https://noboolpresents.com/event/cliff-cash-early-show/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/260921-Hook-CliffCash-2160x1080-Web-OpenDate.jpg",
             "tags": [
@@ -3267,7 +3330,7 @@
             "name": "Cliff Cash – Late Show",
             "dateTime": "2026-09-21T21:00:00",
             "venue": "The Hook and Ladder Theater",
-            "description": "Cliff Cash hit his first open mic in 2011 at the age of 31 and went on to win Port City's Top Comic, Comedy Central's UpNext Regionals, Comedy Zone's Almost Famous, and landed himself on Sirius XM.",
+            "description": "Cliff Cash hit his first open mic in 2011 at the age of 31. He didn't miss a Thursday open mic after that for about a year. Within 2 years Cliff won Port City's Top Comic, Comedy Central's UpNext Regionals, Comedy Zone's Almost Famous and landed himself on Sirius XM.",
             "sourceUrl": "https://noboolpresents.com/event/cliff-cash-late-show/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/260921-Hook-CliffCash-2160x1080-Web-OpenDate-1.jpg",
             "tags": [
@@ -3278,7 +3341,7 @@
           {
             "name": "4th Annual Parkinson's Foundation Minnesota Fundraiser",
             "dateTime": "2026-09-25T20:00:00",
-            "venue": "The Hook and Ladder Theater",
+            "venue": "The Hook and Ladder Event Center",
             "description": "Twin Cities rock legends Flamin' Oh's return to The Hook & Ladder Theater for an evening of rockin' fun to support The Parkinson's Foundation Minnesota and Dakota's Chapter Fundraiser!",
             "sourceUrl": "https://noboolpresents.com/event/4thparkinson-fundraiser/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/06/260925-THeater-MNParkinsonsFoundation-2160x1080-Ticket-Web-TV.jpg",
@@ -3291,7 +3354,7 @@
             "name": "THE INSPECTOR CLUZO",
             "dateTime": "2026-10-02T19:30:00",
             "venue": "The Hook and Ladder Event Center",
-            "description": "The Hook and Ladder event center theater stage with doors at 7:00pm and music at 7:30pm. 21+ GA tickets available.",
+            "description": "EVENT DETAILS The Hook and Ladder event center theater stage-- Doors 7:00pm :: Music 7:30pm :: 21+-- GA: $23 ADV (Box-Office) / $26 ADV (Online) / $29 DOOR.",
             "sourceUrl": "https://noboolpresents.com/event/the-inspector-cluzo/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/04/261002-Theater-TheInspectorCluzo-2160x1080-Web-TV.jpg",
             "tags": [
@@ -3302,11 +3365,11 @@
             "name": "WORLD ACCORDING TO GARTH",
             "dateTime": "2026-10-03T20:00:00",
             "venue": "Medina Entertainment Center",
-            "description": "World According to Garth celebrates the legendary music and iconic career of Garth Brooks, delivering a high-energy tribute experience with stunning accuracy and emotional depth.",
+            "description": "World According to Garth celebrates the legendary music and iconic career of Garth Brooks. From \"Friends in Low Places\" to \"The Dance,\" expect a high-energy, heartwarming experience as the host delivers Garth's chart-topping hits with stunning accuracy and emotional depth.",
             "sourceUrl": "https://noboolpresents.com/event/world-according-garth/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/05/261003-WorldAccordingToGarth-1920x1080-TV.jpg",
             "tags": [
-              "Music",
+              "Theater",
               "country",
               "tribute"
             ]
@@ -3316,11 +3379,6 @@
     },
     "Hennepin Arts": {
       "runs": [
-        {
-          "at": "2026-09-13T11:02:27Z",
-          "count": 39,
-          "status": "ok"
-        },
         {
           "at": "2026-09-14T11:06:16Z",
           "count": 39,
@@ -3385,352 +3443,389 @@
           "at": "2026-09-26T11:02:30Z",
           "count": 39,
           "status": "ok"
+        },
+        {
+          "at": "2026-09-27T11:02:27Z",
+          "count": 39,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-09-26T11:02:30Z",
+        "at": "2026-09-27T11:02:27Z",
         "events": [
           {
             "name": "Ray LaMontagne - Trouble 20th Anniversary Tour",
             "dateTime": "2026-08-30T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/ray-lamontagne-2025",
-            "tags": []
+            "tags": [
+              "concert"
+            ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-11T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Candace's Live Tour: An Evening with Candace Cameron Bure with Dr. Tabatha",
             "dateTime": "2026-09-12T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/candaces-live-tour-an-evening-with-candace-cameron-bure-with-dr-tabatha-2026",
-            "tags": []
+            "tags": [
+              "speaking"
+            ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-12T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-15T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "Ilana Glazer Live!",
             "dateTime": "2026-09-16T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/ilana-glazer-live-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-16T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-17T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "JOHN CRIST LIVE!",
             "dateTime": "2026-09-18T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/john-crist-live-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-18T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-18T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-19T14:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-19T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-19T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Small Town Murder",
             "dateTime": "2026-09-19T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/small-town-murder-2026",
-            "tags": []
+            "tags": [
+              "comedy",
+              "podcast"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-20T13:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "Jim Henson's Fraggle Rock: Back to the Rock LIVE",
             "dateTime": "2026-09-20T15:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/jim-hensons-fraggle-rock-back-to-the-rock-live-2026",
-            "tags": []
+            "tags": [
+              "family"
+            ]
           },
           {
             "name": "Mamma Mia!",
             "dateTime": "2026-09-20T18:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/mamma-mia-2026",
             "tags": [
-              "Broadway"
+              "broadway",
+              "musical"
             ]
           },
           {
             "name": "The Basement Yard Live",
             "dateTime": "2026-09-23T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-basement-yard-live-2026",
-            "tags": []
+            "tags": [
+              "comedy",
+              "podcast"
+            ]
           },
           {
             "name": "The Basement Yard Live",
             "dateTime": "2026-09-24T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-basement-yard-live-2026",
-            "tags": []
+            "tags": [
+              "comedy",
+              "podcast"
+            ]
           },
           {
             "name": "Bassem Youssef: the Belly of the Beast Tour",
             "dateTime": "2026-09-25T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/bassem-youssef-the-belly-of-the-beast-tour-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-25T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Laura Ramoso: The Calm Down Tour",
             "dateTime": "2026-09-26T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/laura-ramoso-the-calm-down-tour-2026",
-            "tags": [],
-            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/1I7ATWEZU8E5ng0Lty3x3x/cb59aa8e27cb339a4a3d89a1cc7c4e78/LauraHighRes-red2426x1365__1_.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Tom Papa",
             "dateTime": "2026-09-26T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/tom-papa-2026",
-            "tags": [],
-            "imageUrl": "https://api.minneapolis.events/media/tom-papa.jpg"
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-09-26T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": [],
-            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/7nLWk8JzDt97mu1xGlSwjX/2ee75807e81f194dbeaad19e5c7e4e06/BNW_Alg_Email_Image.png?fm=webp&w=1200&h=630&q=70&fit=fill"
+            "tags": [
+              "comedy"
+            ]
           },
           {
             "name": "Matute: Disco Stereo Tour",
             "dateTime": "2026-09-26T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/matute-disco-stereo-tour-2026",
-            "tags": [],
-            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/6ruji5sBWejmldneJ02xnr/0ed9a7ebc0155f2b079efd73e2aacea4/1920x1080_Matute-TEXTLESS.png?fm=webp&w=1200&h=630&q=70&fit=fill"
+            "tags": [
+              "concert"
+            ]
           },
           {
             "name": "Off Book",
             "dateTime": "2026-09-26T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/off-book-2026-2",
-            "tags": [],
-            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/5KDzrWPzVnQKTXWWbp4BHX/d5228e7b5c896f9760f1aa80be86e86f/OB26_600x338_RGB.png?fm=webp&w=1200&h=630&q=70&fit=fill"
+            "tags": [
+              "comedy",
+              "improv"
+            ]
           },
           {
             "name": "Sara Bareilles: The Good Grief Tour",
             "dateTime": "2026-09-30T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/sara-bareilles-the-good-grief-tour-2026",
-            "tags": [],
+            "tags": [
+              "concert"
+            ],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/3w8Uq5DyXMdZPXItEc0Jji/67310bcc6207521bcbf4e2867de297eb/Static_Digital_1184x864_SaraBareilles_2026_Regional_OrpheumTheatre_0930.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "Rocky Horror Picture Show Spooktacular Tour",
             "dateTime": "2026-10-01T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/rocky-horror-picture-show-spooktacular-tour-2026",
-            "tags": [],
+            "tags": [
+              "film",
+              "theater"
+            ],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/5Cfk7qRAHDCsoWhcod1Fu/596141f0c1274945a361b2c9a13e185e/1920x1080_RH.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "Tab Benoit: Soul of the Swamp Tour with special guest Ghalia Volt",
             "dateTime": "2026-10-01T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/tab-benoit-2026",
-            "tags": [],
+            "tags": [
+              "concert"
+            ],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/42UqFr08wjiRiGqZ9voIlz/d8bc1f35f5b946aa78a469f2ff809721/1920x1080-TabBenoit.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "The Thorn",
             "dateTime": "2026-10-02T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-thorn-2026",
-            "tags": [],
-            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/7roEIOndziufsHxRZfCwqf/0c2480f7751e43034406d5265d80c708/TheThorn_GENERIC_1024x768.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
+            "tags": [
+              "theater"
+            ]
           },
           {
             "name": "Dan and Phil: Hard Launch World Tour",
             "dateTime": "2026-10-02T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/dan-and-phil-hard-launch-world-tour-2026",
-            "tags": [],
+            "tags": [
+              "comedy"
+            ],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/3IfWxOAXWtd8kzS1hH6boU/c98b5177fae581b7bc8f61c7cbf9429c/dan_and_phil_1024x768.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "EDITH MÁRQUEZ - ETERNA E INOLVIDABLE",
             "dateTime": "2026-10-02T20:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/edith-marquez-eterna-e-inolvidable-2026",
-            "tags": [],
+            "tags": [
+              "concert"
+            ],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/7Ddgbz4mTqslH7uUiv9qsf/38a48a797236c78962492f03d06948fd/EM_808X514_copy_5.png?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "The Thorn",
             "dateTime": "2026-10-03T13:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-thorn-2026",
-            "tags": []
+            "tags": [
+              "theater"
+            ]
           },
           {
             "name": "The Running Game Show",
             "dateTime": "2026-10-03T14:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-running-game-show",
-            "tags": []
+            "tags": [
+              "game show"
+            ],
+            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/1l28k0zWKba2lTfkbMSQAO/de772c15a180605b19b1ad90f6b0abd6/1080x720-running-game-show-laura-green-1000x667.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-10-03T16:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ],
+            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/7nLWk8JzDt97mu1xGlSwjX/2ee75807e81f194dbeaad19e5c7e4e06/BNW_Alg_Email_Image.png?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "Singalong Broadway",
             "dateTime": "2026-10-03T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/singalong-broadway-2026",
             "tags": [
-              "Broadway"
-            ]
+              "broadway",
+              "singalong"
+            ],
+            "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/1FBeh7aLBwMS1OkVVo6Q4X/1b1cc6872144d26c55141aa8663ae161/Singalong-Broadway-2026-web.png?fm=webp&w=1200&h=630&q=70&fit=fill"
           },
           {
             "name": "The Thorn",
             "dateTime": "2026-10-03T19:00:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-thorn-2026",
-            "tags": []
+            "tags": [
+              "theater"
+            ]
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-10-03T19:30:00",
             "venue": "Hennepin Theatre District",
-            "address": "910 Hennepin Avenue, Minneapolis, MN 55403",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
-            "tags": []
+            "tags": [
+              "comedy"
+            ]
           }
         ]
       }
