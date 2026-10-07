@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-10-05T11:04:04Z",
+  "run_at": "2026-10-06T11:03:11Z",
   "total_sources": 9,
   "succeeded": 8,
   "empty": 0,
   "failed": 0,
   "fallback_used": 1,
-  "fresh_events": 219,
-  "final_events": 73,
+  "fresh_events": 220,
+  "final_events": 75,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 69,
-      "final_count": 14,
+      "fresh_count": 70,
+      "final_count": 15,
       "baseline": 67,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 215.01,
+      "duration_s": 152.59,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,8 +32,8 @@
       "baseline": 0,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 123.69,
-      "consecutive_empty": 48,
+      "duration_s": 76.58,
+      "consecutive_empty": 49,
       "error": null,
       "dropped_count": 0
     },
@@ -45,7 +45,7 @@
       "baseline": 19,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 88.09,
+      "duration_s": 43.03,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -54,11 +54,11 @@
       "name": "Hennepin Arts",
       "status": "ok",
       "fresh_count": 53,
-      "final_count": 7,
+      "final_count": 8,
       "baseline": 39,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 57.56,
+      "duration_s": 141.41,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -71,7 +71,7 @@
       "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 126.29,
+      "duration_s": 91.1,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -84,7 +84,7 @@
       "baseline": 11,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 102.19,
+      "duration_s": 75.49,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -94,10 +94,10 @@
       "status": "ok",
       "fresh_count": 7,
       "final_count": 0,
-      "baseline": 6,
+      "baseline": 7,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 108.26,
+      "duration_s": 98.5,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -110,7 +110,7 @@
       "baseline": 32,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 64.04,
+      "duration_s": 128.92,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -123,7 +123,7 @@
       "baseline": 6,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 122.82,
+      "duration_s": 38.1,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 75,
+        "unique_venues": 37,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.2,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 73,
         "unique_venues": 37,
         "top_venue": "331 Club",
         "top_venue_share": 0.1917808219178082,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 76,
-        "unique_venues": 41,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.19736842105263158,
         "source_url_density": 1.0
       }
     }
