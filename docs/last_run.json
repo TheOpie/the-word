@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-10-11T11:02:42Z",
-  "total_sources": 9,
-  "succeeded": 8,
+  "run_at": "2026-10-12T11:02:51Z",
+  "total_sources": 8,
+  "succeeded": 7,
   "empty": 0,
   "failed": 0,
   "fallback_used": 1,
-  "fresh_events": 220,
-  "final_events": 68,
+  "fresh_events": 188,
+  "final_events": 38,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 76,
-      "final_count": 13,
+      "fresh_count": 72,
+      "final_count": 14,
       "baseline": 70,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 78.36,
+      "duration_s": 39.48,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,8 +32,8 @@
       "baseline": 0,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 50.68,
-      "consecutive_empty": 54,
+      "duration_s": 1.27,
+      "consecutive_empty": 55,
       "error": null,
       "dropped_count": 0
     },
@@ -45,7 +45,7 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 62.53,
+      "duration_s": 27.11,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -54,11 +54,11 @@
       "name": "Hennepin Arts",
       "status": "ok",
       "fresh_count": 53,
-      "final_count": 8,
+      "final_count": 6,
       "baseline": 53,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 77.92,
+      "duration_s": 25.51,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -71,7 +71,7 @@
       "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 24.57,
+      "duration_s": 12.94,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,15 +79,15 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 21,
-      "final_count": 2,
+      "fresh_count": 25,
+      "final_count": 3,
       "baseline": 24,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 87.44,
+      "duration_s": 55.47,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 3
+      "dropped_count": 0
     },
     {
       "name": "Nobool Presents",
@@ -97,33 +97,20 @@
       "baseline": 7,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 49.47,
+      "duration_s": 62.28,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 0
-    },
-    {
-      "name": "Songkick Minneapolis",
-      "status": "ok",
-      "fresh_count": 32,
-      "final_count": 30,
-      "baseline": 32,
-      "used_fallback": false,
-      "attempts": 1,
-      "duration_s": 40.91,
-      "consecutive_empty": 0,
-      "error": null,
-      "dropped_count": 0
+      "dropped_count": 9
     },
     {
       "name": "The Current Events",
       "status": "ok",
       "fresh_count": 2,
       "final_count": 2,
-      "baseline": 4,
+      "baseline": 3,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 9.88,
+      "duration_s": 50.96,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +122,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 38,
+        "unique_venues": 16,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.3684210526315789,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 68,
         "unique_venues": 36,
         "top_venue": "331 Club",
         "top_venue_share": 0.19117647058823528,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 69,
-        "unique_venues": 41,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.2028985507246377,
         "source_url_density": 1.0
       }
     }
