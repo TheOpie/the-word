@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-10-18T11:03:04Z",
+  "run_at": "2026-10-19T11:02:20Z",
   "total_sources": 9,
   "succeeded": 8,
   "empty": 0,
   "failed": 0,
   "fallback_used": 1,
-  "fresh_events": 226,
-  "final_events": 74,
+  "fresh_events": 224,
+  "final_events": 73,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 75,
-      "final_count": 14,
+      "fresh_count": 72,
+      "final_count": 13,
       "baseline": 72,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 81.01,
+      "duration_s": 43.59,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,8 +32,8 @@
       "baseline": 0,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 47.19,
-      "consecutive_empty": 61,
+      "duration_s": 9.7,
+      "consecutive_empty": 62,
       "error": null,
       "dropped_count": 0
     },
@@ -45,7 +45,7 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 105.75,
+      "duration_s": 53.91,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -58,7 +58,7 @@
       "baseline": 53,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 115.28,
+      "duration_s": 70.85,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -71,7 +71,7 @@
       "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 105.3,
+      "duration_s": 20.15,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -84,7 +84,7 @@
       "baseline": 25,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 96.1,
+      "duration_s": 72.07,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -97,7 +97,7 @@
       "baseline": 7,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 67.49,
+      "duration_s": 38.78,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -106,11 +106,11 @@
       "name": "Songkick Minneapolis",
       "status": "ok",
       "fresh_count": 33,
-      "final_count": 32,
-      "baseline": 32,
+      "final_count": 31,
+      "baseline": 33,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 46.2,
+      "duration_s": 72.54,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -118,12 +118,12 @@
     {
       "name": "The Current Events",
       "status": "ok",
-      "fresh_count": 4,
-      "final_count": 3,
+      "fresh_count": 5,
+      "final_count": 4,
       "baseline": 3,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 90.98,
+      "duration_s": 9.0,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 73,
+        "unique_venues": 39,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1780821917808219,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 74,
         "unique_venues": 38,
         "top_venue": "331 Club",
         "top_venue_share": 0.1891891891891892,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 73,
-        "unique_venues": 41,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.1917808219178082,
         "source_url_density": 1.0
       }
     }
