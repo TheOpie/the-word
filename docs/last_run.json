@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-10-21T11:03:53Z",
+  "run_at": "2026-10-22T11:03:38Z",
   "total_sources": 9,
-  "succeeded": 7,
+  "succeeded": 8,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 2,
-  "fresh_events": 165,
-  "final_events": 70,
+  "fallback_used": 1,
+  "fresh_events": 218,
+  "final_events": 69,
   "wrote_events_json": true,
   "published": true,
   "overall_status": "degraded",
@@ -14,12 +14,12 @@
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 72,
+      "fresh_count": 71,
       "final_count": 13,
       "baseline": 72,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 157.04,
+      "duration_s": 93.77,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -32,8 +32,8 @@
       "baseline": 0,
       "used_fallback": true,
       "attempts": 1,
-      "duration_s": 85.83,
-      "consecutive_empty": 64,
+      "duration_s": 87.4,
+      "consecutive_empty": 65,
       "error": null,
       "dropped_count": 0
     },
@@ -45,21 +45,21 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 27.94,
+      "duration_s": 103.04,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Hennepin Arts",
-      "status": "fallback",
-      "fresh_count": 0,
+      "status": "ok",
+      "fresh_count": 53,
       "final_count": 6,
       "baseline": 53,
-      "used_fallback": true,
-      "attempts": 2,
-      "duration_s": 91.32,
-      "consecutive_empty": 2,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 146.51,
+      "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
@@ -71,7 +71,7 @@
       "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 19.64,
+      "duration_s": 33.63,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,15 +79,15 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 19,
+      "fresh_count": 20,
       "final_count": 2,
       "baseline": 24,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 61.29,
+      "duration_s": 31.32,
       "consecutive_empty": 0,
       "error": null,
-      "dropped_count": 5
+      "dropped_count": 4
     },
     {
       "name": "Nobool Presents",
@@ -97,7 +97,7 @@
       "baseline": 7,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 84.19,
+      "duration_s": 19.6,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -105,12 +105,12 @@
     {
       "name": "Songkick Minneapolis",
       "status": "ok",
-      "fresh_count": 32,
-      "final_count": 29,
+      "fresh_count": 31,
+      "final_count": 28,
       "baseline": 32,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 98.33,
+      "duration_s": 67.18,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -118,12 +118,12 @@
     {
       "name": "The Current Events",
       "status": "ok",
-      "fresh_count": 6,
+      "fresh_count": 7,
       "final_count": 5,
       "baseline": 3,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 55.72,
+      "duration_s": 86.01,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,18 +135,18 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 69,
+        "unique_venues": 32,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.18840579710144928,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 70,
         "unique_venues": 34,
         "top_venue": "331 Club",
         "top_venue_share": 0.18571428571428572,
         "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 72,
-        "unique_venues": 35,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.18055555555555555,
-        "source_url_density": 0.8194444444444444
       }
     }
   }
