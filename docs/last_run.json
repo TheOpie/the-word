@@ -1,39 +1,39 @@
 {
-  "run_at": "2026-10-25T11:04:03Z",
+  "run_at": "2026-10-26T11:04:09Z",
   "total_sources": 9,
-  "succeeded": 7,
+  "succeeded": 9,
   "empty": 0,
   "failed": 0,
-  "fallback_used": 2,
-  "fresh_events": 170,
-  "final_events": 65,
+  "fallback_used": 0,
+  "fresh_events": 257,
+  "final_events": 73,
   "wrote_events_json": true,
   "published": true,
-  "overall_status": "degraded",
+  "overall_status": "healthy",
   "sources": [
     {
       "name": "331 Club",
       "status": "ok",
-      "fresh_count": 78,
+      "fresh_count": 72,
       "final_count": 13,
-      "baseline": 73,
+      "baseline": 72,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 122.2,
+      "duration_s": 177.73,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Bandsintown Minneapolis",
-      "status": "fallback",
-      "fresh_count": 0,
-      "final_count": 1,
-      "baseline": 0,
-      "used_fallback": true,
+      "status": "ok",
+      "fresh_count": 30,
+      "final_count": 11,
+      "baseline": 30,
+      "used_fallback": false,
       "attempts": 1,
-      "duration_s": 103.59,
-      "consecutive_empty": 68,
+      "duration_s": 35.21,
+      "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
@@ -45,21 +45,21 @@
       "baseline": 20,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 173.21,
+      "duration_s": 107.05,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
     {
       "name": "Hennepin Arts",
-      "status": "fallback",
-      "fresh_count": 0,
-      "final_count": 5,
+      "status": "ok",
+      "fresh_count": 53,
+      "final_count": 4,
       "baseline": 53,
-      "used_fallback": true,
-      "attempts": 2,
-      "duration_s": 109.52,
-      "consecutive_empty": 2,
+      "used_fallback": false,
+      "attempts": 1,
+      "duration_s": 149.94,
+      "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
     },
@@ -71,7 +71,7 @@
       "baseline": 9,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 89.93,
+      "duration_s": 10.06,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -79,12 +79,12 @@
     {
       "name": "Minneapolis.org Events",
       "status": "ok",
-      "fresh_count": 18,
-      "final_count": 1,
+      "fresh_count": 19,
+      "final_count": 0,
       "baseline": 24,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 108.29,
+      "duration_s": 155.66,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -92,12 +92,12 @@
     {
       "name": "Nobool Presents",
       "status": "ok",
-      "fresh_count": 7,
+      "fresh_count": 16,
       "final_count": 1,
       "baseline": 7,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 25.8,
+      "duration_s": 18.75,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -110,7 +110,7 @@
       "baseline": 32,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 69.48,
+      "duration_s": 78.18,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -123,7 +123,7 @@
       "baseline": 4,
       "used_fallback": false,
       "attempts": 1,
-      "duration_s": 100.0,
+      "duration_s": 46.01,
       "consecutive_empty": 0,
       "error": null,
       "dropped_count": 0
@@ -135,17 +135,17 @@
     "violations": [],
     "stats": {
       "new": {
+        "count": 73,
+        "unique_venues": 31,
+        "top_venue": "331 Club",
+        "top_venue_share": 0.1780821917808219,
+        "source_url_density": 1.0
+      },
+      "previous": {
         "count": 65,
         "unique_venues": 32,
         "top_venue": "331 Club",
         "top_venue_share": 0.2,
-        "source_url_density": 1.0
-      },
-      "previous": {
-        "count": 35,
-        "unique_venues": 17,
-        "top_venue": "331 Club",
-        "top_venue_share": 0.37142857142857144,
         "source_url_density": 1.0
       }
     }
