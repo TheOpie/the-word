@@ -1,14 +1,9 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T12:08:16Z",
+  "updated_at": "2026-11-20T12:04:43Z",
   "sources": {
     "Minneapolis Events": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 26,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 27,
@@ -73,37 +68,54 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 28,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 28,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
-            "name": "Minnesota Timberwolves vs. New York Knicks",
-            "dateTime": "2026-11-19T19:00:00",
+            "name": "Minnesota Golden Gophers Football",
+            "dateTime": "2026-11-21T11:00:00",
+            "venue": "Huntington Bank Stadium",
+            "description": "Minnesota Golden Gophers football at Huntington Bank Stadium.",
+            "sourceUrl": "https://minneapolis.events/sports/minnesota-golden-gophers-football/",
+            "imageUrl": "https://api.minneapolis.events/media/minnesota-golden-gophers-football.jpg",
+            "tags": [
+              "Football",
+              "Minnesota Golden Gophers",
+              "Sports"
+            ]
+          },
+          {
+            "name": "Minnesota Timberwolves vs. Memphis Grizzlies",
+            "dateTime": "2026-11-21T19:00:00",
             "venue": "Target Center",
             "address": "600 1st Avenue North",
-            "description": "Professional (NBA) game at Target Center with 20,500 seats. From $66, average price ~$293, VIP packages available.",
-            "sourceUrl": "https://minneapolis.events/tickets/minnesota-timberwolves-vs-new-york-knicks-minneapolis-target-center-thursday-november-19-2026-7-00-pm/",
+            "description": "Professional (NBA) event featuring the Minnesota Timberwolves vs. the Memphis Grizzlies at Target Center.",
+            "sourceUrl": "https://minneapolis.events/sports/minnesota-timberwolves/",
             "imageUrl": "https://api.minneapolis.events/media/minnesota-timberwolves.jpg",
             "tags": [
-              "Basketball",
+              "Memphis Grizzlies",
+              "Minnesota Timberwolves",
               "NBA",
-              "Sports",
-              "Target Center"
+              "Sports"
             ]
           },
           {
             "name": "Minnesota Wild",
             "dateTime": "2026-11-25T19:00:00",
             "venue": "Grand Casino Arena",
-            "description": "Minnesota Wild at Grand Casino Arena on Nov 25, 2026 at 7:00 PM. VIP packages available.",
+            "description": "Minnesota Wild at Grand Casino Arena.",
             "sourceUrl": "https://minneapolis.events/sports/minnesota-wild/",
             "imageUrl": "https://api.minneapolis.events/media/minnesota-wild.jpg",
             "tags": [
-              "Grand Casino Arena",
-              "Hockey",
+              "Minnesota Wild",
               "Sports"
             ]
           },
@@ -111,123 +123,52 @@
             "name": "Minnesota Vikings",
             "dateTime": "2026-11-29T12:00:00",
             "venue": "US Bank Stadium",
-            "description": "Minnesota Vikings at US Bank Stadium on Nov 29, 2026 at 12:00 PM.",
+            "description": "Minnesota Vikings at US Bank Stadium.",
             "sourceUrl": "https://minneapolis.events/sports/minnesota-vikings/",
             "imageUrl": "https://api.minneapolis.events/media/minnesota-vikings.jpg",
             "tags": [
-              "Football",
-              "Sports",
-              "US Bank Stadium"
+              "Minnesota Vikings",
+              "Sports"
             ]
           },
           {
             "name": "Garth Brooks",
             "dateTime": "2026-12-11T20:00:00",
             "venue": "Target Center",
-            "description": "Concert by Garth Brooks at Target Center on Dec 11, 2026 at 8:00 PM.",
+            "address": "600 1st Avenue North",
+            "description": "Garth Brooks concert at Target Center.",
             "sourceUrl": "https://minneapolis.events/concerts/garth-brooks/",
             "imageUrl": "https://api.minneapolis.events/media/garth-brooks.jpg",
             "tags": [
               "Concert",
-              "Country",
-              "Sports",
-              "Target Center"
+              "Garth Brooks",
+              "Sports"
             ]
           },
           {
-            "name": "Trans-Siberian Orchestra",
-            "dateTime": "2026-12-27T19:30:00",
+            "name": "For King and Country",
+            "dateTime": "2026-12-20T19:00:00",
             "venue": "Target Center",
-            "description": "Trans-Siberian Orchestra at Target Center on Dec 27, 2026 at 7:30 PM. VIP packages available.",
-            "sourceUrl": "https://minneapolis.events/concerts/trans-siberian-orchestra/",
-            "imageUrl": "https://api.minneapolis.events/media/trans-siberian-orchestra.jpg",
+            "address": "600 1st Avenue North",
+            "description": "For King and Country concert at Target Center.",
+            "sourceUrl": "https://minneapolis.events/concerts/for-king-and-country/",
+            "imageUrl": "https://api.minneapolis.events/media/for-king-and-country.jpg",
             "tags": [
               "Concert",
-              "Music",
-              "Rock",
-              "Sports",
-              "Target Center"
-            ]
-          },
-          {
-            "name": "Operation Mincemeat",
-            "dateTime": "2027-01-26T19:30:00",
-            "venue": "Orpheum Theatre - Minneapolis",
-            "description": "Live show at Orpheum Theatre - Minneapolis on Jan 26, 2027 at 7:30 PM.",
-            "sourceUrl": "https://minneapolis.events/shows/operation-mincemeat/",
-            "imageUrl": "https://api.minneapolis.events/media/operation-mincemeat-tickets.jpeg",
-            "tags": [
-              "Live Show",
-              "Orpheum Theatre - Minneapolis",
-              "Theater",
-              "Theatre"
-            ]
-          },
-          {
-            "name": "Maybe Happy Ending - A New Musical",
-            "dateTime": "2026-11-19T19:30:00",
-            "venue": "Orpheum Theatre - Minneapolis",
-            "address": "910 Hennepin Ave",
-            "description": "Musical / play at Orpheum Theatre - Minneapolis, a 2,579-seat venue. From $20, average price ~$189.",
-            "sourceUrl": "https://minneapolis.events/tickets/maybe-happy-ending-a-new-musical-minneapolis-thursday-november-19-2026-730-pm/",
-            "imageUrl": "https://api.minneapolis.events/media/maybe-happy-ending-tickets.jpeg",
-            "tags": [
-              "Musical",
-              "Orpheum Theatre - Minneapolis",
-              "Play",
-              "Theater"
-            ]
-          },
-          {
-            "name": "Aldo Campana",
-            "dateTime": "2026-11-20T18:30:00",
-            "venue": "Rick Bronson's House of Comedy - MN",
-            "address": "408 E Broadway",
-            "description": "Comedy show by Aldo Campana at Rick Bronson's House of Comedy - MN. From $40, average price ~$46.",
-            "sourceUrl": "https://minneapolis.events/tickets/aldo-campana-minneapolis-rick-bronsons-house-of-comedy-mn-friday-november-20-2026-6-30-pm/",
-            "tags": [
-              "Comedy",
-              "Rick Bronson's House of Comedy - MN"
-            ]
-          },
-          {
-            "name": "Taylor Tomlinson",
-            "dateTime": "2026-11-20T18:30:00",
-            "venue": "Acme Comedy Company",
-            "address": "708 North 1st Street",
-            "description": "Comedy show by Taylor Tomlinson at Acme Comedy Company, pay later available. From $900, average price ~$1,054.",
-            "sourceUrl": "https://minneapolis.events/tickets/taylor-tomlinson-minneapolis-acme-comedy-company-friday-november-20-2026-6-30-pm/",
-            "tags": [
-              "Acme Comedy Company",
-              "Comedy"
+              "For King and Country",
+              "Sports"
             ]
           },
           {
             "name": "Maybe Happy Ending - A New Musical",
             "dateTime": "2026-11-20T19:30:00",
             "venue": "Orpheum Theatre - Minneapolis",
-            "address": "910 Hennepin Ave",
-            "description": "Musical / play at Orpheum Theatre - Minneapolis with 2,579 seats. From $14, average price ~$208.",
-            "sourceUrl": "https://minneapolis.events/tickets/maybe-happy-ending-a-new-musical-minneapolis-friday-november-20-2026-7-30-pm/",
+            "address": "910 Hennepin Ave.",
+            "description": "Musical/play at Orpheum Theatre - Minneapolis.",
+            "sourceUrl": "https://minneapolis.events/shows/maybe-happy-ending-a-new-musical/",
             "imageUrl": "https://api.minneapolis.events/media/maybe-happy-ending-tickets.jpeg",
             "tags": [
-              "Musical",
-              "Orpheum Theatre - Minneapolis",
-              "Play",
-              "Theater"
-            ]
-          },
-          {
-            "name": "A Christmas Carol",
-            "dateTime": "2026-11-20T19:30:00",
-            "venue": "Wurtele Thrust Stage - Guthrie Theater",
-            "address": "818 South Second Street",
-            "description": "Musical / play at Wurtele Thrust Stage - Guthrie Theater, a 1,100-seat venue. From $90, average price ~$488.",
-            "sourceUrl": "https://minneapolis.events/tickets/a-christmas-carol-minneapolis-wurtele-thrust-stage-guthrie-theater-friday-november-20-2026-7-30-pm/",
-            "tags": [
-              "Guthrie Theater",
-              "Musical",
-              "Play",
+              "Musical / Play",
               "Theater"
             ]
           },
@@ -235,12 +176,11 @@
             "name": "Family Dinner",
             "dateTime": "2026-11-20T20:00:00",
             "venue": "Dudley Riggs Theatre - First Floor",
-            "address": "824 Hennepin Ave",
-            "description": "Comedy show, Family Dinner, at Dudley Riggs Theatre - First Floor. From $35, average price ~$40.",
+            "address": "824 Hennepin Ave.",
+            "description": "Comedy event at Dudley Riggs Theatre - First Floor.",
             "sourceUrl": "https://minneapolis.events/tickets/family-dinner-minneapolis-dudley-riggs-theatre-first-floor-friday-november-20-2026-8-00-pm/",
             "tags": [
-              "Comedy",
-              "Dudley Riggs Theatre - First Floor"
+              "Comedy"
             ]
           },
           {
@@ -248,13 +188,26 @@
             "dateTime": "2026-11-20T20:00:00",
             "venue": "First Avenue",
             "address": "701 First Avenue North",
-            "description": "Pop / rock show by Slow Pulp at First Avenue, a 250-seat venue, pay later available. From $146, average price ~$597.",
-            "sourceUrl": "https://minneapolis.events/tickets/slow-pulp-minneapolis-friday-november-20-2026-800-pm/",
+            "description": "Pop/rock event at First Avenue.",
+            "sourceUrl": "https://minneapolis.events/concerts/slow-pulp/",
+            "imageUrl": "https://api.minneapolis.events/media/pop-concert.jpg",
             "tags": [
-              "Concert",
-              "First Avenue",
               "Music",
-              "Pop/Rock"
+              "Pop / Rock"
+            ]
+          },
+          {
+            "name": "Them Coulee Boys",
+            "dateTime": "2026-11-20T20:00:00",
+            "venue": "Turf Club",
+            "address": "1601 University Avenue",
+            "description": "Pop/rock event at Turf Club.",
+            "sourceUrl": "https://minneapolis.events/concerts/them-coulee-boys/",
+            "imageUrl": "https://api.minneapolis.events/media/them-coulee-boys.jpg",
+            "tags": [
+              "Local Bands",
+              "Music",
+              "Pop / Rock"
             ]
           },
           {
@@ -262,96 +215,37 @@
             "dateTime": "2026-11-20T20:00:00",
             "venue": "Orchestra Hall - MN",
             "address": "1111 Nicollet Mall",
-            "description": "Classical concert by Minnesota Orchestra featuring Elgar and Dvorak at Orchestra Hall - MN. From $39, average price ~$129.",
-            "sourceUrl": "https://minneapolis.events/tickets/minnesota-orchestra-elgar-and-dvorak-minneapolis-orchestra-hall-mn-friday-november-20-2026-8-00-pm/",
+            "description": "Minnesota Orchestra performance of Elgar and Dvorak at Orchestra Hall - MN.",
+            "sourceUrl": "https://minneapolis.events/concerts/minnesota-orchestra/",
             "tags": [
               "Classical",
-              "Concert",
-              "Music",
-              "Orchestra Hall - MN"
+              "Minnesota Orchestra",
+              "Music"
             ],
             "imageUrl": "https://api.minneapolis.events/media/minnesota-orchestra.jpg"
-          },
-          {
-            "name": "Them Coulee Boys",
-            "dateTime": "2026-11-20T20:00:00",
-            "venue": "Turf Club",
-            "address": "1601 University Avenue",
-            "description": "Pop / rock show by Them Coulee Boys at Turf Club, a 350-seat venue, pay later available. From $900, average price ~$1,038.",
-            "sourceUrl": "https://minneapolis.events/tickets/them-coulee-boys-saint-paul-friday-november-20-2026-800-pm/",
-            "tags": [
-              "Concert",
-              "Local Bands",
-              "Music",
-              "Pop/Rock",
-              "Turf Club"
-            ],
-            "imageUrl": "https://api.minneapolis.events/media/them-coulee-boys.jpg"
           },
           {
             "name": "Giant Rooks",
             "dateTime": "2026-11-20T20:00:00",
             "venue": "Varsity Theater - MN",
             "address": "1308 Se 4th Street",
-            "description": "Pop / rock show by Giant Rooks at Varsity Theater - MN, a 962-seat venue. From $35, average price ~$102.",
-            "sourceUrl": "https://minneapolis.events/tickets/giant-rooks-minneapolis-friday-november-20-2026-800-pm/",
-            "imageUrl": "https://api.minneapolis.events/media/rap-concert.jpeg",
+            "description": "Pop/rock event at Varsity Theater - MN.",
+            "sourceUrl": "https://minneapolis.events/concerts/giant-rooks/",
             "tags": [
-              "Concert",
-              "Pop/Rock",
-              "Varsity Theater - MN"
-            ]
-          },
-          {
-            "name": "Aldo Campana",
-            "dateTime": "2026-11-20T20:45:00",
-            "venue": "Rick Bronson's House of Comedy - MN",
-            "address": "408 E Broadway",
-            "description": "Late show by Aldo Campana at Rick Bronson's House of Comedy - MN. From $40, average price ~$46.",
-            "sourceUrl": "https://minneapolis.events/tickets/aldo-campana-minneapolis-rick-bronsons-house-of-comedy-mn-friday-november-20-2026-8-45-pm/",
-            "tags": [
-              "Comedy",
-              "Rick Bronson's House of Comedy - MN"
-            ]
-          },
-          {
-            "name": "Taylor Tomlinson",
-            "dateTime": "2026-11-20T20:45:00",
-            "venue": "Acme Comedy Company",
-            "address": "708 North 1st Street",
-            "description": "Late show by Taylor Tomlinson at Acme Comedy Company, pay later available. From $900, average price ~$1,054.",
-            "sourceUrl": "https://minneapolis.events/tickets/taylor-tomlinson-minneapolis-acme-comedy-company-friday-november-20-2026-8-45-pm/",
-            "tags": [
-              "Acme Comedy Company",
-              "Comedy"
-            ]
-          },
-          {
-            "name": "A Christmas Carol",
-            "dateTime": "2026-11-21T13:00:00",
-            "venue": "Wurtele Thrust Stage - Guthrie Theater",
-            "address": "818 South Second Street",
-            "description": "Weekend event of A Christmas Carol at Wurtele Thrust Stage - Guthrie Theater, pay later available. From $308, average price ~$1,067.",
-            "sourceUrl": "https://minneapolis.events/tickets/a-christmas-carol-minneapolis-wurtele-thrust-stage-guthrie-theater-saturday-november-21-2026-1-00-pm/",
-            "tags": [
-              "Guthrie Theater",
-              "Musical",
-              "Play",
-              "Theater"
-            ]
+              "Pop / Rock"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/giant-rooks.jpg"
           },
           {
             "name": "Maybe Happy Ending - A New Musical",
             "dateTime": "2026-11-21T14:00:00",
             "venue": "Orpheum Theatre - Minneapolis",
-            "address": "910 Hennepin Ave",
-            "description": "Weekend event of Maybe Happy Ending - A New Musical at Orpheum Theatre - Minneapolis, from $6 with average price ~$131.",
-            "sourceUrl": "https://minneapolis.events/tickets/maybe-happy-ending-a-new-musical-minneapolis-saturday-november-21-2026-200-pm/",
+            "address": "910 Hennepin Ave.",
+            "description": "Musical/play at Orpheum Theatre - Minneapolis.",
+            "sourceUrl": "https://minneapolis.events/shows/maybe-happy-ending-a-new-musical/",
             "imageUrl": "https://api.minneapolis.events/media/maybe-happy-ending-tickets.jpeg",
             "tags": [
-              "Musical",
-              "Orpheum Theatre - Minneapolis",
-              "Play",
+              "Musical / Play",
               "Theater"
             ]
           },
@@ -360,106 +254,180 @@
             "dateTime": "2026-11-21T18:00:00",
             "venue": "Rick Bronson's House of Comedy - MN",
             "address": "408 E Broadway",
-            "description": "Weekend show by Aldo Campana at Rick Bronson's House of Comedy - MN. From $40, average price ~$46.",
-            "sourceUrl": "https://minneapolis.events/tickets/aldo-campana-minneapolis-rick-bronsons-house-of-comedy-mn-saturday-november-21-2026-6-00-pm/",
+            "description": "Comedy event at Rick Bronson's House of Comedy - MN.",
+            "sourceUrl": "https://minneapolis.events/comedy/aldo-campana/",
             "tags": [
-              "Comedy",
-              "Rick Bronson's House of Comedy - MN"
-            ]
-          },
-          {
-            "name": "Taylor Tomlinson",
-            "dateTime": "2026-11-21T18:30:00",
-            "venue": "Acme Comedy Company",
-            "address": "708 North 1st Street",
-            "description": "Weekend show by Taylor Tomlinson at Acme Comedy Company, pay later available. From $900, average price ~$1,054.",
-            "sourceUrl": "https://minneapolis.events/tickets/taylor-tomlinson-minneapolis-acme-comedy-company-saturday-november-21-2026-6-30-pm/",
-            "tags": [
-              "Acme Comedy Company",
               "Comedy"
-            ]
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/comedy.jpeg"
           },
           {
             "name": "Marc Maron",
             "dateTime": "2026-11-21T19:00:00",
             "venue": "Pantages Theatre - MN",
             "address": "710 Hennepin Avenue",
-            "description": "Weekend comedy show by Marc Maron at Pantages Theatre - MN, a 1,014-seat venue. From $70, average price ~$405.",
-            "sourceUrl": "https://minneapolis.events/tickets/marc-maron-minneapolis-saturday-november-21-2026-700-pm/",
+            "description": "Comedy event at Pantages Theatre - MN.",
+            "sourceUrl": "https://minneapolis.events/comedy/marc-maron/",
             "tags": [
-              "Comedy",
-              "Pantages Theatre - MN"
+              "Comedy"
             ],
             "imageUrl": "https://api.minneapolis.events/media/marc-maron.jpg"
-          },
-          {
-            "name": "Minnesota Timberwolves vs. Memphis Grizzlies",
-            "dateTime": "2026-11-21T19:00:00",
-            "venue": "Target Center",
-            "address": "600 1st Avenue North",
-            "description": "Professional (NBA) game at Target Center with 20,500 seats, from $48 and average price ~$250, VIP packages available.",
-            "sourceUrl": "https://minneapolis.events/tickets/minnesota-timberwolves-vs-memphis-grizzlies-minneapolis-target-center-saturday-november-21-2026-7-00-pm/",
-            "imageUrl": "https://api.minneapolis.events/media/minnesota-timberwolves.jpg",
-            "tags": [
-              "Basketball",
-              "NBA",
-              "Sports",
-              "Target Center"
-            ]
           },
           {
             "name": "Beartooth, Don Broco, Magnolia Park & Windwaker",
             "dateTime": "2026-11-21T19:00:00",
             "venue": "Myth Live",
             "address": "3090 Southlawn Drive",
-            "description": "Hard rock / metal show featuring Beartooth, Don Broco, Magnolia Park and Windwaker at Myth Live, a 3,500-seat venue. From $86, average price ~$100.",
+            "description": "Hard rock/metal show featuring Beartooth, Don Broco, Magnolia Park, and Windwaker at Myth Live.",
             "sourceUrl": "https://minneapolis.events/tickets/beartooth-saint-paul-saturday-november-21-2026-700-pm/",
             "tags": [
-              "Concert",
-              "Hard Rock/Metal",
-              "Myth Live"
+              "Hard Rock / Metal"
             ],
             "imageUrl": "https://api.minneapolis.events/media/beartooth.jpg"
           },
           {
-            "name": "Dax",
-            "dateTime": "2026-11-19T19:00:00",
+            "name": "A Christmas Carol",
+            "dateTime": "2026-11-21T19:30:00",
+            "venue": "Wurtele Thrust Stage - Guthrie Theater",
+            "address": "818 South Second Street",
+            "description": "Musical/play at Wurtele Thrust Stage - Guthrie Theater.",
+            "sourceUrl": "https://minneapolis.events/shows/a-christmas-carol/",
+            "tags": [
+              "Musical / Play",
+              "Theater"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/a-christmas-carol.jpg"
+          },
+          {
+            "name": "Maybe Happy Ending - A New Musical",
+            "dateTime": "2026-11-21T19:30:00",
+            "venue": "Orpheum Theatre - Minneapolis",
+            "address": "910 Hennepin Ave.",
+            "description": "Musical/play at Orpheum Theatre - Minneapolis.",
+            "sourceUrl": "https://minneapolis.events/shows/maybe-happy-ending-a-new-musical/",
+            "imageUrl": "https://api.minneapolis.events/media/maybe-happy-ending-tickets.jpeg",
+            "tags": [
+              "Musical / Play",
+              "Theater"
+            ]
+          },
+          {
+            "name": "Justin Leon",
+            "dateTime": "2026-11-21T20:00:00",
+            "venue": "Camp Bar",
+            "address": "490 N Robert S.",
+            "description": "Comedy event at Camp Bar.",
+            "sourceUrl": "https://minneapolis.events/comedy/justin-leon/",
+            "tags": [
+              "Comedy"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/comedy.jpeg"
+          },
+          {
+            "name": "Shaun Cassidy",
+            "dateTime": "2026-11-21T20:00:00",
+            "venue": "Uptown Theatre Minneapolis",
+            "address": "2900 Hennepin Ave.",
+            "description": "Pop/rock event at Uptown Theatre Minneapolis.",
+            "sourceUrl": "https://minneapolis.events/concerts/shaun-cassidy/",
+            "tags": [
+              "Pop / Rock"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/shaun-cassidy-tickets.jpeg"
+          },
+          {
+            "name": "Russian Circles",
+            "dateTime": "2026-11-21T20:00:00",
             "venue": "Varsity Theater - MN",
             "address": "1308 Se 4th Street",
-            "description": "RAP / HIP HOP show by Dax at Varsity Theater - MN in Minneapolis, MN. The listing notes 13 upcoming events with the next on Nov 19, 2026 at 7:00 PM.",
-            "sourceUrl": "https://minneapolis.events/concerts/dax/",
-            "imageUrl": "https://api.minneapolis.events/media/rap-concert.jpeg",
+            "description": "Hard rock/metal event at Varsity Theater - MN.",
+            "sourceUrl": "https://minneapolis.events/concerts/russian-circles/",
             "tags": [
-              "Concert",
-              "Rap/Hip Hop",
-              "Varsity Theater - MN"
+              "Hard Rock / Metal"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/russian-circles.jpg"
+          },
+          {
+            "name": "Michigander",
+            "dateTime": "2026-11-21T20:00:00",
+            "venue": "Fine Line Music Cafe",
+            "address": "318 First Avenue North",
+            "description": "Pop/rock event at Fine Line Music Cafe.",
+            "sourceUrl": "https://minneapolis.events/concerts/michigander/",
+            "tags": [
+              "Music",
+              "Pop / Rock"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/michigander.jpg"
+          },
+          {
+            "name": "Family Dinner",
+            "dateTime": "2026-11-21T20:00:00",
+            "venue": "Dudley Riggs Theatre - First Floor",
+            "address": "824 Hennepin Ave.",
+            "description": "Comedy event at Dudley Riggs Theatre - First Floor.",
+            "sourceUrl": "https://minneapolis.events/tickets/family-dinner-minneapolis-dudley-riggs-theatre-first-floor-saturday-november-21-2026-8-00-pm/",
+            "tags": [
+              "Comedy"
+            ]
+          },
+          {
+            "name": "John Gorka",
+            "dateTime": "2026-11-21T20:00:00",
+            "venue": "The Cedar Cultural Center",
+            "address": "416 Cedar Ave So.",
+            "description": "Country/folk event at The Cedar Cultural Center.",
+            "sourceUrl": "https://minneapolis.events/concerts/john-gorka/",
+            "tags": [
+              "Country / Folk",
+              "Music"
+            ],
+            "imageUrl": "https://api.minneapolis.events/media/john-gorka.jpg"
+          },
+          {
+            "name": "Twin Cities Gay Men's Chorus: Slay Bells Ring",
+            "dateTime": "2026-11-22T13:00:00",
+            "venue": "Orchestra Hall - MN",
+            "address": "1111 Nicollet Mall",
+            "description": "Classical event featuring Twin Cities Gay Men's Chorus: Slay Bells Ring at Orchestra Hall - MN.",
+            "sourceUrl": "https://minneapolis.events/concerts/twin-cities-gay-mens-chorus/",
+            "tags": [
+              "Classical",
+              "Music"
             ]
           },
           {
             "name": "Disney On Ice: Find Your Hero",
-            "dateTime": "2026-11-19T19:00:00",
+            "dateTime": "2026-11-20T10:00:00",
             "venue": "Grand Casino Arena",
-            "description": "Ice show, Disney On Ice: Find Your Hero, at Grand Casino Arena in Saint Paul, MN. The listing notes 171 upcoming events with the next on Nov 19, 2026 at 7:00 PM.",
+            "description": "Ice show at Grand Casino Arena in Saint Paul, MN.",
             "sourceUrl": "https://minneapolis.events/shows/disney-on-ice-find-your-hero/",
             "imageUrl": "https://api.minneapolis.events/media/disney-on-ice-find-your-hero.jpg",
             "tags": [
-              "Family",
-              "Grand Casino Arena",
               "Ice Show"
             ]
           },
           {
-            "name": "St. Thomas University Tommies Basketball",
-            "dateTime": "2026-11-19T19:00:00",
-            "venue": "Lee & Penny Anderson Arena",
-            "description": "College (Div I-A and Div I-AA) basketball at Lee & Penny Anderson Arena in Saint Paul, MN. The listing notes 42 upcoming events with the next on Nov 19, 2026 at 7:00 PM.",
-            "sourceUrl": "https://minneapolis.events/sports/st-thomas-university-tommies-basketball/",
-            "imageUrl": "https://api.minneapolis.events/media/st-thomas-university-tommies-basketball.jpg",
+            "name": "The Bald and the Beautiful",
+            "dateTime": "2026-11-20T19:30:00",
+            "venue": "State Theatre - MN",
+            "description": "The Bald and the Beautiful at State Theatre - MN in Minneapolis, MN.",
+            "sourceUrl": "https://minneapolis.events/event/the-bald-and-the-beautiful/",
+            "imageUrl": "https://api.minneapolis.events/media/live-shows.jpeg",
             "tags": [
-              "Basketball",
-              "College",
-              "Lee & Penny Anderson Arena",
-              "Sports"
+              "Other",
+              "Theater"
+            ]
+          },
+          {
+            "name": "The Little Bummer Boy",
+            "dateTime": "2026-11-20T19:30:00",
+            "venue": "Dudley Riggs Theatre",
+            "description": "The Little Bummer Boy at Dudley Riggs Theatre in Minneapolis, MN.",
+            "sourceUrl": "https://minneapolis.events/shows/the-little-bummer-boy/",
+            "imageUrl": "https://api.minneapolis.events/media/theater-shows.jpeg",
+            "tags": [
+              "Other"
             ]
           }
         ]
@@ -795,11 +763,6 @@
     "Songkick Minneapolis": {
       "runs": [
         {
-          "at": "2026-11-05T12:03:17Z",
-          "count": 30,
-          "status": "ok"
-        },
-        {
           "at": "2026-11-06T12:03:11Z",
           "count": 30,
           "status": "ok"
@@ -863,102 +826,22 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 32,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 33,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
-          {
-            "name": "The Living Tombstone",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "First Avenue",
-            "description": "Concert at First Avenue in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43081496-living-tombstone-at-first-avenue",
-            "tags": [
-              "Music"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/6268669/huge_avatar"
-          },
-          {
-            "name": "Dax and Gifted Hands",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Varsity Theater",
-            "description": "Concert at Varsity Theater in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43227643-dax-at-varsity-theater",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/30420/huge_avatar"
-          },
-          {
-            "name": "Boney James",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Southern Theater",
-            "description": "Concert at Southern Theater in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43350946-boney-james-at-southern-theater",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/136882/huge_avatar"
-          },
-          {
-            "name": "Geordie Kieffer Colin Bracewell",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "7th St. Entry",
-            "description": "Concert at 7th St. Entry in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43394698-geordie-kieffer-at-7th-st-entry",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10216030/huge_avatar"
-          },
-          {
-            "name": "Jake Blount Sprig of That",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "The Cedar",
-            "description": "Concert at The Cedar in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43323373-jake-blount-at-cedar",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10072389/huge_avatar"
-          },
-          {
-            "name": "Sludge Mother and aWannabe",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Zhora Darling",
-            "description": "Concert at Zhora Darling in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43381273-sludge-mother-at-zhora-darling",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10394223/huge_avatar"
-          },
-          {
-            "name": "Nurse John",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Auditorium, Mayo Civic Center",
-            "description": "Concert at Auditorium, Mayo Civic Center in Rochester, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43213266-nurse-john-at-auditorium-mayo-civic-center",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10351068/huge_avatar"
-          },
-          {
-            "name": "Unattractive Giant Monster",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Underground Music Venue - Cafe",
-            "description": "Concert at Underground Music Venue - Cafe in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43445047-unattractive-giant-monster-at-underground-music-venue-cafe",
-            "tags": [
-              "Music"
-            ],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10246940/huge_avatar"
-          },
-          {
-            "name": "NUNNABOVE",
-            "dateTime": "2026-11-19T00:00:00",
-            "venue": "Dakota",
-            "description": "Concert at Dakota in Minneapolis, MN, US.",
-            "sourceUrl": "https://www.songkick.com/concerts/43491131-nunnabove-at-dakota",
-            "tags": [],
-            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10267568/huge_avatar"
-          },
           {
             "name": "Slow Pulp Her New Knife",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "First Avenue",
-            "description": "Concert at First Avenue in Minneapolis, MN, US.",
+            "description": "Slow Pulp Her New Knife at First Avenue in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43208652-slow-pulp-at-first-avenue",
             "tags": [
               "Music"
@@ -969,7 +852,7 @@
             "name": "Giant Rooks and Gatlin",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "Varsity Theater",
-            "description": "Concert at Varsity Theater in Minneapolis, MN, US.",
+            "description": "Giant Rooks and Gatlin at Varsity Theater in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43212555-giant-rooks-at-varsity-theater",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8475248/huge_avatar"
@@ -978,7 +861,7 @@
             "name": "The Wood Brothers and Amelia Day",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "Dr. Charles H. Mayo Presentation Hall, Mayo Civic Center",
-            "description": "Concert at Dr. Charles H. Mayo Presentation Hall, Mayo Civic Center in Rochester, MN, US.",
+            "description": "The Wood Brothers and Amelia Day at Dr. Charles H. Mayo Presentation Hall, Mayo Civic Center in Rochester.",
             "sourceUrl": "https://www.songkick.com/concerts/43363870-wood-brothers-at-dr-charles-h-mayo-presentation-hall-mayo-civic-center",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/203694/huge_avatar"
@@ -987,7 +870,7 @@
             "name": "Tape B",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "The Armory",
-            "description": "Concert at The Armory in Minneapolis, MN, US.",
+            "description": "Tape B at The Armory in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43271681-tape-b-at-armory",
             "tags": []
           },
@@ -995,7 +878,7 @@
             "name": "Tape B",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "The Armory",
-            "description": "Concert at The Armory in Minneapolis, MN, US.",
+            "description": "Tape B at The Armory in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43278928-tape-b-at-armory",
             "tags": []
           },
@@ -1003,7 +886,7 @@
             "name": "Them Coulee Boys",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "Turf Club",
-            "description": "Concert at Turf Club in St. Paul, MN, US.",
+            "description": "Them Coulee Boys at Turf Club in St. Paul.",
             "sourceUrl": "https://www.songkick.com/concerts/43226539-them-coulee-boys-at-turf-club",
             "tags": [
               "Local Bands",
@@ -1014,7 +897,7 @@
             "name": "Yamandu Costa",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "St. Olaf Catholic Church",
-            "description": "Concert at St. Olaf Catholic Church in Minneapolis, MN, US.",
+            "description": "Yamandu Costa at St. Olaf Catholic Church in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43308985-yamandu-costa-at-st-olaf-catholic-church",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2108896/huge_avatar"
@@ -1023,7 +906,7 @@
             "name": "Kelsey Hart",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "7th St. Entry",
-            "description": "Concert at 7th St. Entry in Minneapolis, MN, US.",
+            "description": "Kelsey Hart at 7th St. Entry in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43408312-kelsey-hart-at-7th-st-entry",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10343688/huge_avatar"
@@ -1032,7 +915,7 @@
             "name": "Benmont Tench",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "Dakota",
-            "description": "Concert at Dakota in Minneapolis, MN, US.",
+            "description": "Benmont Tench at Dakota in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43448913-benmont-tench-at-dakota",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2420681/huge_avatar"
@@ -1041,7 +924,7 @@
             "name": "Roots & Boots",
             "dateTime": "2026-11-20T00:00:00",
             "venue": "Treasure Island Resort & Casino",
-            "description": "Concert at Treasure Island Resort & Casino in Welch, MN, US.",
+            "description": "Roots & Boots at Treasure Island Resort & Casino in Welch.",
             "sourceUrl": "https://www.songkick.com/concerts/43371460-roots-and-boots-at-treasure-island-resort-and-casino",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2065796/huge_avatar"
@@ -1050,7 +933,7 @@
             "name": "Andrew Bird Minnesota Orchestra",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Orchestra Hall",
-            "description": "Concert at Orchestra Hall in Minneapolis, MN, US.",
+            "description": "Andrew Bird Minnesota Orchestra at Orchestra Hall in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43071361-andrew-bird-at-orchestra-hall",
             "tags": [
               "Music"
@@ -1061,7 +944,7 @@
             "name": "Fetty Wap",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Fillmore Minneapolis",
-            "description": "Concert at Fillmore Minneapolis in Minneapolis, MN, US.",
+            "description": "Fetty Wap at Fillmore Minneapolis in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43215469-fetty-wap-at-fillmore-minneapolis",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/8472253/huge_avatar"
@@ -1070,7 +953,7 @@
             "name": "Beartooth Magnolia Park, Windwaker, and Don Broco",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Myth Live",
-            "description": "Concert at Myth Live in St. Paul, MN, US.",
+            "description": "Beartooth Magnolia Park, Windwaker, and Don Broco at Myth Live in St. Paul.",
             "sourceUrl": "https://www.songkick.com/concerts/43224572-beartooth-at-myth-live",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/6321069/huge_avatar"
@@ -1079,7 +962,7 @@
             "name": "Russian Circles Primitive Man",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Varsity Theater",
-            "description": "Concert at Varsity Theater in Minneapolis, MN, US.",
+            "description": "Russian Circles Primitive Man at Varsity Theater in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43289667-russian-circles-at-varsity-theater",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/266885/huge_avatar"
@@ -1088,7 +971,7 @@
             "name": "Brother Ali",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Dakota",
-            "description": "Concert at Dakota in Minneapolis, MN, US.",
+            "description": "Brother Ali at Dakota in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43326568-brother-ali-at-dakota",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/272856/huge_avatar"
@@ -1097,7 +980,7 @@
             "name": "The Jayhawks and Kathleen Edwards",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "State Theatre",
-            "description": "Concert at State Theatre in Minneapolis, MN, US.",
+            "description": "The Jayhawks and Kathleen Edwards at State Theatre in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43293699-jayhawks-at-state-theatre",
             "tags": [
               "Theater"
@@ -1108,7 +991,7 @@
             "name": "Michigander Wildermiss",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Fine Line",
-            "description": "Concert at Fine Line in Minneapolis, MN, US.",
+            "description": "Michigander Wildermiss at Fine Line in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43199834-michigander-at-fine-line",
             "tags": [
               "Music",
@@ -1120,7 +1003,7 @@
             "name": "Tape B",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "The Armory",
-            "description": "Concert at The Armory in Minneapolis, MN, US.",
+            "description": "Tape B at The Armory in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43271792-tape-b-at-armory",
             "tags": []
           },
@@ -1128,7 +1011,7 @@
             "name": "Midland (UK)",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "Grand Casino Mille Lacs",
-            "description": "Concert at Grand Casino Mille Lacs in Onamia, MN, US.",
+            "description": "Midland (UK) at Grand Casino Mille Lacs in Onamia.",
             "sourceUrl": "https://www.songkick.com/concerts/43438115-midland-uk-at-grand-casino-mille-lacs",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10350492/huge_avatar"
@@ -1137,7 +1020,7 @@
             "name": "Porch Light",
             "dateTime": "2026-11-21T00:00:00",
             "venue": "First Avenue",
-            "description": "Concert at First Avenue in Minneapolis, MN, US.",
+            "description": "Porch Light at First Avenue in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43356018-porch-light-at-first-avenue",
             "tags": [
               "Music"
@@ -1148,7 +1031,7 @@
             "name": "Sabaton Pop Evil and Wings Of Steel",
             "dateTime": "2026-11-22T00:00:00",
             "venue": "The Armory",
-            "description": "Concert at The Armory in Minneapolis, MN, US.",
+            "description": "Sabaton Pop Evil and Wings Of Steel at The Armory in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43086377-sabaton-at-armory",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/233066/huge_avatar"
@@ -1157,7 +1040,7 @@
             "name": "Matt Hansen, Avery Lynch, and Conall Cafferty",
             "dateTime": "2026-11-22T00:00:00",
             "venue": "Varsity Theater",
-            "description": "Concert at Varsity Theater in Minneapolis, MN, US.",
+            "description": "Matt Hansen, Avery Lynch, and Conall Cafferty at Varsity Theater in Minneapolis.",
             "sourceUrl": "https://www.songkick.com/concerts/43236811-matt-hansen-at-varsity-theater",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10306736/huge_avatar"
@@ -1166,21 +1049,118 @@
             "name": "Andrea Gibson Mary Lambert and Chris Pureka",
             "dateTime": "2026-11-22T00:00:00",
             "venue": "Fitzgerald Theater",
-            "description": "Concert at Fitzgerald Theater in St. Paul, MN, US.",
+            "description": "Andrea Gibson Mary Lambert and Chris Pureka at Fitzgerald Theater in St. Paul.",
             "sourceUrl": "https://www.songkick.com/concerts/43376175-andrea-gibson-at-fitzgerald-theater",
             "tags": [],
             "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/443755/huge_avatar"
+          },
+          {
+            "name": "Mountain Grass Unit",
+            "dateTime": "2026-11-22T00:00:00",
+            "venue": "Fine Line",
+            "description": "Mountain Grass Unit at Fine Line in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43275975-mountain-grass-unit-at-fine-line",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10310991/huge_avatar"
+          },
+          {
+            "name": "The Kilans",
+            "dateTime": "2026-11-22T00:00:00",
+            "venue": "7th St. Entry",
+            "description": "The Kilans at 7th St. Entry in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43368486-kilans-at-7th-st-entry",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10364863/huge_avatar"
+          },
+          {
+            "name": "Mainliners",
+            "dateTime": "2026-11-22T00:00:00",
+            "venue": "Turf Club",
+            "description": "Mainliners at Turf Club in St. Paul.",
+            "sourceUrl": "https://www.songkick.com/concerts/43427334-mainliners-at-turf-club",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/1098840/huge_avatar"
+          },
+          {
+            "name": "Alla Boara",
+            "dateTime": "2026-11-22T00:00:00",
+            "venue": "Cedar Cultural Center",
+            "description": "Alla Boara at Cedar Cultural Center in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43339726-alla-boara-at-cedar-cultural-center",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/10241829/huge_avatar"
+          },
+          {
+            "name": "Lee Roy Parnell Goldpine",
+            "dateTime": "2026-11-22T00:00:00",
+            "venue": "Dakota",
+            "description": "Lee Roy Parnell Goldpine at Dakota in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43404305-lee-roy-parnell-at-dakota",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/468412/huge_avatar"
+          },
+          {
+            "name": "Underoath As Cities Burn, August Burns Red, and Atreyu",
+            "dateTime": "2026-11-23T00:00:00",
+            "venue": "The Armory",
+            "description": "Underoath As Cities Burn, August Burns Red, and Atreyu at The Armory in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43261785-underoath-at-armory",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2357960/huge_avatar"
+          },
+          {
+            "name": "Devil Master",
+            "dateTime": "2026-11-23T00:00:00",
+            "venue": "Turf Club",
+            "description": "Devil Master at Turf Club in St. Paul.",
+            "sourceUrl": "https://www.songkick.com/concerts/43412009-devil-master-at-turf-club",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/9050724/huge_avatar"
+          },
+          {
+            "name": "Irish Christmas in America",
+            "dateTime": "2026-11-23T00:00:00",
+            "venue": "Dakota",
+            "description": "Irish Christmas in America at Dakota in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43376822-irish-christmas-in-america-at-dakota",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/2345167/huge_avatar"
+          },
+          {
+            "name": "Bonobo",
+            "dateTime": "2026-11-24T00:00:00",
+            "venue": "First Avenue",
+            "description": "Bonobo at First Avenue in Minneapolis.",
+            "sourceUrl": "https://www.songkick.com/concerts/43261867-bonobo-at-first-avenue",
+            "tags": [
+              "Music"
+            ],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/258948/huge_avatar"
+          },
+          {
+            "name": "Turnover Nothing and Trauma Ray",
+            "dateTime": "2026-11-24T00:00:00",
+            "venue": "Uptown Theater",
+            "description": "Turnover Nothing and Trauma Ray at Uptown Theater.",
+            "sourceUrl": "https://www.songkick.com/concerts/43290779-turnover-at-uptown-theater",
+            "tags": [],
+            "imageUrl": "https://images.sk-static.com/images/media/profile_images/artists/3963866/huge_avatar"
           }
         ]
       }
     },
     "Bandsintown Minneapolis": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 0,
-          "status": "fallback"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 29,
@@ -1245,129 +1225,62 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 0,
           "status": "fallback"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 29,
+          "status": "ok"
         }
       ],
-      "consecutive_empty": 3,
+      "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-16T12:05:10Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
-          {
-            "name": "Buffalo Traffic Jam",
-            "dateTime": "2027-02-19T19:00:00",
-            "venue": "First Avenue",
-            "description": "Buffalo Traffic Jam performs at First Avenue on Friday, February 19, 2027 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/109046570-buffalo-traffic-jam-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event_featured",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Dax",
-            "dateTime": "2026-11-19T19:00:00",
-            "venue": "Varsity Theater",
-            "description": "Dax performs at the Varsity Theater on Thursday, November 19 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108391743-dax-at-varsity-theater?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": []
-          },
-          {
-            "name": "The Living Tombstone",
-            "dateTime": "2026-11-19T20:00:00",
-            "venue": "First Avenue",
-            "description": "The Living Tombstone performs at First Avenue on Thursday, November 19 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108028594-the-living-tombstone-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Beartooth",
-            "dateTime": "2026-11-21T18:00:00",
-            "venue": "Myth Live",
-            "description": "Beartooth performs at Myth Live on Saturday, November 21 at 6 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108393751-beartooth-at-myth-live?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": []
-          },
-          {
-            "name": "Andrew Bird",
-            "dateTime": "2026-11-21T19:00:00",
-            "venue": "Minnesota Orchestra",
-            "description": "Andrew Bird performs at Minnesota Orchestra on Saturday, November 21 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108014604-andrew-bird-at-minnesota-orchestra?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Father of Peace",
-            "dateTime": "2026-11-29T18:30:00",
-            "venue": "Fine Line",
-            "description": "Father of Peace performs at Fine Line on Sunday, November 29 at 6:30 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108562164-father-of-peace-at-fine-line?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Whitechapel",
-            "dateTime": "2026-11-29T19:00:00",
-            "venue": "The fillmore",
-            "description": "Whitechapel performs at The fillmore on Sunday, November 29 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108506918-whitechapel-at-the-fillmore?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": []
-          },
-          {
-            "name": "Angine De Poitrine",
-            "dateTime": "2026-12-02T19:00:00",
-            "venue": "First Avenue",
-            "description": "Angine De Poitrine performs at First Avenue on Wednesday, December 2 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108384861-angine-de-poitrine-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Ice Nine Kills",
-            "dateTime": "2026-12-03T20:00:00",
-            "venue": "Target Center",
-            "description": "Ice Nine Kills performs at Target Center on Thursday, December 3 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108903724-ice-nine-kills-at-target-center?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Sports"
-            ]
-          },
           {
             "name": "for KING + COUNTRY",
             "dateTime": "2026-12-20T19:00:00",
             "venue": "Target Center",
-            "description": "for KING + COUNTRY performs at Target Center on Sunday, December 20 at 7 PM.",
             "sourceUrl": "https://www.bandsintown.com/e/108675666-for-king-+-country-at-target-center?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": [
               "Sports"
             ]
           },
           {
-            "name": "Letterkenny Live",
-            "dateTime": "2027-02-20T19:30:00",
-            "venue": "Roy Wilkins Auditorium",
-            "description": "Letterkenny Live takes place at Roy Wilkins Auditorium on Saturday, February 20, 2027 at 7:30 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108511569-letterkenny-live-at-roy-wilkins-auditorium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": []
-          },
-          {
-            "name": "Dinosaur Jr.",
-            "dateTime": "2027-03-04T20:00:00",
+            "name": "Atmosphere",
+            "dateTime": "2027-02-07T19:00:00",
             "venue": "First Avenue",
-            "description": "Dinosaur Jr. performs at First Avenue on Thursday, March 4, 2027 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108832900-dinosaur-jr.-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "sourceUrl": "https://www.bandsintown.com/e/108933124-atmosphere-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": [
               "Music"
             ]
           },
           {
+            "name": "Buffalo Traffic Jam",
+            "dateTime": "2027-02-19T19:00:00",
+            "venue": "First Avenue",
+            "sourceUrl": "https://www.bandsintown.com/e/109046570-buffalo-traffic-jam-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "tags": [
+              "Music"
+            ]
+          },
+          {
+            "name": "Letterkenny Live",
+            "dateTime": "2027-02-20T19:30:00",
+            "venue": "Roy Wilkins Auditorium",
+            "sourceUrl": "https://www.bandsintown.com/e/108511569-letterkenny-live-at-roy-wilkins-auditorium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "tags": []
+          },
+          {
+            "name": "Mod Sun",
+            "dateTime": "2027-03-06T21:00:00",
+            "venue": "Varsity Theater",
+            "sourceUrl": "https://www.bandsintown.com/e/109157592-mod-sun-at-varsity-theater?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "tags": []
+          },
+          {
             "name": "Nickelback",
             "dateTime": "2027-03-30T19:00:00",
             "venue": "Grand Casino Arena",
-            "description": "Nickelback performs at Grand Casino Arena on Tuesday, March 30, 2027 at 7 PM.",
             "sourceUrl": "https://www.bandsintown.com/e/108972279-nickelback-at-grand-casino-arena?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": []
           },
@@ -1375,25 +1288,20 @@
             "name": "Luke Combs",
             "dateTime": "2027-04-10T17:00:00",
             "venue": "US Bank Stadium",
-            "description": "Luke Combs performs at US Bank Stadium on Saturday, April 10, 2027 at 5 PM.",
             "sourceUrl": "https://www.bandsintown.com/e/108768834-luke-combs-at-us-bank-stadium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": []
           },
           {
-            "name": "Royal Blood",
-            "dateTime": "2027-04-13T19:00:00",
-            "venue": "First Avenue",
-            "description": "Royal Blood performs at First Avenue on Tuesday, April 13, 2027 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/109135830-royal-blood-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
-            "tags": [
-              "Music"
-            ]
+            "name": "Treaty Oak Revival",
+            "dateTime": "2027-04-10T17:20:00",
+            "venue": "U.S. Bank Stadium",
+            "sourceUrl": "https://www.bandsintown.com/e/1039952131-treaty-oak-revival-at-u.s.-bank-stadium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "tags": []
           },
           {
             "name": "Josiah Queen",
             "dateTime": "2027-04-24T19:00:00",
             "venue": "Target Center",
-            "description": "Josiah Queen performs at Target Center on Saturday, April 24, 2027 at 7 PM.",
             "sourceUrl": "https://www.bandsintown.com/e/108883250-josiah-queen-at-target-center?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": [
               "Sports"
@@ -1403,110 +1311,156 @@
             "name": "Zach Bryan",
             "dateTime": "2027-04-28T19:00:00",
             "venue": "U.S. Bank Stadium",
-            "description": "Zach Bryan performs at U.S. Bank Stadium on Wednesday, April 28, 2027 at 7 PM.",
             "sourceUrl": "https://www.bandsintown.com/e/1040608979-zach-bryan-at-u.s.-bank-stadium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
             "tags": []
           },
           {
-            "name": "Amber Autry",
-            "dateTime": "2027-05-21T19:00:00",
-            "venue": "The Fitzgerald Theater",
-            "description": "Amber Autry performs at The Fitzgerald Theater on Friday, May 21, 2027 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108896610-amber-autry-at-the-fitzgerald-theater?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event",
+            "name": "STOMACH BOOK",
+            "dateTime": "2027-04-04T19:00:00",
+            "venue": "Fine Line",
+            "sourceUrl": "https://www.bandsintown.com/e/1040985988-stomach-book-at-fine-line?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced_featured",
+            "tags": [
+              "Music"
+            ]
+          },
+          {
+            "name": "Babytron",
+            "dateTime": "2027-01-31T20:00:00",
+            "venue": "Fine Line",
+            "sourceUrl": "https://www.bandsintown.com/e/1040985807-babytron-at-fine-line?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "tags": [
+              "Music"
+            ]
+          },
+          {
+            "name": "Leftover Salmon",
+            "dateTime": "2027-03-12T19:30:00",
+            "venue": "Hopkins Center For the Arts",
+            "sourceUrl": "https://www.bandsintown.com/e/109183670-leftover-salmon-at-hopkins-center-for-the-arts?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
             "tags": []
           },
           {
-            "name": "Tyler Ballgame",
-            "dateTime": "2027-06-27T20:00:00",
+            "name": "Zola Jesus",
+            "dateTime": "2027-01-20T19:00:00",
+            "venue": "Berlin",
+            "sourceUrl": "https://www.bandsintown.com/e/109183355-zola-jesus-at-berlin?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "tags": []
+          },
+          {
+            "name": "Rock Melon",
+            "dateTime": "2026-12-20T18:30:00",
+            "venue": "Amsterdam Bar & Hall",
+            "sourceUrl": "https://www.bandsintown.com/e/109183099-rock-melon-at-amsterdam-bar-and-hall?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "tags": [
+              "Music"
+            ]
+          },
+          {
+            "name": "Cantus",
+            "dateTime": "2026-12-22T11:00:00",
+            "venue": "Meetinghouse Church",
+            "sourceUrl": "https://www.bandsintown.com/e/109183078-cantus-at-meetinghouse-church?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "tags": []
+          },
+          {
+            "name": "Slow Pulp",
+            "dateTime": "2026-11-20T19:00:00",
             "venue": "First Avenue",
-            "description": "Tyler Ballgame performs at First Avenue on Sunday, June 27, 2027 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040924411-tyler-ballgame-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced_featured",
+            "sourceUrl": "https://www.bandsintown.com/e/108365925-slow-pulp-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event_featured",
             "tags": [
               "Music"
             ]
           },
           {
-            "name": "Beri",
+            "name": "Becca Murray and the Wildflowers",
+            "dateTime": "2026-11-20T18:00:00",
+            "venue": "The Hook and Ladder Event Center",
+            "sourceUrl": "https://www.bandsintown.com/e/108451273-becca-murray-and-the-wildflowers-at-the-hook-and-ladder-event-center?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": [
+              "Sports"
+            ]
+          },
+          {
+            "name": "Pullstring",
+            "dateTime": "2026-11-20T18:00:00",
+            "venue": "Icehouse",
+            "sourceUrl": "https://www.bandsintown.com/e/108997134-pullstring-at-icehouse?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "Them Coulee Boys",
+            "dateTime": "2026-11-20T19:00:00",
+            "venue": "Turf Club",
+            "sourceUrl": "https://www.bandsintown.com/e/108409439-them-coulee-boys-at-turf-club?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Kelsey Hart",
+            "dateTime": "2026-11-20T19:00:00",
+            "venue": "7th St Entry",
+            "sourceUrl": "https://www.bandsintown.com/e/108881412-kelsey-hart-at-7th-st-entry?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "Benmont Tench",
+            "dateTime": "2026-11-20T19:00:00",
+            "venue": "Dakota",
+            "sourceUrl": "https://www.bandsintown.com/e/1040548389-benmont-tench-at-dakota?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "Good Morning Bedlam",
+            "dateTime": "2026-11-20T19:00:00",
+            "venue": "Turf Club",
+            "sourceUrl": "https://www.bandsintown.com/e/108983565-good-morning-bedlam-at-turf-club?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Clean Plate Club",
+            "dateTime": "2026-11-20T19:30:00",
+            "venue": "The Hook and Ladder Event Center",
+            "sourceUrl": "https://www.bandsintown.com/e/1040533533-clean-plate-club-at-the-hook-and-ladder-event-center?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "Shrive",
+            "dateTime": "2026-11-20T19:30:00",
+            "venue": "Cloudland Theater",
+            "sourceUrl": "https://www.bandsintown.com/e/1039890112-shrive-at-cloudland-theater?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "mr.phylzzz",
+            "dateTime": "2026-11-20T19:30:00",
+            "venue": "Cloudland Theater",
+            "sourceUrl": "https://www.bandsintown.com/e/108747668-mr.phylzzz-at-cloudland-theater?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "tags": []
+          },
+          {
+            "name": "Mersiv",
             "dateTime": "2026-11-20T20:00:00",
-            "venue": "House of Golden Moments",
-            "description": "Beri performs at House of Golden Moments on Friday, November 20 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040932830-beri-at-house-of-golden-moments?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "venue": "Armory",
+            "sourceUrl": "https://www.bandsintown.com/e/108548803-mersiv-at-armory?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
             "tags": []
           },
           {
-            "name": "Lena Elizabeth",
-            "dateTime": "2026-11-19T19:00:00",
-            "venue": "Aster Cafe",
-            "description": "Lena Elizabeth performs at Aster Cafe on Thursday, November 19 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/109162272-lena-elizabeth-at-aster-cafe?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": []
-          },
-          {
-            "name": "Tyler Herwig",
-            "dateTime": "2027-05-22T21:00:00",
-            "venue": "Boondox Bar & Grill",
-            "description": "Tyler Herwig performs at Boondox Bar & Grill on Saturday, May 22, 2027 at 9 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/109160879-tyler-herwig-at-boondox-bar-and-grill?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Cristian Baca",
-            "dateTime": "2027-01-23T21:00:00",
-            "venue": "Green Room",
-            "description": "Cristian Baca performs at Green Room on Saturday, January 23, 2027 at 9 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040926052-cristian-baca-at-green-room?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": []
-          },
-          {
-            "name": "The Rolling Stoners",
-            "dateTime": "2026-12-18T20:00:00",
-            "venue": "Green Room",
-            "description": "The Rolling Stoners perform at Green Room on Friday, December 18 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040925773-the-rolling-stoners-at-green-room?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": []
-          },
-          {
-            "name": "King October",
+            "name": "Scorched Waves",
             "dateTime": "2026-11-20T20:00:00",
-            "venue": "House of Golden Moments",
-            "description": "King October performs at House of Golden Moments on Friday, November 20 at 8 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040932641-king-october-at-house-of-golden-moments?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
+            "venue": "Icehouse",
+            "sourceUrl": "https://www.bandsintown.com/e/108743968-scorched-waves-at-icehouse?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
             "tags": []
           },
           {
-            "name": "Chalant",
-            "dateTime": "2027-01-23T21:00:00",
-            "venue": "Green Room",
-            "description": "Chalant performs at Green Room on Saturday, January 23, 2027 at 9 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040926528-chalant-at-green-room?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": []
-          },
-          {
-            "name": "Regulator Watts",
-            "dateTime": "2027-01-16T19:00:00",
-            "venue": "Zhora Darling",
-            "description": "Regulator Watts performs at Zhora Darling on Saturday, January 16, 2027 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1040923919-regulator-watts-at-zhora-darling?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced",
-            "tags": []
-          },
-          {
-            "name": "Ethan Regan",
-            "dateTime": "2026-11-16T18:00:00",
-            "venue": "Fine Line",
-            "description": "Ethan Regan performs at Fine Line on Monday, November 16 at 6 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/108469882-ethan-regan-at-fine-line?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event_featured",
-            "tags": [
-              "Music"
-            ]
-          },
-          {
-            "name": "Lily Kershaw",
-            "dateTime": "2026-11-16T19:00:00",
-            "venue": "Fine Line",
-            "description": "Lily Kershaw performs at Fine Line on Monday, November 16 at 7 PM.",
-            "sourceUrl": "https://www.bandsintown.com/e/1039222494-lily-kershaw-at-fine-line?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
+            "name": "her new knife",
+            "dateTime": "2026-11-20T20:00:00",
+            "venue": "First Avenue",
+            "sourceUrl": "https://www.bandsintown.com/e/1038969659-her-new-knife-at-first-avenue?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=near_NIVA_event",
             "tags": [
               "Music"
             ]
@@ -1516,11 +1470,6 @@
     },
     "First Avenue": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 20,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 20,
@@ -1585,17 +1534,22 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 20,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 20,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
-            "name": "Twin Cities Ballet presents Phantom of the Opera",
+            "name": "Phantom of the Opera",
             "dateTime": "2026-11-01T00:00:00",
             "venue": "The Fitzgerald Theater",
-            "description": "A local show presented by Twin Cities Ballet.",
+            "description": "Twin Cities Ballet presents Phantom of the Opera. A local show.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-phantom-of-the-opera/",
             "tags": [
               "Local Show",
@@ -1609,6 +1563,7 @@
             "description": "In The Hour of Chaos Tour, with Autumn Nicholas.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-allison-russell/",
             "tags": [
+              "In The Hour of Chaos Tour",
               "Music"
             ]
           },
@@ -1638,6 +1593,7 @@
             "sourceUrl": "https://first-avenue.com/event/2026-11-the-damned/",
             "tags": [
               "DJ/Electronic",
+              "Final Damnation 50",
               "Music"
             ]
           },
@@ -1676,7 +1632,8 @@
             "description": "The Last Hurrah Tour 2026, with NOBRO.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-l7/",
             "tags": [
-              "Music"
+              "Music",
+              "The Last Hurrah Tour 2026"
             ]
           },
           {
@@ -1693,7 +1650,9 @@
             "venue": "The Fitzgerald Theater",
             "description": "OurHome Tour.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-rodrigo-y-gabriela/",
-            "tags": []
+            "tags": [
+              "OurHome Tour"
+            ]
           },
           {
             "name": "BLITZKID",
@@ -1703,6 +1662,7 @@
             "sourceUrl": "https://first-avenue.com/event/2026-11-blitzkid/",
             "tags": [
               "Local Bands",
+              "Modern Hel Tour 2026",
               "Music"
             ]
           },
@@ -1741,7 +1701,8 @@
             "description": "North America 2026, with Zombi and The Schizophonics.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-sleep/",
             "tags": [
-              "Music"
+              "Music",
+              "North America 2026"
             ]
           },
           {
@@ -1751,16 +1712,18 @@
             "description": "The Late Checkout Tour 2026, with Tipling Rock.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-ax-and-the-hatchetmen/",
             "tags": [
-              "Music"
+              "Music",
+              "The Late Checkout Tour 2026"
             ]
           },
           {
             "name": "lily blue",
             "dateTime": "2026-11-05T00:00:00",
             "venue": "7th St Entry",
-            "description": "'Dog Years' Album Release Show, with Mike Kota, Hazelcreak and mouthful.",
+            "description": "'Dog Years' Album Release Show. A local show with Mike Kota, Hazelcreak and mouthful.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-lily-blue/",
             "tags": [
+              "Album Release Show",
               "Local Show"
             ]
           },
@@ -1771,7 +1734,8 @@
             "description": "STEREOSCOPE The Tour, with Reysha Rami.",
             "sourceUrl": "https://first-avenue.com/event/2026-11-sophie-hunter/",
             "tags": [
-              "Music"
+              "Music",
+              "STEREOSCOPE The Tour"
             ]
           },
           {
@@ -1789,11 +1753,6 @@
     },
     "The Current Events": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 3,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 3,
@@ -1858,12 +1817,35 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 3,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 10,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
+          {
+            "name": "The Gig List for November 20: Them Coulee Boys; Slow Pulp; The High 48s",
+            "dateTime": "2026-11-20T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 20 features Them Coulee Boys, Slow Pulp, and The High 48s.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261120-the-gig-list-them-coulee-boys",
+            "imageUrl": "https://img.apmcdn.org/7b93a0c895d04545b21491bf31f39640ae6df333/uncropped/3909bd-20250602-grand-old-day-2025-them-coulee-boys-16-600.jpg",
+            "tags": []
+          },
+          {
+            "name": "The Gig List for November 21: Porch Light; The Jayhawks; Brother Ali",
+            "dateTime": "2026-11-21T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 21 features Porch Light, The Jayhawks, and Brother Ali.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261121-the-gig-list-porch-light",
+            "imageUrl": "https://img.apmcdn.org/3de64821e17911d05dddf8aacdd8d3b3fa6e448a/uncropped/a7d10e-minnesota-yacht-club-festival-2026-porch-light-juliet-farmer-01-600.jpg",
+            "tags": []
+          },
           {
             "name": "The Current presents Porch Light",
             "dateTime": "2026-11-21T18:00:00",
@@ -1877,11 +1859,20 @@
             ]
           },
           {
-            "name": "Trampled by Turtles",
+            "name": "The Gig List for November 22: Trampled by Turtles; Obi Original & The Black Atlantics; Room3",
+            "dateTime": "2026-11-22T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 22 features Trampled by Turtles, Obi Original & The Black Atlantics, and Room3.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261122-the-gig-list-trampled-by-turtles",
+            "imageUrl": "https://img.apmcdn.org/55e00afd828f58597158afa1dbc04e2ac83a0e14/uncropped/5c129c-20260202-trampled-by-turtles-turf-club-steven-cohen19-600.jpg",
+            "tags": []
+          },
+          {
+            "name": "Trampled by Turtles Presented by Trampled by Turtles, First Avenue, The Current, and Pizza Luce",
             "dateTime": "2026-11-22T12:30:00",
             "venue": "First Avenue",
             "address": "701 1st Ave N, Minneapolis, MN 55403",
-            "description": "Presented by Trampled by Turtles, First Avenue, The Current, and Pizza Luce.",
+            "description": "Trampled by Turtles, presented by Trampled by Turtles, First Avenue, The Current, and Pizza Luce.",
             "sourceUrl": "https://www.thecurrent.org/events/20261122-trampled-by-turtles-first-avenue-minneapolis",
             "imageUrl": "https://img.apmcdn.org/9c3f7effe74e4d0266bd07aad8114b51fa24ffa5/uncropped/433e91-20261116-trampled-by-turtles-good-dogs-2026-show-poster-600.jpg",
             "tags": [
@@ -1897,17 +1888,48 @@
             "sourceUrl": "https://www.thecurrent.org/events/20261122-room-3-berlin-minneapolis",
             "imageUrl": "https://img.apmcdn.org/8801139697d67cfd4c07e87447c85b66a4f4b4e6/uncropped/726e76-20261023-room-3-berlin-residency-2026-photo-600.jpg",
             "tags": []
+          },
+          {
+            "name": "The Gig List for November 23: L.A. Buckner; Underoath; Lee Clark Allen",
+            "dateTime": "2026-11-23T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 23 features L.A. Buckner, Underoath, and Lee Clark Allen.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261123-the-gig-list-la-buckner",
+            "imageUrl": "https://img.apmcdn.org/0ae20be2b5e9e1ffde848d3d3304579ec1bc6fe4/uncropped/261bff-2026-tcup-ice-out-show-first-avenue-laura-buhman-35-600.jpg",
+            "tags": []
+          },
+          {
+            "name": "The Gig List for November 24: Bonobo; Venna; Elour",
+            "dateTime": "2026-11-24T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 24 features Bonobo, Venna, and Elour.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261124-the-gig-list-bonobo",
+            "imageUrl": "https://img.apmcdn.org/4d14828a69ba37c2d2a4e58aa4d857d3b037a0fa/uncropped/1a9121-20260922-bonobo-simon-green-photo-credit-andrew-cabellero-reynolds-getty-images-02-600.jpg",
+            "tags": []
+          },
+          {
+            "name": "The Gig List for November 25: The Ike Reilly Assassination; Cole Diamond; Kat & the Kodachromes",
+            "dateTime": "2026-11-25T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 25 features The Ike Reilly Assassination, Cole Diamond, and Kat & the Kodachromes.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261125-the-gig-list-the-ike-reilly-assassination",
+            "imageUrl": "https://img.apmcdn.org/fa669bcb8538db94309955d70e14dc4eead6df68/uncropped/89abd7-ike-reilly-a-concert-of-solidarity-and-resistance-to-defend-minnesota-first-avenue-2026-laura-buhman-01-600.jpg",
+            "tags": []
+          },
+          {
+            "name": "The Gig List for November 26: Davina and the Vagabonds",
+            "dateTime": "2026-11-26T12:00:00",
+            "venue": "The Current",
+            "description": "The Gig List for November 26 features Davina and the Vagabonds.",
+            "sourceUrl": "https://www.thecurrent.org/events/20261126-the-gig-list-davina-and-the-vagabonds",
+            "imageUrl": "https://img.apmcdn.org/c21c6aaf1bb7891336e2f7f57381b009faef6009/uncropped/1040b8-20260909-davina-and-the-vagabonds-mn-state-fair-credit-bump-opera-600.jpg",
+            "tags": []
           }
         ]
       }
     },
     "Minneapolis.org Events": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 13,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 14,
@@ -1972,20 +1994,28 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 13,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 16,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
             "name": "SOMBR",
             "dateTime": "2026-11-01T00:00:00",
             "venue": "Target Center",
-            "description": "SOMBR is bringing his \"You Are The Reason\" tour to Target Center with special guests The Last Dinner Party and Hannah Jadagu.",
+            "description": "SOMBR is bringing his \"You Are The Reason\" tour to Target Center with special guests The Last Dinner Party and Hannah Jadagu on November 1, 2026.",
             "sourceUrl": "https://www.targetcenter.com/events/detail/sombr",
             "tags": [
-              "Sports"
+              "Sports",
+              "concert",
+              "music",
+              "pop"
             ]
           },
           {
@@ -1994,16 +2024,38 @@
             "venue": "Armory",
             "description": "Country artist Orville Peck is bringing his \"Man Turned Mule Tour\" to the Armory on Tuesday, November 3.",
             "sourceUrl": "https://armorymn.com/events/orville-peck/",
-            "tags": []
+            "tags": [
+              "concert",
+              "country",
+              "music"
+            ]
           },
           {
-            "name": "KATSEYE -- POSTPONED",
+            "name": "Nordic Soundscapes Festival",
+            "dateTime": "2026-11-05T00:00:00",
+            "venue": "Minnesota Orchestra",
+            "description": "The Nordic music festival returns with Music Director Thomas Søndergård and Conductor Laureate Osmo Vänskä leading a journey through Nordic soundscapes that pays homage to their musical compatriots.",
+            "sourceUrl": "https://www.minnesotaorchestra.org/campaigns/2627/nordic-soundscapes-festival",
+            "tags": [
+              "Free",
+              "Theater",
+              "classical",
+              "festival",
+              "music"
+            ]
+          },
+          {
+            "name": "KATSEYE",
             "dateTime": "2026-11-07T00:00:00",
             "venue": "Target Center",
-            "description": "KATSEYE is bringing \"THE WILDWORLD TOUR\" to Target Center on Saturday, November 7, 2026.",
+            "description": "KATSEYE is bringing \"THE WILDWORLD TOUR\" to Target Center on Saturday, November 7, 2026. The listing marks the show as postponed.",
             "sourceUrl": "https://www.targetcenter.com/events/detail/katseye",
             "tags": [
-              "Sports"
+              "Sports",
+              "concert",
+              "music",
+              "pop",
+              "postponed"
             ]
           },
           {
@@ -2012,7 +2064,11 @@
             "venue": "U.S. Bank Stadium",
             "description": "The Minnesota Vikings face the Buffalo Bills at U.S. Bank Stadium on November 9.",
             "sourceUrl": "https://www.vikings.com/schedule/",
-            "tags": []
+            "tags": [
+              "NFL",
+              "football",
+              "sports"
+            ]
           },
           {
             "name": "Minnesota Vikings vs. San Francisco 49ers",
@@ -2020,7 +2076,11 @@
             "venue": "U.S. Bank Stadium",
             "description": "The Minnesota Vikings face the San Francisco 49ers at U.S. Bank Stadium on November 22.",
             "sourceUrl": "https://www.vikings.com/schedule/",
-            "tags": []
+            "tags": [
+              "NFL",
+              "football",
+              "sports"
+            ]
           },
           {
             "name": "Minnesota Vikings vs. Atlanta Falcons",
@@ -2028,35 +2088,61 @@
             "venue": "U.S. Bank Stadium",
             "description": "The Minnesota Vikings face the Atlanta Falcons at U.S. Bank Stadium on November 29.",
             "sourceUrl": "https://www.vikings.com/schedule/",
-            "tags": []
+            "tags": [
+              "NFL",
+              "football",
+              "sports"
+            ]
           },
           {
             "name": "Art Attack",
             "dateTime": "2026-11-13T00:00:00",
             "venue": "Northrup King Building",
-            "description": "Art Attack is the Northrup King Building's fall open studio event showcasing and celebrating four floors of art from local artists. Meet the artists, explore live art demos and interactive experiences, and browse unique gifts.",
+            "description": "Art Attack is Northrup King Building's fall open studio event, showcasing four floors of art by local artists. The event includes live art demos, interactive experiences, unique gifts, and food trucks.",
             "sourceUrl": "https://www.northrupkingbuilding.com/events/art-attack",
-            "tags": []
+            "tags": [
+              "art",
+              "festival",
+              "open studios"
+            ]
           },
           {
             "name": "Brandi Carlile",
             "dateTime": "2026-11-17T00:00:00",
             "venue": "State Theatre",
-            "description": "Brandi Carlile is bringing her \"Burn the Setlist (The All Request Tour)\" to the State Theatre in downtown Minneapolis. The tour features no planned songs and guarantees an intimate concert with the acclaimed singer-songwriter.",
+            "description": "Brandi Carlile brings her \"Burn the Setlist (The All Request Tour)\" to the State Theatre in downtown Minneapolis. The tour has no planned song and offers an intimate concert with the acclaimed singer-songwriter.",
             "sourceUrl": "https://hennepinarts.org/events/brandi-carlile-burn-the-setlist-tour-2026",
             "tags": [
-              "Theater"
+              "Theater",
+              "concert",
+              "music",
+              "singer-songwriter"
+            ]
+          },
+          {
+            "name": "Maybe Happy Ending",
+            "dateTime": "2026-11-17T00:00:00",
+            "venue": "Hennepin Arts",
+            "description": "Winner of six Tony Awards, including Best Musical, Maybe Happy Ending tells the deeply human story of a chance encounter that sparks connection, adventure, and perhaps love. Directed by Tony Award-winning Michael Arden, the musical explores what it means to be human.",
+            "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
+            "tags": [
+              "Theater",
+              "musical",
+              "theater"
             ]
           },
           {
             "name": "Minneapolis Vintage Market",
             "dateTime": "2026-11-22T00:00:00",
             "venue": "Quincy Hall",
-            "description": "The Minneapolis Vintage Market returns to Quincy Hall with more than 65 Minnesota vendors selling vintage clothing, accessories, and home goods. Coffee, food, a bar, and a DJ are also featured.",
+            "description": "The Minneapolis Vintage Market returns to Quincy Hall with more than 65 Minnesota vendors selling vintage clothing, accessories, and home goods. Coffee, a food vendor, a bar, and a DJ are also featured.",
             "sourceUrl": "https://www.mplsvintagemarket.com/eventsfeed/quincyhallnov22",
             "tags": [
               "DJ/Electronic",
-              "Market"
+              "Market",
+              "market",
+              "shopping",
+              "vintage"
             ],
             "imageUrl": "http://static1.squarespace.com/static/5e8f9a35187870153bff133a/5e8f9a42187870153bff1637/6abc2c22c5037c2eaf5a1cc2/1790717079887/2025-01-19+Mpls+Vintage+Market-Quincy+Hall-Darin+Kamnetz-104.jpg?format=1500w"
           },
@@ -2064,9 +2150,13 @@
             "name": "Turkey Day 5k",
             "dateTime": "2026-11-26T00:00:00",
             "venue": "Downtown Minneapolis",
-            "description": "Turkey Day is a casual 5K through Downtown Minneapolis. Participants receive a shiny medal for their efforts.",
+            "description": "Start Thanksgiving festivities with a 5K through Downtown Minneapolis. The casual run through the city offers participants a shiny medal and a few steps before the tryptophan kicks in.",
             "sourceUrl": "https://www.tcmevents.org/alleventsandraces/turkeyday",
-            "tags": []
+            "tags": [
+              "5K",
+              "running",
+              "sports"
+            ]
           },
           {
             "name": "Thanksgiving at the Dakota Jazz Club",
@@ -2075,37 +2165,56 @@
             "description": "Celebrate Thanksgiving at the Dakota with a jazzy show from Davina and The Vagabonds. A special turkey dinner featuring classic Thanksgiving trimmings is available as a ticket add-on.",
             "sourceUrl": "https://www.dakotacooks.com/event/thanksgiving-with-davina-and-the-vagabonds-nov26-2026/",
             "tags": [
-              "Music"
+              "Thanksgiving",
+              "jazz",
+              "music"
+            ],
+            "imageUrl": "https://www.dakotacooks.com/wp-content/uploads/2025/12/700x400-Davina.jpg"
+          },
+          {
+            "name": "How to Train Your Dragon in Concert with the Minnesota Orchestra",
+            "dateTime": "2026-11-28T00:00:00",
+            "venue": "Minnesota Orchestra",
+            "description": "DreamWorks' How to Train Your Dragon tells the story of a young Viking, Hiccup, who befriends a ferocious dragon called Toothless. John Powell's Oscar-nominated score is performed live to picture in a thrilling experience for all ages.",
+            "sourceUrl": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/how-to-train-your-dragon-in-concert",
+            "tags": [
+              "Music",
+              "film",
+              "music",
+              "orchestra"
             ]
           },
           {
             "name": "Go to a Minnesota Timberwolves Game",
             "dateTime": "2026-11-01T00:00:00",
             "venue": "Target Center",
-            "description": "The NBA season is underway, and the Minnesota Timberwolves are setting their sights on another record season. Come to Target Center and cheer them on.",
+            "description": "The Minnesota Timberwolves are set for another record year, with Anthony Edwards, LaMelo Ball, and Rudy Gobert leading the way. Cheer them on at Target Center throughout November.",
             "sourceUrl": "https://www.nba.com/timberwolves/schedule",
             "tags": [
-              "Sports"
+              "NBA",
+              "Sports",
+              "basketball",
+              "sports"
             ]
           },
           {
             "name": "Mia Exhibit: Paris Couture",
             "dateTime": "2026-11-01T00:00:00",
             "venue": "Mia",
-            "description": "Step into Parisian luxury at Mia. \"Paris Couture\" brings more than 80 haute couture masterpieces from the Palais Galliera, spanning the late 19th century to today.",
+            "description": "Paris Couture brings more than 80 haute couture masterpieces from the Palais Galliera to Mia, spanning the late 19th century to today. The exhibition features Dior, Balenciaga, Schiaparelli, and Grès and runs through January 17, 2027.",
             "sourceUrl": "https://new.artsmia.org/exhibition/paris-couture",
-            "tags": []
+            "tags": [
+              "Exhibition",
+              "art",
+              "fashion",
+              "museum"
+            ]
           }
         ]
       }
     },
     "331 Club": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 91,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 85,
@@ -2170,90 +2279,56 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 76,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 76,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
-            "name": "Cross Pollination",
-            "dateTime": "2026-11-19T21:30:00",
+            "name": "Grim Lot / Battery Eyes / The Anesthetics",
+            "dateTime": "2026-11-20T22:00:00",
             "venue": "331 Club",
-            "description": "Monthly series of songwriters from different genres featuring Boudin Blanc and HUNNY BEAR.",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/01/IMG_2368.jpeg",
+            "sourceUrl": "https://www.instagram.com/grim_lot?vrfl=MWJ1cDE3Z2p1ODJveg==",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "songwriters"
+              "Music"
             ]
           },
           {
             "name": "Movie and Music Trivia",
             "dateTime": "2026-11-20T19:00:00",
             "venue": "331 Club",
-            "description": "Trivia night centered on movies and music.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
             "tags": [
               "Free",
               "Local Bands",
-              "Music",
-              "trivia"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Grim Lot",
-            "dateTime": "2026-11-20T22:00:00",
-            "venue": "331 Club",
-            "description": "Grim Lot with Battery Eyes and The Anesthetics.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-11-21T19:00:00",
-            "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "game night"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
-          },
-          {
-            "name": "Noslo",
+            "name": "Noslo / Fever Field",
             "dateTime": "2026-11-21T22:00:00",
             "venue": "331 Club",
-            "description": "Noslo with Fever Field.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/whatsnoslo?igsi=ZHkycWxhNmVwdzZu",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "Music"
+            ]
           },
           {
-            "name": "Gabriella Sweet",
-            "dateTime": "2026-11-22T15:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-11-21T19:00:00",
             "venue": "331 Club",
-            "description": "Gabriella Sweet performs from 3-5pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ],
             "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
@@ -2261,25 +2336,20 @@
             "name": "Last Chance For Love",
             "dateTime": "2026-11-22T19:00:00",
             "venue": "331 Club",
-            "description": "Last Chance For Love performs at 7:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/last.chance.for.love?obrf=MWQyZGR5cHU2ZWZpag==",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "Music"
+            ]
           },
           {
-            "name": "HonkyTonk Ranch",
-            "dateTime": "2026-11-23T18:00:00",
+            "name": "Gabriella Sweet",
+            "dateTime": "2026-11-22T15:00:00",
             "venue": "331 Club",
-            "description": "HonkyTonk Ranch at 6pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ],
             "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
@@ -2287,54 +2357,42 @@
             "name": "Roe Family Singers",
             "dateTime": "2026-11-23T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime with Steve Brantseg",
-            "dateTime": "2026-11-24T18:00:00",
+            "name": "HonkyTonk Ranch",
+            "dateTime": "2026-11-23T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime with Steve Brantseg, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "Music"
+            ]
           },
           {
-            "name": "November Conspiracy Series featuring Cold Sweat, GR3G and Socktopus",
+            "name": "November Conspiracy Series featuring Cold Sweat / GR3G / Socktopus",
             "dateTime": "2026-11-24T21:30:00",
             "venue": "331 Club",
-            "description": "November Conspiracy Series featuring Cold Sweat, GR3G and Socktopus at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/coldsweatnd?stkn=aWpsbmc1M2F3c3Fq",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
-            ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+              "Music"
+            ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Nikki Matteso & Rich Rue + Friends",
-            "dateTime": "2026-11-25T19:00:00",
+            "name": "Worker’s Playtime / Steve Brantseg",
+            "dateTime": "2026-11-24T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with Nikki Matteso & Rich Rue + Friends at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "radio"
+              "Music"
             ],
             "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
           },
@@ -2342,819 +2400,685 @@
             "name": "Tramps Like Us",
             "dateTime": "2026-11-25T21:30:00",
             "venue": "331 Club",
-            "description": "Tramps Like Us at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/1DGK46pfdM/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ],
-            "imageUrl": "https://331club.com/wp-content/themes/331club/images/logo.png"
+            "imageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/909522696_1671490668321723_4812028212953160264_n.avif?stp=dst-jpg_tt6&amp;cstp=mx525x560&amp;ctp=s525x560&amp;_nc_cat=105&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=VEg9UZc862IQ7kNvwEuYBph&amp;_nc_oc=Adq_1A6Az8Z38pMp7JgxUQYpi8Eo0JmGLKqsU-pRy-Y5OqSx6to_rwVPEpTe9dg3mK8&amp;_nc_zt=24&amp;_nc_ht=scontent-ord5-2.xx&amp;_nc_gid=zlVwxS0F1vOajlMBHmW_JA&amp;_nc_ss=7b20f&amp;oh=00_AQS0I0Ou3UtwW8ql68E8Y0aBa3ZVRNb3saKyo7kfdcgFqA&amp;oe=6B060EB0"
+          },
+          {
+            "name": "Harold’s House Party on KFAI / Nikki Matteso & Rich Rue + Friends",
+            "dateTime": "2026-11-25T19:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Jam Session / Hiahli / Jesse Edward",
+            "dateTime": "2026-11-27T22:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/share/1TfQcji7ig/?mibextid=wwXIfr",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
           },
           {
             "name": "Movie and Music Trivia",
             "dateTime": "2026-11-27T19:00:00",
             "venue": "331 Club",
-            "description": "Trivia night centered on movies and music.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
             "tags": [
               "Free",
               "Local Bands",
-              "Music",
-              "trivia"
+              "Music"
             ]
           },
           {
-            "name": "Jam Session with Hiahli and Jesse Edward",
-            "dateTime": "2026-11-27T22:00:00",
-            "venue": "331 Club",
-            "description": "Jam Session featuring Hiahli and Jesse Edward at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "jam session",
-              "live music"
-            ]
-          },
-          {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-11-28T19:00:00",
-            "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "game night"
-            ]
-          },
-          {
-            "name": "331 Club Rave Night!",
+            "name": "331 Club Rave Night! / Moonlight Affair / Hennepin County Disco Authority",
             "dateTime": "2026-11-28T22:00:00",
             "venue": "331 Club",
-            "description": "331 Club Rave Night with Moonlight Affair and Hennepin County Disco Authority at 10:00pm.",
             "sourceUrl": "https://331club.com/",
             "imageUrl": "https://331club.com/wp-content/uploads/2026/11/20261128_331_Rave.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "dance",
-              "rave"
+              "Music"
             ]
           },
           {
-            "name": "Tom Feldmann",
-            "dateTime": "2026-11-29T15:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-11-28T19:00:00",
             "venue": "331 Club",
-            "description": "Tom Feldmann performs from 3-5pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "Becky Kapell and The Fat",
             "dateTime": "2026-11-29T19:00:00",
             "venue": "331 Club",
-            "description": "Becky Kapell and The Fat at 7:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/1D8SsoKp6Z/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
+            ]
+          },
+          {
+            "name": "Tom Feldmann",
+            "dateTime": "2026-11-29T15:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.instagram.com/playcountryblues?mdxt=MThvYTF0aXBvaTV2OQ==",
+            "tags": [
+              "Local Bands",
+              "Music"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-11-30T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime",
-            "dateTime": "2026-12-01T18:00:00",
-            "venue": "331 Club",
-            "description": "Worker's Playtime, TBA, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "live music"
-            ]
-          },
-          {
-            "name": "December Conspiracy Series featuring JoJo Green and Sweet Tease",
+            "name": "December Conspiracy Series featuring JoJo Green / Sweet Tease",
             "dateTime": "2026-12-01T21:30:00",
             "venue": "331 Club",
-            "description": "December Conspiracy Series featuring JoJo Green and Sweet Tease at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/jojogreenmusic?stkn=M2hqeHMzbWo4azc5",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
+              "Music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Heat Dome",
-            "dateTime": "2026-12-02T19:00:00",
+            "name": "Worker’s Playtime / TBA",
+            "dateTime": "2026-12-01T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with Heat Dome at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "radio"
+              "Music"
             ]
           },
           {
             "name": "Bosso Poetry Company",
             "dateTime": "2026-12-02T21:30:00",
             "venue": "331 Club",
-            "description": "Bosso Poetry Company at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "poetry"
+              "Music"
+            ]
+          },
+          {
+            "name": "Harold’s House Party on KFAI / Heat Dome",
+            "dateTime": "2026-12-02T19:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
+            "tags": [
+              "Local Bands",
+              "Music"
             ]
           },
           {
             "name": "NORTHEAST INVITATIONAL",
             "dateTime": "2026-12-03T21:30:00",
             "venue": "331 Club",
-            "description": "NORTHEAST INVITATIONAL at 9:30pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
-            ]
-          },
-          {
-            "name": "Movie and Music Trivia",
-            "dateTime": "2026-12-04T19:00:00",
-            "venue": "331 Club",
-            "description": "Trivia night centered on movies and music.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Free",
-              "Local Bands",
-              "Music",
-              "trivia"
+              "Music"
             ]
           },
           {
             "name": "Mississippi Mosaic",
             "dateTime": "2026-12-04T22:00:00",
             "venue": "331 Club",
-            "description": "Mississippi Mosaic at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/mississippi_mosaic?stkn=MW1jMWRoc21nemp3eQ==",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-12-05T19:00:00",
+            "name": "Movie and Music Trivia",
+            "dateTime": "2026-12-04T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
             "tags": [
+              "Free",
               "Local Bands",
-              "Music",
-              "game night"
+              "Music"
             ]
           },
           {
-            "name": "Lords of the Universe with Afters and Woolly Mack",
+            "name": "Lords of the Universe / Afters / Woolly Mack",
             "dateTime": "2026-12-05T22:00:00",
             "venue": "331 Club",
-            "description": "Lords of the Universe, Afters and Woolly Mack at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/lordsoftheuniverse_mn?stkn=a2JhOWtiaWN2ZXFw",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Corpse Reviver",
-            "dateTime": "2026-12-06T15:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-12-05T19:00:00",
             "venue": "331 Club",
-            "description": "Corpse Reviver performs from 3-5pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "Brass Messengers",
             "dateTime": "2026-12-06T19:00:00",
             "venue": "331 Club",
-            "description": "Brass Messengers at 7pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
             "tags": [
               "Local Bands",
-              "Music",
-              "brass",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Soul Trouvère",
-            "dateTime": "2026-12-07T18:00:00",
+            "name": "Corpse Reviver",
+            "dateTime": "2026-12-06T15:00:00",
             "venue": "331 Club",
-            "description": "Soul Trouvère at 6pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/18HHs2ZLYc/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-12-07T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime",
-            "dateTime": "2026-12-08T18:00:00",
+            "name": "Soul Trouvère",
+            "dateTime": "2026-12-07T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime, TBA, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "December Conspiracy Series featuring JoJo Green and Uff-Da",
+            "name": "December Conspiracy Series featuring JoJo Green / Uff-Da",
             "dateTime": "2026-12-08T21:30:00",
             "venue": "331 Club",
-            "description": "December Conspiracy Series featuring JoJo Green and Uff-Da at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/jojogreenmusic?stkn=M2hqeHMzbWo4azc5",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
+              "Music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring The Pistol Whippin' Party Penguins",
-            "dateTime": "2026-12-09T19:00:00",
+            "name": "Worker’s Playtime / TBA",
+            "dateTime": "2026-12-08T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with The Pistol Whippin' Party Penguins at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "radio"
+              "Music"
             ]
           },
           {
             "name": "John Magnuson Trio+",
             "dateTime": "2026-12-09T21:30:00",
             "venue": "331 Club",
-            "description": "John Magnuson Trio+ at 9:30pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "jazz",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Dumpster Juice with Raspberry Tart and GILLS",
+            "name": "Harold’s House Party on KFAI / The Pistol Whippin’ Party Penguins",
+            "dateTime": "2026-12-09T19:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Dumpster Juice / Raspberry Tart / GILLS",
             "dateTime": "2026-12-10T21:30:00",
             "venue": "331 Club",
-            "description": "Dumpster Juice, Raspberry Tart and GILLS at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/1Kkw9x5Rwt/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
-            ]
-          },
-          {
-            "name": "Movie and Music Trivia",
-            "dateTime": "2026-12-11T19:00:00",
-            "venue": "331 Club",
-            "description": "Trivia night centered on movies and music.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Free",
-              "Local Bands",
-              "Music",
-              "trivia"
+              "Music"
             ]
           },
           {
             "name": "Social Cues",
             "dateTime": "2026-12-11T22:00:00",
             "venue": "331 Club",
-            "description": "Social Cues at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/socialcues.music?stkn=MWkwYzU0cHprY2Y5bg==",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Voltage Controller",
-            "dateTime": "2026-12-12T15:00:00",
+            "name": "Movie and Music Trivia",
+            "dateTime": "2026-12-11T19:00:00",
             "venue": "331 Club",
-            "description": "Voltage Controller at 3pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
             "tags": [
+              "Free",
               "Local Bands",
-              "Music",
-              "live music"
-            ]
-          },
-          {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-12-12T19:00:00",
-            "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "game night"
+              "Music"
             ]
           },
           {
             "name": "Holiday Sing A Long 2026",
             "dateTime": "2026-12-12T22:00:00",
             "venue": "331 Club",
-            "description": "Holiday Sing A Long 2026 at 10:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "holiday",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Dr. Sketchy's Anti-Art School",
-            "dateTime": "2026-12-13T14:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-12-12T19:00:00",
             "venue": "331 Club",
-            "description": "Dr. Sketchy's Anti-Art School, held every second Sunday of the month, 2-4pm.",
             "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2017/08/21175842_10211487756323824_1438538341_n.jpg",
             "tags": [
               "Local Bands",
-              "Music",
-              "art",
-              "workshop"
+              "Music"
+            ]
+          },
+          {
+            "name": "Voltage Controller",
+            "dateTime": "2026-12-12T15:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://331club.com/",
+            "tags": [
+              "Local Bands",
+              "Music"
             ]
           },
           {
             "name": "Emmy Woods and friends",
             "dateTime": "2026-12-13T19:00:00",
             "venue": "331 Club",
-            "description": "Emmy Woods and friends at 7:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Greg Volker",
-            "dateTime": "2026-12-14T18:00:00",
+            "name": "Dr. Sketchy’s Anti-Art School",
+            "dateTime": "2026-12-13T14:00:00",
             "venue": "331 Club",
-            "description": "Greg Volker at 6pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every second Sunday of the month.",
+            "sourceUrl": "https://www.drsketchy.com/branch/Minneapolis",
+            "imageUrl": "https://331club.com/wp-content/uploads/2017/08/21175842_10211487756323824_1438538341_n.jpg",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-12-14T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime",
-            "dateTime": "2026-12-15T18:00:00",
+            "name": "Greg Volker",
+            "dateTime": "2026-12-14T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime, TBA, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/gregvolkermusic?stkn=aTg5Yml2YXFpeHFq",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "December Conspiracy Series featuring JoJo Green and Sunshine and The Night Walkers",
+            "name": "December Conspiracy Series featuring JoJo Green / Sunshine and The Night Walkers",
             "dateTime": "2026-12-15T21:30:00",
             "venue": "331 Club",
-            "description": "December Conspiracy Series featuring JoJo Green and Sunshine and The Night Walkers at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/jojogreenmusic?stkn=M2hqeHMzbWo4azc5",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
+              "Music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Paul Barry Blues Band",
-            "dateTime": "2026-12-16T19:00:00",
+            "name": "Worker’s Playtime / TBA",
+            "dateTime": "2026-12-15T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with Paul Barry Blues Band at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "blues",
-              "live music",
-              "radio"
+              "Music"
             ]
           },
           {
             "name": "Four Chord",
             "dateTime": "2026-12-16T21:30:00",
             "venue": "331 Club",
-            "description": "Four Chord at 9:30pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Cross Pollination",
+            "name": "Harold’s House Party on KFAI / Paul Barry Blues Band",
+            "dateTime": "2026-12-16T19:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Cross Pollination / Boudin Blanc / HUNNY BEAR",
             "dateTime": "2026-12-17T21:30:00",
             "venue": "331 Club",
-            "description": "Monthly series of songwriters from different genres featuring Boudin Blanc and HUNNY BEAR.",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2024/01/IMG_2368.jpeg",
+            "description": "Cross Pollination is a monthly series of songwriters from different genres, on the third Thursday of every month. It's sort of like the the Large Hadron Collider of genre mixers, and hopefully by smashing all these writers together we can all learn about the illusion of music genre!",
+            "sourceUrl": "https://www.facebook.com/groups/1888430501448581/",
+            "imageUrl": "https://331club.com/wp-content/uploads/2018/03/8CDEF39E-B540-4B69-990A-BBB69BA4F845.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "songwriters"
-            ]
-          },
-          {
-            "name": "Movie and Music Trivia",
-            "dateTime": "2026-12-18T19:00:00",
-            "venue": "331 Club",
-            "description": "Trivia night centered on movies and music.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Free",
-              "Local Bands",
-              "Music",
-              "trivia"
+              "Music"
             ]
           },
           {
             "name": "Le Cirque Rouge",
             "dateTime": "2026-12-18T22:00:00",
             "venue": "331 Club",
-            "description": "Le Cirque Rouge at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/lecirquerouge?igsh=MTBjdWd5ZG1menExdQ==",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-12-19T19:00:00",
+            "name": "Movie and Music Trivia",
+            "dateTime": "2026-12-18T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/moviemusictrivia331?stkn=eTB5Z3ljNGx5MGpw",
             "tags": [
+              "Free",
               "Local Bands",
-              "Music",
-              "game night"
+              "Music"
             ]
           },
           {
             "name": "Grim Lot",
             "dateTime": "2026-12-19T22:00:00",
             "venue": "331 Club",
-            "description": "Grim Lot at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/grim_lot?stkn=MWJ1cDE3Z2p1ODJveg==",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Robert Wilkinson",
-            "dateTime": "2026-12-20T15:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-12-19T19:00:00",
             "venue": "331 Club",
-            "description": "Robert Wilkinson performs from 3-5pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
-            ]
-          },
-          {
-            "name": "Switchyard",
-            "dateTime": "2026-12-20T19:00:00",
-            "venue": "331 Club",
-            "description": "Switchyard at 7:00pm.",
-            "sourceUrl": "https://331club.com/",
-            "tags": [
-              "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "eleven degenerates",
             "dateTime": "2026-12-20T22:30:00",
             "venue": "331 Club",
-            "description": "eleven degenerates at 10:30pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Womenfolk Presents: Mother Banjo Holiday Party",
-            "dateTime": "2026-12-21T18:00:00",
+            "name": "Switchyard",
+            "dateTime": "2026-12-20T19:00:00",
             "venue": "331 Club",
-            "description": "Womenfolk Presents Mother Banjo Holiday Party at 6pm.",
-            "sourceUrl": "https://331club.com/",
-            "imageUrl": "https://331club.com/wp-content/uploads/2022/09/E1CAE91E-37E7-4D47-B3CA-8CA620F6B237.jpeg",
+            "sourceUrl": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
             "tags": [
               "Local Bands",
-              "Music",
-              "holiday",
-              "live music"
+              "Music"
+            ]
+          },
+          {
+            "name": "Robert Wilkinson",
+            "dateTime": "2026-12-20T15:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.facebook.com/share/1F8AfRDSsx/?mibextid=wwXIfr",
+            "tags": [
+              "Local Bands",
+              "Music"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-12-21T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime",
-            "dateTime": "2026-12-22T18:00:00",
+            "name": "Womenfolk Presents / Mother Banjo Holiday Party",
+            "dateTime": "2026-12-21T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime, TBA, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Womenfolk Radio Concerts: Third Monday of every month.",
+            "sourceUrl": "https://www.facebook.com/events/792426465297823/792426495297820/",
+            "imageUrl": "https://331club.com/wp-content/uploads/2022/09/E1CAE91E-37E7-4D47-B3CA-8CA620F6B237.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "December Conspiracy Series featuring JoJo Green and Leslie Vincent",
+            "name": "December Conspiracy Series featuring JoJo Green / Leslie Vincent",
             "dateTime": "2026-12-22T21:30:00",
             "venue": "331 Club",
-            "description": "December Conspiracy Series featuring JoJo Green and Leslie Vincent at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/jojogreenmusic?stkn=M2hqeHMzbWo4azc5",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
+              "Music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring mike munson",
-            "dateTime": "2026-12-23T19:00:00",
+            "name": "Worker’s Playtime / TBA",
+            "dateTime": "2026-12-22T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with mike munson at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "radio"
+              "Music"
             ]
           },
           {
             "name": "Debbie Briggs Vintage Jazz",
             "dateTime": "2026-12-23T21:30:00",
             "venue": "331 Club",
-            "description": "Debbie Briggs Vintage Jazz at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/share/1HurYSe3GM/?mibextid=wwXIfr",
             "tags": [
               "Local Bands",
               "Market",
-              "Music",
-              "jazz",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Drinkin' Spelling Bee",
-            "dateTime": "2026-12-26T19:00:00",
+            "name": "Harold’s House Party on KFAI / mike munson",
+            "dateTime": "2026-12-23T19:00:00",
             "venue": "331 Club",
-            "description": "Drinkin' Spelling Bee at the 331 Club.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
-              "Music",
-              "game night"
+              "Music"
             ]
           },
           {
             "name": "Doug Otto & The Getaways",
             "dateTime": "2026-12-26T22:00:00",
             "venue": "331 Club",
-            "description": "Doug Otto & The Getaways at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.dougottoandthegetaways.com/music",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "TBA",
-            "dateTime": "2026-12-27T15:00:00",
+            "name": "Drinkin’ Spelling Bee",
+            "dateTime": "2026-12-26T19:00:00",
             "venue": "331 Club",
-            "description": "Sunday afternoon performance listed as TBA, 3-5pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "The Real Chuck NORAD",
             "dateTime": "2026-12-27T19:00:00",
             "venue": "331 Club",
-            "description": "The Real Chuck NORAD at 7:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/the_real_chuck_norad?igsh=MWM1amt4bnVyYmh4Zw==",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "HonkyTonk Ranch",
-            "dateTime": "2026-12-28T18:00:00",
+            "name": "TBA",
+            "dateTime": "2026-12-27T15:00:00",
             "venue": "331 Club",
-            "description": "HonkyTonk Ranch at 6pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
             "name": "Roe Family Singers",
             "dateTime": "2026-12-28T20:00:00",
             "venue": "331 Club",
-            "description": "Roe Family Singers perform every Monday at 8pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Every Monday.",
+            "sourceUrl": "https://www.facebook.com/roefamilysingers/?fref=ts",
             "imageUrl": "https://331club.com/wp-content/uploads/2024/07/IMG_3678.jpeg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "Worker's Playtime",
-            "dateTime": "2026-12-29T18:00:00",
+            "name": "HonkyTonk Ranch",
+            "dateTime": "2026-12-28T18:00:00",
             "venue": "331 Club",
-            "description": "Worker's Playtime, TBA, 6-8pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "December Conspiracy Series featuring JoJo Green and The Changeups",
+            "name": "December Conspiracy Series featuring JoJo Green / The Changeups",
             "dateTime": "2026-12-29T21:30:00",
             "venue": "331 Club",
-            "description": "December Conspiracy Series featuring JoJo Green and The Changeups at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.instagram.com/jojogreenmusic?stkn=M2hqeHMzbWo4azc5",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "series"
+              "Music"
             ]
           },
           {
-            "name": "Harold's House Party on KFAI featuring Mumblin' Drew's Old Fangled Orchestrators",
-            "dateTime": "2026-12-30T19:00:00",
+            "name": "Worker’s Playtime / TBA",
+            "dateTime": "2026-12-29T18:00:00",
             "venue": "331 Club",
-            "description": "Harold's House Party on KFAI with Mumblin' Drew's Old Fangled Orchestrators at 7:00pm.",
             "sourceUrl": "https://331club.com/",
             "tags": [
               "Local Bands",
-              "Music",
-              "live music",
-              "radio"
+              "Music"
             ]
           },
           {
             "name": "Lenz and Frenz",
             "dateTime": "2026-12-30T21:30:00",
             "venue": "331 Club",
-            "description": "Lenz and Frenz, featuring certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet and Row of Ducks, at 9:30pm.",
-            "sourceUrl": "https://331club.com/",
+            "description": "Held every last Wednesday. The lineup includes certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, and Row of Ducks.",
+            "sourceUrl": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
             "imageUrl": "https://331club.com/wp-content/uploads/2018/02/27459473_10154438965942706_3546471874199840314_n.jpg",
             "tags": [
               "Local Bands",
-              "Music",
-              "folk",
-              "live music"
+              "Music"
             ]
           },
           {
-            "name": "The Crimson Boys",
-            "dateTime": "2026-12-31T22:00:00",
+            "name": "Harold’s House Party on KFAI / Mumblin’ Drew’s Old Fangled Orchestrators",
+            "dateTime": "2026-12-30T19:00:00",
             "venue": "331 Club",
-            "description": "The Crimson Boys with Jawkneeve at 10:00pm.",
-            "sourceUrl": "https://331club.com/",
+            "sourceUrl": "https://www.facebook.com/profile.php?id=100063582730118",
             "tags": [
               "Local Bands",
-              "Music",
-              "band",
-              "live music"
+              "Music"
+            ]
+          },
+          {
+            "name": "The Crimson Boys / Jawkneevee / Lazy Scorsese",
+            "dateTime": "2026-12-31T21:30:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.instagram.com/thecrimsonboys?vrfl=YXRmeHJsMHpqeXI5",
+            "tags": [
+              "Local Bands",
+              "Music"
+            ]
+          },
+          {
+            "name": "Piss With Style",
+            "dateTime": "2027-01-01T00:00:00",
+            "venue": "331 Club",
+            "sourceUrl": "https://www.instagram.com/pisswithstyle",
+            "tags": [
+              "Local Bands",
+              "Music"
             ]
           }
         ]
@@ -3162,11 +3086,6 @@
     },
     "Nobool Presents": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 4,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 4,
@@ -3231,27 +3150,26 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 4,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 4,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
             "name": "FERAL DANCE [NOV]",
             "dateTime": "2026-11-20T22:00:00",
-            "venue": "Uptown VFW Post 246",
+            "venue": "\"Uptown\" VFW Post 246",
             "description": "FERAL DANCE is an inclusive gathering of EDM/VGM fans based out of the Twin Cities.",
             "sourceUrl": "https://noboolpresents.com/event/feral-dance-nov/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2025/12/feralbanner-8.jpg",
             "tags": [
-              "DJ/Electronic",
-              "EDM",
-              "Latin/World",
-              "Music",
-              "Theater",
-              "Twin Cities",
-              "VGM"
+              "Theater"
             ]
           },
           {
@@ -3262,28 +3180,19 @@
             "sourceUrl": "https://noboolpresents.com/event/medina26-trilogy/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/06/261121-Trilogy-1920x1080-FB-Event.jpg",
             "tags": [
-              "Led Zeppelin",
-              "Music",
-              "Pink Floyd",
-              "The Doors",
-              "Tribute"
+              "Music"
             ]
           },
           {
             "name": "SYNASTRY",
             "dateTime": "2026-12-04T22:00:00",
-            "venue": "Uptown VFW Post 246",
-            "address": "2916 Lyndale Ave S, Minneapolis",
+            "venue": "\"Uptown\" VFW Post 246",
+            "address": "2916 Lyndale Ave S Mpls",
             "description": "synastry is a monthly electronic-driven, queer and femme-powered dance party for everyone.",
             "sourceUrl": "https://noboolpresents.com/event/2612-synastry/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2025/12/Screen-Shot-2025-12-17-at-4.13.09-PM.png",
             "tags": [
               "DJ/Electronic",
-              "Electronic",
-              "Femme",
-              "Latin/World",
-              "Music",
-              "Queer",
               "Theater"
             ]
           },
@@ -3291,14 +3200,12 @@
             "name": "FREE FALLIN’ – The Tom Petty Experience / THE SILVER MULLET BAND – Tribute to Bob Seger",
             "dateTime": "2026-12-05T20:00:00",
             "venue": "Medina Entertainment Center",
-            "description": "For nearly two decades, Free Fallin: The Tom Petty Concert Experience has faithfully recreated the sound, spirit, and energy of Tom Petty & The Heartbreakers. Featuring all the classic hits, Free Fallin delivers an authentic, high-energy concert that keeps Tom Petty's legendary music alive for fans of every generation.",
+            "description": "For nearly two decades, Free Fallin: The Tom Petty Concert Experience has faithfully recreated the sound, spirit, and energy of Tom Petty & The Heartbreakers. Honored to perform at Tom Petty's Birthday Bash in Gainesville, Florida, the band has earned a reputation as one of North America's premier tribute acts.",
             "sourceUrl": "https://noboolpresents.com/event/freefallin-silvermullet/",
             "imageUrl": "https://noboolpresents.com/wp-content/uploads/2026/07/261205-FreeFallin-SilverMullet-1920x1080-TV.jpg",
             "tags": [
-              "Bob Seger Tribute",
               "Free",
-              "Music",
-              "Tom Petty Tribute"
+              "Music"
             ]
           }
         ]
@@ -3306,11 +3213,6 @@
     },
     "Hennepin Arts": {
       "runs": [
-        {
-          "at": "2026-11-06T12:03:11Z",
-          "count": 65,
-          "status": "ok"
-        },
         {
           "at": "2026-11-07T12:03:10Z",
           "count": 65,
@@ -3375,107 +3277,112 @@
           "at": "2026-11-19T12:08:16Z",
           "count": 65,
           "status": "ok"
+        },
+        {
+          "at": "2026-11-20T12:04:43Z",
+          "count": 65,
+          "status": "ok"
         }
       ],
       "consecutive_empty": 0,
       "last_known_good": {
-        "at": "2026-11-19T12:08:16Z",
+        "at": "2026-11-20T12:04:43Z",
         "events": [
           {
             "name": "Hold On To Your Butts",
             "dateTime": "2026-11-01T14:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/hold-on-to-your-butts-2026",
             "tags": []
           },
           {
             "name": "Hold On To Your Butts",
             "dateTime": "2026-11-01T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/hold-on-to-your-butts-2026",
             "tags": []
           },
           {
             "name": "PIVOT with Kara Swisher & Scott Galloway presented by beehiiv",
             "dateTime": "2026-11-04T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/pivot-with-kara-swisher-and-scott-galloway-2026",
             "tags": []
           },
           {
             "name": "Justin Willman",
             "dateTime": "2026-11-05T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/justin-willman-2026",
             "tags": []
           },
           {
             "name": "ARI MATTI LIVE",
             "dateTime": "2026-11-06T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/ari-matti-live-2026",
             "tags": []
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-11-06T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
             "tags": []
           },
           {
             "name": "Six Chick Flicks",
             "dateTime": "2026-11-06T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/six-chick-flicks-2026",
             "tags": []
           },
           {
             "name": "Six Chick Flicks",
             "dateTime": "2026-11-07T15:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/six-chick-flicks-2026",
             "tags": []
           },
           {
             "name": "Mojo Brookzz: Outta Pocket Tour",
             "dateTime": "2026-11-07T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/mojo-brookzz-outta-pocket-tour-2026",
             "tags": []
           },
           {
             "name": "The Algorithm is Gonna Get You",
             "dateTime": "2026-11-07T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-algorithm-is-gonna-get-you-2026",
             "tags": []
           },
           {
             "name": "Six Chick Flicks",
             "dateTime": "2026-11-07T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/six-chick-flicks-2026",
             "tags": []
           },
           {
             "name": "Six Chick Flicks",
             "dateTime": "2026-11-08T14:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/six-chick-flicks-2026",
             "tags": []
           },
           {
             "name": "Neil deGrasse Tyson: Science as a Way of Knowing",
             "dateTime": "2026-11-08T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/neil-degrasse-tyson-science-as-a-way-of-knowing-2026",
             "tags": []
           },
           {
             "name": "Scott Bradlee's Postmodern Jukebox - The Future Is Vintage World Tour",
             "dateTime": "2026-11-11T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/postmodern-jukebox-2026",
             "tags": [
               "Market"
@@ -3484,42 +3391,42 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-12T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Derrick Stroup: Running Hot Tour",
             "dateTime": "2026-11-13T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/derrick-stroup-running-hot-tour-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-13T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-13T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The Best of Steve Martin and Martin Short",
             "dateTime": "2026-11-14T15:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/steve-martin-and-martin-short-2026",
             "tags": []
           },
           {
             "name": "The Fab Four: Tribute to the Beatles' A Hard Day's Night",
             "dateTime": "2026-11-14T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-fab-four-tribute-to-the-beatles-a-hard-days-night-2026",
             "tags": [
               "Music"
@@ -3528,98 +3435,98 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-14T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-14T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The Best of Steve Martin and Martin Short",
             "dateTime": "2026-11-14T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/steve-martin-and-martin-short-2026",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-17T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "Brandi Carlile: Burn the Setlist (The All Request Tour)",
             "dateTime": "2026-11-17T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/brandi-carlile-burn-the-setlist-tour-2026",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-18T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "Brandi Carlile: Burn the Setlist (The All Request Tour)",
             "dateTime": "2026-11-18T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/brandi-carlile-burn-the-setlist-tour-2026",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-19T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-19T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-20T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-20T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-20T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-21T14:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "Marc Maron: Yammering into the Void Tour",
             "dateTime": "2026-11-21T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/marc-maron-yammering-into-the-void-tour-2026",
             "tags": [],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/1ufA5umyIKrb1ulEafTamM/b500b7a915b38963e082a82a4be14f3b/Marc-Maron-2026-web-Credit-Elizabeth-Viggiano.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
@@ -3627,28 +3534,28 @@
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-21T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-21T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-21T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The Jayhawks Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks - with Kathleen Edwards",
             "dateTime": "2026-11-21T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-jayhawks-sanctuary-park-tour-celebrating-40-years-of-the-jayhawks",
             "tags": [],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/1XEbil69qiRmqdmglcgVcq/2d7aa9d6480b127bc1040660c9f1dc14/18455047.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
@@ -3656,21 +3563,21 @@
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-22T13:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "Maybe Happy Ending",
             "dateTime": "2026-11-22T18:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/maybe-happy-ending-2026",
             "tags": []
           },
           {
             "name": "Dolly Parton's Smoky Mountain Christmas Carol",
             "dateTime": "2026-11-24T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/dolly-partons-smoky-mountain-christmas-carol-2026",
             "tags": [],
             "imageUrl": "https://images.ctfassets.net/sjxdiqjbm079/6owRUj4klQiwH8nPy0La0g/a385ecbfd368db00934368ec275bb3dc/Dolly_Partons_Christmas_Carol_-_by_AP_Imagery_-_038.jpg?fm=webp&w=1200&h=630&q=70&fit=fill"
@@ -3678,56 +3585,56 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-27T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "A Very Die Hard Christmas",
             "dateTime": "2026-11-27T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/a-very-die-hard-christmas-2026",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-27T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-28T16:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-11-28T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "A Very Die Hard Christmas",
             "dateTime": "2026-11-28T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/a-very-die-hard-christmas-2026",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-11-28T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "In The Christmas Mood with The Glenn Miller Orchestra",
             "dateTime": "2026-12-01T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-glenn-miller-orchestra-in-the-christmas-mood-2026",
             "tags": [
               "Music"
@@ -3736,21 +3643,21 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-12-03T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "A Very Die Hard Christmas",
             "dateTime": "2026-12-03T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/a-very-die-hard-christmas-2026",
             "tags": []
           },
           {
             "name": "NUTCRACKER! Magical Christmas Ballet",
             "dateTime": "2026-12-04T19:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/nutcracker-magical-christmas-ballet",
             "tags": [
               "Theater"
@@ -3759,35 +3666,35 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-12-04T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "A Very Die Hard Christmas",
             "dateTime": "2026-12-04T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/a-very-die-hard-christmas-2026",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-12-04T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The New Standards Holiday Show",
             "dateTime": "2026-12-04T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-new-standards-holiday-show-2026",
             "tags": []
           },
           {
             "name": "NUTCRACKER! Magical Christmas Ballet",
             "dateTime": "2026-12-05T13:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/nutcracker-magical-christmas-ballet",
             "tags": [
               "Theater"
@@ -3796,21 +3703,21 @@
           {
             "name": "The New Standards Holiday Show",
             "dateTime": "2026-12-05T16:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-new-standards-holiday-show-2026",
             "tags": []
           },
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-12-05T16:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "NUTCRACKER! Magical Christmas Ballet",
             "dateTime": "2026-12-05T17:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/nutcracker-magical-christmas-ballet",
             "tags": [
               "Theater"
@@ -3819,35 +3726,35 @@
           {
             "name": "The Little Bummer Boy",
             "dateTime": "2026-12-05T19:30:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-little-bummer-boy-2026-2027",
             "tags": []
           },
           {
             "name": "A Very Die Hard Christmas",
             "dateTime": "2026-12-05T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/a-very-die-hard-christmas-2026",
             "tags": []
           },
           {
             "name": "Christopher Titus, \"Doomed to Repeat\"",
             "dateTime": "2026-12-05T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/christopher-titus-doomed-to-repeat-2026",
             "tags": []
           },
           {
             "name": "Family Dinner 2026",
             "dateTime": "2026-12-05T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/family-dinner-2026",
             "tags": []
           },
           {
             "name": "The New Standards Holiday Show",
             "dateTime": "2026-12-05T20:00:00",
-            "venue": "Hennepin Arts",
+            "venue": "Hennepin Theatre District",
             "sourceUrl": "https://hennepinarts.org/events/the-new-standards-holiday-show-2026",
             "tags": []
           }
